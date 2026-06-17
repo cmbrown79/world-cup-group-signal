@@ -1,0 +1,4121 @@
+{
+  "generatedAt": "2026-06-17T08:22:47-04:00",
+  "refreshPolicy": "Cron checks every 30 minutes and writes only inside ESPN kickoff windows: 90m pre-match through 3h post-match; manual force bypasses the gate.",
+  "scheduleSource": "https://cxm-api.fifa.com/fifaplusweb/api/sections/article/S9YG2JmeGYaMUCBbm0CcD?locale=en",
+  "timeVenueSource": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?limit=200&dates=20260611-20260627",
+  "statsSource": "https://www.foxsports.com/soccer/fifa-world-cup-men/stats",
+  "matches": [
+    {
+      "date": "Thu 11 Jun",
+      "iso": "2026-06-11",
+      "group": "A",
+      "home": "Mexico",
+      "away": "South Africa",
+      "hs": 2,
+      "as": 0,
+      "venue": "Estadio Banorte",
+      "id": "760415",
+      "kickoffUtc": "2026-06-11T19:00Z",
+      "kickoffLocal": "2026-06-11T15:00-04:00",
+      "kickoffEt": "3:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Estadio Banorte",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "homeAbbr": "MEX",
+      "awayAbbr": "RSA",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "South Africa at Mexico",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Thu 11 Jun",
+      "iso": "2026-06-11",
+      "group": "A",
+      "home": "Korea Republic",
+      "away": "Czechia",
+      "hs": 2,
+      "as": 1,
+      "venue": "Estadio Akron",
+      "id": "760414",
+      "kickoffUtc": "2026-06-12T02:00Z",
+      "kickoffLocal": "2026-06-11T22:00-04:00",
+      "kickoffEt": "10:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Estadio Akron",
+      "city": "Guadalajara",
+      "country": "Mexico",
+      "homeAbbr": "KOR",
+      "awayAbbr": "CZE",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Czechia at South Korea",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Fri 12 Jun",
+      "iso": "2026-06-12",
+      "group": "B",
+      "home": "Canada",
+      "away": "Bosnia and Herzegovina",
+      "hs": 1,
+      "as": 1,
+      "venue": "BMO Field",
+      "id": "760416",
+      "kickoffUtc": "2026-06-12T19:00Z",
+      "kickoffLocal": "2026-06-12T15:00-04:00",
+      "kickoffEt": "3:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada",
+      "homeAbbr": "CAN",
+      "awayAbbr": "BIH",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Bosnia-Herzegovina at Canada",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Fri 12 Jun",
+      "iso": "2026-06-12",
+      "group": "D",
+      "home": "USA",
+      "away": "Paraguay",
+      "hs": 4,
+      "as": 1,
+      "venue": "SoFi Stadium",
+      "id": "760417",
+      "kickoffUtc": "2026-06-13T01:00Z",
+      "kickoffLocal": "2026-06-12T21:00-04:00",
+      "kickoffEt": "9:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "SoFi Stadium",
+      "city": "Inglewood, California",
+      "country": "USA",
+      "homeAbbr": "USA",
+      "awayAbbr": "PAR",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Paraguay at United States",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sat 13 Jun",
+      "iso": "2026-06-13",
+      "group": "B",
+      "home": "Qatar",
+      "away": "Switzerland",
+      "hs": 1,
+      "as": 1,
+      "venue": "Levi's Stadium",
+      "id": "760420",
+      "kickoffUtc": "2026-06-13T19:00Z",
+      "kickoffLocal": "2026-06-13T15:00-04:00",
+      "kickoffEt": "3:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Levi's Stadium",
+      "city": "Santa Clara, California",
+      "country": "USA",
+      "homeAbbr": "QAT",
+      "awayAbbr": "SUI",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Switzerland at Qatar",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sat 13 Jun",
+      "iso": "2026-06-13",
+      "group": "C",
+      "home": "Brazil",
+      "away": "Morocco",
+      "hs": 1,
+      "as": 1,
+      "venue": "MetLife Stadium",
+      "id": "760419",
+      "kickoffUtc": "2026-06-13T22:00Z",
+      "kickoffLocal": "2026-06-13T18:00-04:00",
+      "kickoffEt": "6:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "MetLife Stadium",
+      "city": "East Rutherford, New Jersey",
+      "country": "USA",
+      "homeAbbr": "BRA",
+      "awayAbbr": "MAR",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Morocco at Brazil",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sat 13 Jun",
+      "iso": "2026-06-13",
+      "group": "C",
+      "home": "Haiti",
+      "away": "Scotland",
+      "hs": 0,
+      "as": 1,
+      "venue": "Gillette Stadium",
+      "id": "760418",
+      "kickoffUtc": "2026-06-14T01:00Z",
+      "kickoffLocal": "2026-06-13T21:00-04:00",
+      "kickoffEt": "9:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Gillette Stadium",
+      "city": "Foxborough, Massachusetts",
+      "country": "USA",
+      "homeAbbr": "HAI",
+      "awayAbbr": "SCO",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Scotland at Haiti",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sat 13 Jun",
+      "iso": "2026-06-13",
+      "group": "D",
+      "home": "Australia",
+      "away": "Türkiye",
+      "hs": 2,
+      "as": 0,
+      "venue": "BC Place",
+      "id": "760421",
+      "kickoffUtc": "2026-06-14T04:00Z",
+      "kickoffLocal": "2026-06-14T00:00-04:00",
+      "kickoffEt": "12:00 AM ET",
+      "timeValid": true,
+      "venueOfficial": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "homeAbbr": "AUS",
+      "awayAbbr": "TUR",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Türkiye at Australia",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sun 14 Jun",
+      "iso": "2026-06-14",
+      "group": "E",
+      "home": "Germany",
+      "away": "Curaçao",
+      "hs": 7,
+      "as": 1,
+      "venue": "NRG Stadium",
+      "id": "760422",
+      "kickoffUtc": "2026-06-14T17:00Z",
+      "kickoffLocal": "2026-06-14T13:00-04:00",
+      "kickoffEt": "1:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "NRG Stadium",
+      "city": "Houston, Texas",
+      "country": "USA",
+      "homeAbbr": "GER",
+      "awayAbbr": "CUW",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Curaçao at Germany",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sun 14 Jun",
+      "iso": "2026-06-14",
+      "group": "F",
+      "home": "Netherlands",
+      "away": "Japan",
+      "hs": 2,
+      "as": 2,
+      "venue": "AT&T Stadium",
+      "id": "760425",
+      "kickoffUtc": "2026-06-14T20:00Z",
+      "kickoffLocal": "2026-06-14T16:00-04:00",
+      "kickoffEt": "4:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "AT&T Stadium",
+      "city": "Arlington, Texas",
+      "country": "USA",
+      "homeAbbr": "NED",
+      "awayAbbr": "JPN",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Japan at Netherlands",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sun 14 Jun",
+      "iso": "2026-06-14",
+      "group": "E",
+      "home": "Côte d'Ivoire",
+      "away": "Ecuador",
+      "hs": 1,
+      "as": 0,
+      "venue": "Lincoln Financial Field",
+      "id": "760423",
+      "kickoffUtc": "2026-06-14T23:00Z",
+      "kickoffLocal": "2026-06-14T19:00-04:00",
+      "kickoffEt": "7:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Lincoln Financial Field",
+      "city": "Philadelphia, Pennsylvania",
+      "country": "USA",
+      "homeAbbr": "CIV",
+      "awayAbbr": "ECU",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Ecuador at Ivory Coast",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sun 14 Jun",
+      "iso": "2026-06-14",
+      "group": "F",
+      "home": "Sweden",
+      "away": "Tunisia",
+      "hs": 5,
+      "as": 1,
+      "venue": "Estadio BBVA",
+      "id": "760424",
+      "kickoffUtc": "2026-06-15T02:00Z",
+      "kickoffLocal": "2026-06-14T22:00-04:00",
+      "kickoffEt": "10:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Estadio BBVA",
+      "city": "Guadalupe",
+      "country": "Mexico",
+      "homeAbbr": "SWE",
+      "awayAbbr": "TUN",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Tunisia at Sweden",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Mon 15 Jun",
+      "iso": "2026-06-15",
+      "group": "H",
+      "home": "Spain",
+      "away": "Cabo Verde",
+      "hs": 0,
+      "as": 0,
+      "venue": "Mercedes-Benz Stadium",
+      "id": "760428",
+      "kickoffUtc": "2026-06-15T16:00Z",
+      "kickoffLocal": "2026-06-15T12:00-04:00",
+      "kickoffEt": "12:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Mercedes-Benz Stadium",
+      "city": "Atlanta, Georgia",
+      "country": "USA",
+      "homeAbbr": "ESP",
+      "awayAbbr": "CPV",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Cape Verde at Spain",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Mon 15 Jun",
+      "iso": "2026-06-15",
+      "group": "G",
+      "home": "Belgium",
+      "away": "Egypt",
+      "hs": 1,
+      "as": 1,
+      "venue": "Lumen Field",
+      "id": "760426",
+      "kickoffUtc": "2026-06-15T19:00Z",
+      "kickoffLocal": "2026-06-15T15:00-04:00",
+      "kickoffEt": "3:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Lumen Field",
+      "city": "Seattle, Washington",
+      "country": "USA",
+      "homeAbbr": "BEL",
+      "awayAbbr": "EGY",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Egypt at Belgium",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Mon 15 Jun",
+      "iso": "2026-06-15",
+      "group": "H",
+      "home": "Saudi Arabia",
+      "away": "Uruguay",
+      "hs": 1,
+      "as": 1,
+      "venue": "Hard Rock Stadium",
+      "id": "760429",
+      "kickoffUtc": "2026-06-15T22:00Z",
+      "kickoffLocal": "2026-06-15T18:00-04:00",
+      "kickoffEt": "6:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Hard Rock Stadium",
+      "city": "Miami Gardens, Florida",
+      "country": "USA",
+      "homeAbbr": "KSA",
+      "awayAbbr": "URU",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Uruguay at Saudi Arabia",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Mon 15 Jun",
+      "iso": "2026-06-15",
+      "group": "G",
+      "home": "IR Iran",
+      "away": "New Zealand",
+      "hs": 2,
+      "as": 2,
+      "venue": "SoFi Stadium",
+      "id": "760427",
+      "kickoffUtc": "2026-06-16T01:00Z",
+      "kickoffLocal": "2026-06-15T21:00-04:00",
+      "kickoffEt": "9:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "SoFi Stadium",
+      "city": "Inglewood, California",
+      "country": "USA",
+      "homeAbbr": "IRN",
+      "awayAbbr": "NZL",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "New Zealand at Iran",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Tue 16 Jun",
+      "iso": "2026-06-16",
+      "group": "I",
+      "home": "France",
+      "away": "Senegal",
+      "hs": 3,
+      "as": 1,
+      "venue": "MetLife Stadium",
+      "id": "760432",
+      "kickoffUtc": "2026-06-16T19:00Z",
+      "kickoffLocal": "2026-06-16T15:00-04:00",
+      "kickoffEt": "3:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "MetLife Stadium",
+      "city": "East Rutherford, New Jersey",
+      "country": "USA",
+      "homeAbbr": "FRA",
+      "awayAbbr": "SEN",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Senegal at France",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Tue 16 Jun",
+      "iso": "2026-06-16",
+      "group": "I",
+      "home": "Iraq",
+      "away": "Norway",
+      "hs": 1,
+      "as": 4,
+      "venue": "Gillette Stadium",
+      "id": "760430",
+      "kickoffUtc": "2026-06-16T22:00Z",
+      "kickoffLocal": "2026-06-16T18:00-04:00",
+      "kickoffEt": "6:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Gillette Stadium",
+      "city": "Foxborough, Massachusetts",
+      "country": "USA",
+      "homeAbbr": "IRQ",
+      "awayAbbr": "NOR",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Norway at Iraq",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Tue 16 Jun",
+      "iso": "2026-06-16",
+      "group": "J",
+      "home": "Argentina",
+      "away": "Algeria",
+      "hs": 3,
+      "as": 0,
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "id": "760433",
+      "kickoffUtc": "2026-06-17T01:00Z",
+      "kickoffLocal": "2026-06-16T21:00-04:00",
+      "kickoffEt": "9:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "GEHA Field at Arrowhead Stadium",
+      "city": "Kansas City, Missouri",
+      "country": "USA",
+      "homeAbbr": "ARG",
+      "awayAbbr": "ALG",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Algeria at Argentina",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Tue 16 Jun",
+      "iso": "2026-06-16",
+      "group": "J",
+      "home": "Austria",
+      "away": "Jordan",
+      "hs": 3,
+      "as": 1,
+      "venue": "Levi's Stadium",
+      "id": "760431",
+      "kickoffUtc": "2026-06-17T04:00Z",
+      "kickoffLocal": "2026-06-17T00:00-04:00",
+      "kickoffEt": "12:00 AM ET",
+      "timeValid": true,
+      "venueOfficial": "Levi's Stadium",
+      "city": "Santa Clara, California",
+      "country": "USA",
+      "homeAbbr": "AUT",
+      "awayAbbr": "JOR",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Jordan at Austria",
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Wed 17 Jun",
+      "iso": "2026-06-17",
+      "group": "K",
+      "home": "Portugal",
+      "away": "Congo DR",
+      "venue": "NRG Stadium",
+      "id": "760435",
+      "kickoffUtc": "2026-06-17T17:00Z",
+      "kickoffLocal": "2026-06-17T13:00-04:00",
+      "kickoffEt": "1:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "NRG Stadium",
+      "city": "Houston, Texas",
+      "country": "USA",
+      "homeAbbr": "POR",
+      "awayAbbr": "COD",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Congo DR at Portugal",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "1:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Wed 17 Jun",
+      "iso": "2026-06-17",
+      "group": "L",
+      "home": "England",
+      "away": "Croatia",
+      "venue": "AT&T Stadium",
+      "id": "760437",
+      "kickoffUtc": "2026-06-17T20:00Z",
+      "kickoffLocal": "2026-06-17T16:00-04:00",
+      "kickoffEt": "4:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "AT&T Stadium",
+      "city": "Arlington, Texas",
+      "country": "USA",
+      "homeAbbr": "ENG",
+      "awayAbbr": "CRO",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Croatia at England",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "4:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Wed 17 Jun",
+      "iso": "2026-06-17",
+      "group": "L",
+      "home": "Ghana",
+      "away": "Panama",
+      "venue": "BMO Field",
+      "id": "760434",
+      "kickoffUtc": "2026-06-17T23:00Z",
+      "kickoffLocal": "2026-06-17T19:00-04:00",
+      "kickoffEt": "7:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada",
+      "homeAbbr": "GHA",
+      "awayAbbr": "PAN",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Panama at Ghana",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "7:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Wed 17 Jun",
+      "iso": "2026-06-17",
+      "group": "K",
+      "home": "Uzbekistan",
+      "away": "Colombia",
+      "venue": "Estadio Banorte",
+      "id": "760436",
+      "kickoffUtc": "2026-06-18T02:00Z",
+      "kickoffLocal": "2026-06-17T22:00-04:00",
+      "kickoffEt": "10:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Estadio Banorte",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "homeAbbr": "UZB",
+      "awayAbbr": "COL",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Colombia at Uzbekistan",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "10:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Thu 18 Jun",
+      "iso": "2026-06-18",
+      "group": "A",
+      "home": "Czechia",
+      "away": "South Africa",
+      "venue": "Mercedes-Benz Stadium",
+      "id": "760438",
+      "kickoffUtc": "2026-06-18T16:00Z",
+      "kickoffLocal": "2026-06-18T12:00-04:00",
+      "kickoffEt": "12:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Mercedes-Benz Stadium",
+      "city": "Atlanta, Georgia",
+      "country": "USA",
+      "homeAbbr": "CZE",
+      "awayAbbr": "RSA",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "South Africa at Czechia",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "12:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Thu 18 Jun",
+      "iso": "2026-06-18",
+      "group": "B",
+      "home": "Switzerland",
+      "away": "Bosnia and Herzegovina",
+      "venue": "SoFi Stadium",
+      "id": "760439",
+      "kickoffUtc": "2026-06-18T19:00Z",
+      "kickoffLocal": "2026-06-18T15:00-04:00",
+      "kickoffEt": "3:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "SoFi Stadium",
+      "city": "Inglewood, California",
+      "country": "USA",
+      "homeAbbr": "SUI",
+      "awayAbbr": "BIH",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Bosnia-Herzegovina at Switzerland",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "3:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Thu 18 Jun",
+      "iso": "2026-06-18",
+      "group": "B",
+      "home": "Canada",
+      "away": "Qatar",
+      "venue": "BC Place",
+      "id": "760440",
+      "kickoffUtc": "2026-06-18T22:00Z",
+      "kickoffLocal": "2026-06-18T18:00-04:00",
+      "kickoffEt": "6:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "homeAbbr": "CAN",
+      "awayAbbr": "QAT",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Qatar at Canada",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "6:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Thu 18 Jun",
+      "iso": "2026-06-18",
+      "group": "A",
+      "home": "Mexico",
+      "away": "Korea Republic",
+      "venue": "Estadio Akron",
+      "id": "760441",
+      "kickoffUtc": "2026-06-19T01:00Z",
+      "kickoffLocal": "2026-06-18T21:00-04:00",
+      "kickoffEt": "9:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Estadio Akron",
+      "city": "Guadalajara",
+      "country": "Mexico",
+      "homeAbbr": "MEX",
+      "awayAbbr": "KOR",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "South Korea at Mexico",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "9:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Fri 19 Jun",
+      "iso": "2026-06-19",
+      "group": "D",
+      "home": "USA",
+      "away": "Australia",
+      "venue": "Lumen Field",
+      "id": "760442",
+      "kickoffUtc": "2026-06-19T19:00Z",
+      "kickoffLocal": "2026-06-19T15:00-04:00",
+      "kickoffEt": "3:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Lumen Field",
+      "city": "Seattle, Washington",
+      "country": "USA",
+      "homeAbbr": "USA",
+      "awayAbbr": "AUS",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Australia at United States",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "3:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Fri 19 Jun",
+      "iso": "2026-06-19",
+      "group": "C",
+      "home": "Scotland",
+      "away": "Morocco",
+      "venue": "Gillette Stadium",
+      "id": "760445",
+      "kickoffUtc": "2026-06-19T22:00Z",
+      "kickoffLocal": "2026-06-19T18:00-04:00",
+      "kickoffEt": "6:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Gillette Stadium",
+      "city": "Foxborough, Massachusetts",
+      "country": "USA",
+      "homeAbbr": "SCO",
+      "awayAbbr": "MAR",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Morocco at Scotland",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "6:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Fri 19 Jun",
+      "iso": "2026-06-19",
+      "group": "C",
+      "home": "Brazil",
+      "away": "Haiti",
+      "venue": "Lincoln Financial Field",
+      "id": "760444",
+      "kickoffUtc": "2026-06-20T00:30Z",
+      "kickoffLocal": "2026-06-19T20:30-04:00",
+      "kickoffEt": "8:30 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Lincoln Financial Field",
+      "city": "Philadelphia, Pennsylvania",
+      "country": "USA",
+      "homeAbbr": "BRA",
+      "awayAbbr": "HAI",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Haiti at Brazil",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "8:30 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Fri 19 Jun",
+      "iso": "2026-06-19",
+      "group": "D",
+      "home": "Türkiye",
+      "away": "Paraguay",
+      "venue": "Levi's Stadium",
+      "id": "760443",
+      "kickoffUtc": "2026-06-20T03:00Z",
+      "kickoffLocal": "2026-06-19T23:00-04:00",
+      "kickoffEt": "11:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Levi's Stadium",
+      "city": "Santa Clara, California",
+      "country": "USA",
+      "homeAbbr": "TUR",
+      "awayAbbr": "PAR",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Paraguay at Türkiye",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "11:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sat 20 Jun",
+      "iso": "2026-06-20",
+      "group": "F",
+      "home": "Netherlands",
+      "away": "Sweden",
+      "venue": "NRG Stadium",
+      "id": "760447",
+      "kickoffUtc": "2026-06-20T17:00Z",
+      "kickoffLocal": "2026-06-20T13:00-04:00",
+      "kickoffEt": "1:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "NRG Stadium",
+      "city": "Houston, Texas",
+      "country": "USA",
+      "homeAbbr": "NED",
+      "awayAbbr": "SWE",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Sweden at Netherlands",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "1:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sat 20 Jun",
+      "iso": "2026-06-20",
+      "group": "E",
+      "home": "Germany",
+      "away": "Côte d'Ivoire",
+      "venue": "BMO Field",
+      "id": "760448",
+      "kickoffUtc": "2026-06-20T20:00Z",
+      "kickoffLocal": "2026-06-20T16:00-04:00",
+      "kickoffEt": "4:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada",
+      "homeAbbr": "GER",
+      "awayAbbr": "CIV",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Ivory Coast at Germany",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "4:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sat 20 Jun",
+      "iso": "2026-06-20",
+      "group": "E",
+      "home": "Ecuador",
+      "away": "Curaçao",
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "id": "760446",
+      "kickoffUtc": "2026-06-21T00:00Z",
+      "kickoffLocal": "2026-06-20T20:00-04:00",
+      "kickoffEt": "8:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "GEHA Field at Arrowhead Stadium",
+      "city": "Kansas City, Missouri",
+      "country": "USA",
+      "homeAbbr": "ECU",
+      "awayAbbr": "CUW",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Curaçao at Ecuador",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "8:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sat 20 Jun",
+      "iso": "2026-06-20",
+      "group": "F",
+      "home": "Tunisia",
+      "away": "Japan",
+      "venue": "Estadio BBVA",
+      "id": "760449",
+      "kickoffUtc": "2026-06-21T04:00Z",
+      "kickoffLocal": "2026-06-21T00:00-04:00",
+      "kickoffEt": "12:00 AM ET",
+      "timeValid": true,
+      "venueOfficial": "Estadio BBVA",
+      "city": "Guadalupe",
+      "country": "Mexico",
+      "homeAbbr": "TUN",
+      "awayAbbr": "JPN",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Japan at Tunisia",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "12:00 AM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sun 21 Jun",
+      "iso": "2026-06-21",
+      "group": "H",
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "venue": "Mercedes-Benz Stadium",
+      "id": "760453",
+      "kickoffUtc": "2026-06-21T16:00Z",
+      "kickoffLocal": "2026-06-21T12:00-04:00",
+      "kickoffEt": "12:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Mercedes-Benz Stadium",
+      "city": "Atlanta, Georgia",
+      "country": "USA",
+      "homeAbbr": "ESP",
+      "awayAbbr": "KSA",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Saudi Arabia at Spain",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "12:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sun 21 Jun",
+      "iso": "2026-06-21",
+      "group": "G",
+      "home": "Belgium",
+      "away": "IR Iran",
+      "venue": "SoFi Stadium",
+      "id": "760451",
+      "kickoffUtc": "2026-06-21T19:00Z",
+      "kickoffLocal": "2026-06-21T15:00-04:00",
+      "kickoffEt": "3:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "SoFi Stadium",
+      "city": "Inglewood, California",
+      "country": "USA",
+      "homeAbbr": "BEL",
+      "awayAbbr": "IRN",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Iran at Belgium",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "3:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sun 21 Jun",
+      "iso": "2026-06-21",
+      "group": "H",
+      "home": "Uruguay",
+      "away": "Cabo Verde",
+      "venue": "Hard Rock Stadium",
+      "id": "760450",
+      "kickoffUtc": "2026-06-21T22:00Z",
+      "kickoffLocal": "2026-06-21T18:00-04:00",
+      "kickoffEt": "6:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Hard Rock Stadium",
+      "city": "Miami Gardens, Florida",
+      "country": "USA",
+      "homeAbbr": "URU",
+      "awayAbbr": "CPV",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Cape Verde at Uruguay",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "6:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sun 21 Jun",
+      "iso": "2026-06-21",
+      "group": "G",
+      "home": "New Zealand",
+      "away": "Egypt",
+      "venue": "BC Place",
+      "id": "760452",
+      "kickoffUtc": "2026-06-22T01:00Z",
+      "kickoffLocal": "2026-06-21T21:00-04:00",
+      "kickoffEt": "9:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "homeAbbr": "NZL",
+      "awayAbbr": "EGY",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Egypt at New Zealand",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "9:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Mon 22 Jun",
+      "iso": "2026-06-22",
+      "group": "J",
+      "home": "Argentina",
+      "away": "Austria",
+      "venue": "AT&T Stadium",
+      "id": "760456",
+      "kickoffUtc": "2026-06-22T17:00Z",
+      "kickoffLocal": "2026-06-22T13:00-04:00",
+      "kickoffEt": "1:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "AT&T Stadium",
+      "city": "Arlington, Texas",
+      "country": "USA",
+      "homeAbbr": "ARG",
+      "awayAbbr": "AUT",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Austria at Argentina",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "1:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Mon 22 Jun",
+      "iso": "2026-06-22",
+      "group": "I",
+      "home": "France",
+      "away": "Iraq",
+      "venue": "Lincoln Financial Field",
+      "id": "760457",
+      "kickoffUtc": "2026-06-22T21:00Z",
+      "kickoffLocal": "2026-06-22T17:00-04:00",
+      "kickoffEt": "5:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Lincoln Financial Field",
+      "city": "Philadelphia, Pennsylvania",
+      "country": "USA",
+      "homeAbbr": "FRA",
+      "awayAbbr": "IRQ",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Iraq at France",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "5:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Mon 22 Jun",
+      "iso": "2026-06-22",
+      "group": "I",
+      "home": "Norway",
+      "away": "Senegal",
+      "venue": "MetLife Stadium",
+      "id": "760454",
+      "kickoffUtc": "2026-06-23T00:00Z",
+      "kickoffLocal": "2026-06-22T20:00-04:00",
+      "kickoffEt": "8:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "MetLife Stadium",
+      "city": "East Rutherford, New Jersey",
+      "country": "USA",
+      "homeAbbr": "NOR",
+      "awayAbbr": "SEN",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Senegal at Norway",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "8:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Mon 22 Jun",
+      "iso": "2026-06-22",
+      "group": "J",
+      "home": "Jordan",
+      "away": "Algeria",
+      "venue": "Levi's Stadium",
+      "id": "760455",
+      "kickoffUtc": "2026-06-23T03:00Z",
+      "kickoffLocal": "2026-06-22T23:00-04:00",
+      "kickoffEt": "11:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Levi's Stadium",
+      "city": "Santa Clara, California",
+      "country": "USA",
+      "homeAbbr": "JOR",
+      "awayAbbr": "ALG",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Algeria at Jordan",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "11:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Tue 23 Jun",
+      "iso": "2026-06-23",
+      "group": "K",
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "venue": "NRG Stadium",
+      "id": "760461",
+      "kickoffUtc": "2026-06-23T17:00Z",
+      "kickoffLocal": "2026-06-23T13:00-04:00",
+      "kickoffEt": "1:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "NRG Stadium",
+      "city": "Houston, Texas",
+      "country": "USA",
+      "homeAbbr": "POR",
+      "awayAbbr": "UZB",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Uzbekistan at Portugal",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "1:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Tue 23 Jun",
+      "iso": "2026-06-23",
+      "group": "L",
+      "home": "England",
+      "away": "Ghana",
+      "venue": "Gillette Stadium",
+      "id": "760458",
+      "kickoffUtc": "2026-06-23T20:00Z",
+      "kickoffLocal": "2026-06-23T16:00-04:00",
+      "kickoffEt": "4:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Gillette Stadium",
+      "city": "Foxborough, Massachusetts",
+      "country": "USA",
+      "homeAbbr": "ENG",
+      "awayAbbr": "GHA",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Ghana at England",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "4:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Tue 23 Jun",
+      "iso": "2026-06-23",
+      "group": "L",
+      "home": "Panama",
+      "away": "Croatia",
+      "venue": "BMO Field",
+      "id": "760460",
+      "kickoffUtc": "2026-06-23T23:00Z",
+      "kickoffLocal": "2026-06-23T19:00-04:00",
+      "kickoffEt": "7:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada",
+      "homeAbbr": "PAN",
+      "awayAbbr": "CRO",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Croatia at Panama",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "7:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Tue 23 Jun",
+      "iso": "2026-06-23",
+      "group": "K",
+      "home": "Colombia",
+      "away": "Congo DR",
+      "venue": "Estadio Akron",
+      "id": "760459",
+      "kickoffUtc": "2026-06-24T02:00Z",
+      "kickoffLocal": "2026-06-23T22:00-04:00",
+      "kickoffEt": "10:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Estadio Akron",
+      "city": "Guadalajara",
+      "country": "Mexico",
+      "homeAbbr": "COL",
+      "awayAbbr": "COD",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Congo DR at Colombia",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "10:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Wed 24 Jun",
+      "iso": "2026-06-24",
+      "group": "B",
+      "home": "Switzerland",
+      "away": "Canada",
+      "venue": "BC Place",
+      "id": "760463",
+      "kickoffUtc": "2026-06-24T19:00Z",
+      "kickoffLocal": "2026-06-24T15:00-04:00",
+      "kickoffEt": "3:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "homeAbbr": "SUI",
+      "awayAbbr": "CAN",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Canada at Switzerland",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "3:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Wed 24 Jun",
+      "iso": "2026-06-24",
+      "group": "B",
+      "home": "Bosnia and Herzegovina",
+      "away": "Qatar",
+      "venue": "Lumen Field",
+      "id": "760462",
+      "kickoffUtc": "2026-06-24T19:00Z",
+      "kickoffLocal": "2026-06-24T15:00-04:00",
+      "kickoffEt": "3:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Lumen Field",
+      "city": "Seattle, Washington",
+      "country": "USA",
+      "homeAbbr": "BIH",
+      "awayAbbr": "QAT",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Qatar at Bosnia-Herzegovina",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "3:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Wed 24 Jun",
+      "iso": "2026-06-24",
+      "group": "C",
+      "home": "Scotland",
+      "away": "Brazil",
+      "venue": "Hard Rock Stadium",
+      "id": "760465",
+      "kickoffUtc": "2026-06-24T22:00Z",
+      "kickoffLocal": "2026-06-24T18:00-04:00",
+      "kickoffEt": "6:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Hard Rock Stadium",
+      "city": "Miami Gardens, Florida",
+      "country": "USA",
+      "homeAbbr": "SCO",
+      "awayAbbr": "BRA",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Brazil at Scotland",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "6:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Wed 24 Jun",
+      "iso": "2026-06-24",
+      "group": "C",
+      "home": "Morocco",
+      "away": "Haiti",
+      "venue": "Mercedes-Benz Stadium",
+      "id": "760464",
+      "kickoffUtc": "2026-06-24T22:00Z",
+      "kickoffLocal": "2026-06-24T18:00-04:00",
+      "kickoffEt": "6:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Mercedes-Benz Stadium",
+      "city": "Atlanta, Georgia",
+      "country": "USA",
+      "homeAbbr": "MAR",
+      "awayAbbr": "HAI",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Haiti at Morocco",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "6:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Wed 24 Jun",
+      "iso": "2026-06-24",
+      "group": "A",
+      "home": "Czechia",
+      "away": "Mexico",
+      "venue": "Estadio Banorte",
+      "id": "760467",
+      "kickoffUtc": "2026-06-25T01:00Z",
+      "kickoffLocal": "2026-06-24T21:00-04:00",
+      "kickoffEt": "9:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Estadio Banorte",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "homeAbbr": "CZE",
+      "awayAbbr": "MEX",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Mexico at Czechia",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "9:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Wed 24 Jun",
+      "iso": "2026-06-24",
+      "group": "A",
+      "home": "South Africa",
+      "away": "Korea Republic",
+      "venue": "Estadio BBVA",
+      "id": "760466",
+      "kickoffUtc": "2026-06-25T01:00Z",
+      "kickoffLocal": "2026-06-24T21:00-04:00",
+      "kickoffEt": "9:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Estadio BBVA",
+      "city": "Guadalupe",
+      "country": "Mexico",
+      "homeAbbr": "RSA",
+      "awayAbbr": "KOR",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "South Korea at South Africa",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "9:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Thu 25 Jun",
+      "iso": "2026-06-25",
+      "group": "E",
+      "home": "Curaçao",
+      "away": "Côte d'Ivoire",
+      "venue": "Lincoln Financial Field",
+      "id": "760473",
+      "kickoffUtc": "2026-06-25T20:00Z",
+      "kickoffLocal": "2026-06-25T16:00-04:00",
+      "kickoffEt": "4:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Lincoln Financial Field",
+      "city": "Philadelphia, Pennsylvania",
+      "country": "USA",
+      "homeAbbr": "CUW",
+      "awayAbbr": "CIV",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Ivory Coast at Curaçao",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "4:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Thu 25 Jun",
+      "iso": "2026-06-25",
+      "group": "E",
+      "home": "Ecuador",
+      "away": "Germany",
+      "venue": "MetLife Stadium",
+      "id": "760468",
+      "kickoffUtc": "2026-06-25T20:00Z",
+      "kickoffLocal": "2026-06-25T16:00-04:00",
+      "kickoffEt": "4:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "MetLife Stadium",
+      "city": "East Rutherford, New Jersey",
+      "country": "USA",
+      "homeAbbr": "ECU",
+      "awayAbbr": "GER",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Germany at Ecuador",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "4:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Thu 25 Jun",
+      "iso": "2026-06-25",
+      "group": "F",
+      "home": "Japan",
+      "away": "Sweden",
+      "venue": "AT&T Stadium",
+      "id": "760471",
+      "kickoffUtc": "2026-06-25T23:00Z",
+      "kickoffLocal": "2026-06-25T19:00-04:00",
+      "kickoffEt": "7:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "AT&T Stadium",
+      "city": "Arlington, Texas",
+      "country": "USA",
+      "homeAbbr": "JPN",
+      "awayAbbr": "SWE",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Sweden at Japan",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "7:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Thu 25 Jun",
+      "iso": "2026-06-25",
+      "group": "F",
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "id": "760472",
+      "kickoffUtc": "2026-06-25T23:00Z",
+      "kickoffLocal": "2026-06-25T19:00-04:00",
+      "kickoffEt": "7:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "GEHA Field at Arrowhead Stadium",
+      "city": "Kansas City, Missouri",
+      "country": "USA",
+      "homeAbbr": "TUN",
+      "awayAbbr": "NED",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Netherlands at Tunisia",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "7:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Thu 25 Jun",
+      "iso": "2026-06-25",
+      "group": "D",
+      "home": "Türkiye",
+      "away": "USA",
+      "venue": "SoFi Stadium",
+      "id": "760470",
+      "kickoffUtc": "2026-06-26T02:00Z",
+      "kickoffLocal": "2026-06-25T22:00-04:00",
+      "kickoffEt": "10:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "SoFi Stadium",
+      "city": "Inglewood, California",
+      "country": "USA",
+      "homeAbbr": "TUR",
+      "awayAbbr": "USA",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "United States at Türkiye",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "10:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Thu 25 Jun",
+      "iso": "2026-06-25",
+      "group": "D",
+      "home": "Paraguay",
+      "away": "Australia",
+      "venue": "Levi's Stadium",
+      "id": "760469",
+      "kickoffUtc": "2026-06-26T02:00Z",
+      "kickoffLocal": "2026-06-25T22:00-04:00",
+      "kickoffEt": "10:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Levi's Stadium",
+      "city": "Santa Clara, California",
+      "country": "USA",
+      "homeAbbr": "PAR",
+      "awayAbbr": "AUS",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Australia at Paraguay",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "10:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Fri 26 Jun",
+      "iso": "2026-06-26",
+      "group": "I",
+      "home": "Norway",
+      "away": "France",
+      "venue": "Gillette Stadium",
+      "id": "760475",
+      "kickoffUtc": "2026-06-26T19:00Z",
+      "kickoffLocal": "2026-06-26T15:00-04:00",
+      "kickoffEt": "3:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Gillette Stadium",
+      "city": "Foxborough, Massachusetts",
+      "country": "USA",
+      "homeAbbr": "NOR",
+      "awayAbbr": "FRA",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "France at Norway",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "3:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Fri 26 Jun",
+      "iso": "2026-06-26",
+      "group": "I",
+      "home": "Senegal",
+      "away": "Iraq",
+      "venue": "BMO Field",
+      "id": "760474",
+      "kickoffUtc": "2026-06-26T19:00Z",
+      "kickoffLocal": "2026-06-26T15:00-04:00",
+      "kickoffEt": "3:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada",
+      "homeAbbr": "SEN",
+      "awayAbbr": "IRQ",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Iraq at Senegal",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "3:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Fri 26 Jun",
+      "iso": "2026-06-26",
+      "group": "H",
+      "home": "Cabo Verde",
+      "away": "Saudi Arabia",
+      "venue": "NRG Stadium",
+      "id": "760478",
+      "kickoffUtc": "2026-06-27T00:00Z",
+      "kickoffLocal": "2026-06-26T20:00-04:00",
+      "kickoffEt": "8:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "NRG Stadium",
+      "city": "Houston, Texas",
+      "country": "USA",
+      "homeAbbr": "CPV",
+      "awayAbbr": "KSA",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Saudi Arabia at Cape Verde",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "8:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Fri 26 Jun",
+      "iso": "2026-06-26",
+      "group": "H",
+      "home": "Uruguay",
+      "away": "Spain",
+      "venue": "Estadio Akron",
+      "id": "760479",
+      "kickoffUtc": "2026-06-27T00:00Z",
+      "kickoffLocal": "2026-06-26T20:00-04:00",
+      "kickoffEt": "8:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Estadio Akron",
+      "city": "Guadalajara",
+      "country": "Mexico",
+      "homeAbbr": "URU",
+      "awayAbbr": "ESP",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Spain at Uruguay",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "8:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Fri 26 Jun",
+      "iso": "2026-06-26",
+      "group": "G",
+      "home": "Egypt",
+      "away": "IR Iran",
+      "venue": "Lumen Field",
+      "id": "760476",
+      "kickoffUtc": "2026-06-27T03:00Z",
+      "kickoffLocal": "2026-06-26T23:00-04:00",
+      "kickoffEt": "11:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Lumen Field",
+      "city": "Seattle, Washington",
+      "country": "USA",
+      "homeAbbr": "EGY",
+      "awayAbbr": "IRN",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Iran at Egypt",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "11:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Fri 26 Jun",
+      "iso": "2026-06-26",
+      "group": "G",
+      "home": "New Zealand",
+      "away": "Belgium",
+      "venue": "BC Place",
+      "id": "760477",
+      "kickoffUtc": "2026-06-27T03:00Z",
+      "kickoffLocal": "2026-06-26T23:00-04:00",
+      "kickoffEt": "11:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "homeAbbr": "NZL",
+      "awayAbbr": "BEL",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Belgium at New Zealand",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "11:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sat 27 Jun",
+      "iso": "2026-06-27",
+      "group": "L",
+      "home": "Panama",
+      "away": "England",
+      "venue": "MetLife Stadium",
+      "id": "760485",
+      "kickoffUtc": "2026-06-27T21:00Z",
+      "kickoffLocal": "2026-06-27T17:00-04:00",
+      "kickoffEt": "5:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "MetLife Stadium",
+      "city": "East Rutherford, New Jersey",
+      "country": "USA",
+      "homeAbbr": "PAN",
+      "awayAbbr": "ENG",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "England at Panama",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "5:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sat 27 Jun",
+      "iso": "2026-06-27",
+      "group": "L",
+      "home": "Croatia",
+      "away": "Ghana",
+      "venue": "Lincoln Financial Field",
+      "id": "760480",
+      "kickoffUtc": "2026-06-27T21:00Z",
+      "kickoffLocal": "2026-06-27T17:00-04:00",
+      "kickoffEt": "5:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Lincoln Financial Field",
+      "city": "Philadelphia, Pennsylvania",
+      "country": "USA",
+      "homeAbbr": "CRO",
+      "awayAbbr": "GHA",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Ghana at Croatia",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "5:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sat 27 Jun",
+      "iso": "2026-06-27",
+      "group": "K",
+      "home": "Colombia",
+      "away": "Portugal",
+      "venue": "Hard Rock Stadium",
+      "id": "760481",
+      "kickoffUtc": "2026-06-27T23:30Z",
+      "kickoffLocal": "2026-06-27T19:30-04:00",
+      "kickoffEt": "7:30 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Hard Rock Stadium",
+      "city": "Miami Gardens, Florida",
+      "country": "USA",
+      "homeAbbr": "COL",
+      "awayAbbr": "POR",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Portugal at Colombia",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "7:30 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sat 27 Jun",
+      "iso": "2026-06-27",
+      "group": "K",
+      "home": "Congo DR",
+      "away": "Uzbekistan",
+      "venue": "Mercedes-Benz Stadium",
+      "id": "760482",
+      "kickoffUtc": "2026-06-27T23:30Z",
+      "kickoffLocal": "2026-06-27T19:30-04:00",
+      "kickoffEt": "7:30 PM ET",
+      "timeValid": true,
+      "venueOfficial": "Mercedes-Benz Stadium",
+      "city": "Atlanta, Georgia",
+      "country": "USA",
+      "homeAbbr": "COD",
+      "awayAbbr": "UZB",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Uzbekistan at Congo DR",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "7:30 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sat 27 Jun",
+      "iso": "2026-06-27",
+      "group": "J",
+      "home": "Algeria",
+      "away": "Austria",
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "id": "760484",
+      "kickoffUtc": "2026-06-28T02:00Z",
+      "kickoffLocal": "2026-06-27T22:00-04:00",
+      "kickoffEt": "10:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "GEHA Field at Arrowhead Stadium",
+      "city": "Kansas City, Missouri",
+      "country": "USA",
+      "homeAbbr": "ALG",
+      "awayAbbr": "AUT",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+      "broadcasts": [
+        "FS1",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Austria at Algeria",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "10:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    },
+    {
+      "date": "Sat 27 Jun",
+      "iso": "2026-06-27",
+      "group": "J",
+      "home": "Jordan",
+      "away": "Argentina",
+      "venue": "AT&T Stadium",
+      "id": "760483",
+      "kickoffUtc": "2026-06-28T02:00Z",
+      "kickoffLocal": "2026-06-27T22:00-04:00",
+      "kickoffEt": "10:00 PM ET",
+      "timeValid": true,
+      "venueOfficial": "AT&T Stadium",
+      "city": "Arlington, Texas",
+      "country": "USA",
+      "homeAbbr": "JOR",
+      "awayAbbr": "ARG",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
+      "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "broadcasts": [
+        "FOX",
+        "Tele",
+        "Peacock"
+      ],
+      "sourceName": "Argentina at Jordan",
+      "statusState": "pre",
+      "status": "Scheduled",
+      "statusShort": "10:00 PM ET",
+      "completed": false,
+      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+    }
+  ],
+  "standings": {
+    "A": [
+      {
+        "team": "Mexico",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 2,
+        "ga": 0,
+        "gd": 2,
+        "pts": 3,
+        "rank": 1,
+        "status": "alive"
+      },
+      {
+        "team": "Korea Republic",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 2,
+        "ga": 1,
+        "gd": 1,
+        "pts": 3,
+        "rank": 2,
+        "status": "alive"
+      },
+      {
+        "team": "Czechia",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 2,
+        "gd": -1,
+        "pts": 0,
+        "rank": 3,
+        "status": "alive"
+      },
+      {
+        "team": "South Africa",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 2,
+        "gd": -2,
+        "pts": 0,
+        "rank": 4,
+        "status": "alive"
+      }
+    ],
+    "B": [
+      {
+        "team": "Bosnia and Herzegovina",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1,
+        "rank": 1,
+        "status": "alive"
+      },
+      {
+        "team": "Canada",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1,
+        "rank": 2,
+        "status": "alive"
+      },
+      {
+        "team": "Qatar",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1,
+        "rank": 3,
+        "status": "alive"
+      },
+      {
+        "team": "Switzerland",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1,
+        "rank": 4,
+        "status": "alive"
+      }
+    ],
+    "C": [
+      {
+        "team": "Scotland",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "gd": 1,
+        "pts": 3,
+        "rank": 1,
+        "status": "alive"
+      },
+      {
+        "team": "Brazil",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1,
+        "rank": 2,
+        "status": "alive"
+      },
+      {
+        "team": "Morocco",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1,
+        "rank": 3,
+        "status": "alive"
+      },
+      {
+        "team": "Haiti",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 1,
+        "gd": -1,
+        "pts": 0,
+        "rank": 4,
+        "status": "alive"
+      }
+    ],
+    "D": [
+      {
+        "team": "USA",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "pts": 3,
+        "rank": 1,
+        "status": "alive"
+      },
+      {
+        "team": "Australia",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 2,
+        "ga": 0,
+        "gd": 2,
+        "pts": 3,
+        "rank": 2,
+        "status": "alive"
+      },
+      {
+        "team": "Türkiye",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 2,
+        "gd": -2,
+        "pts": 0,
+        "rank": 3,
+        "status": "alive"
+      },
+      {
+        "team": "Paraguay",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 4,
+        "gd": -3,
+        "pts": 0,
+        "rank": 4,
+        "status": "alive"
+      }
+    ],
+    "E": [
+      {
+        "team": "Germany",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 7,
+        "ga": 1,
+        "gd": 6,
+        "pts": 3,
+        "rank": 1,
+        "status": "alive"
+      },
+      {
+        "team": "Côte d'Ivoire",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "gd": 1,
+        "pts": 3,
+        "rank": 2,
+        "status": "alive"
+      },
+      {
+        "team": "Ecuador",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 1,
+        "gd": -1,
+        "pts": 0,
+        "rank": 3,
+        "status": "alive"
+      },
+      {
+        "team": "Curaçao",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 7,
+        "gd": -6,
+        "pts": 0,
+        "rank": 4,
+        "status": "alive"
+      }
+    ],
+    "F": [
+      {
+        "team": "Sweden",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 5,
+        "ga": 1,
+        "gd": 4,
+        "pts": 3,
+        "rank": 1,
+        "status": "alive"
+      },
+      {
+        "team": "Japan",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 1,
+        "rank": 2,
+        "status": "alive"
+      },
+      {
+        "team": "Netherlands",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 1,
+        "rank": 3,
+        "status": "alive"
+      },
+      {
+        "team": "Tunisia",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 5,
+        "gd": -4,
+        "pts": 0,
+        "rank": 4,
+        "status": "alive"
+      }
+    ],
+    "G": [
+      {
+        "team": "IR Iran",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 1,
+        "rank": 1,
+        "status": "alive"
+      },
+      {
+        "team": "New Zealand",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 1,
+        "rank": 2,
+        "status": "alive"
+      },
+      {
+        "team": "Belgium",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1,
+        "rank": 3,
+        "status": "alive"
+      },
+      {
+        "team": "Egypt",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1,
+        "rank": 4,
+        "status": "alive"
+      }
+    ],
+    "H": [
+      {
+        "team": "Saudi Arabia",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1,
+        "rank": 1,
+        "status": "alive"
+      },
+      {
+        "team": "Uruguay",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1,
+        "rank": 2,
+        "status": "alive"
+      },
+      {
+        "team": "Cabo Verde",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 1,
+        "rank": 3,
+        "status": "alive"
+      },
+      {
+        "team": "Spain",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 1,
+        "rank": 4,
+        "status": "alive"
+      }
+    ],
+    "I": [
+      {
+        "team": "Norway",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "pts": 3,
+        "rank": 1,
+        "status": "alive"
+      },
+      {
+        "team": "France",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 1,
+        "gd": 2,
+        "pts": 3,
+        "rank": 2,
+        "status": "alive"
+      },
+      {
+        "team": "Senegal",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 3,
+        "gd": -2,
+        "pts": 0,
+        "rank": 3,
+        "status": "alive"
+      },
+      {
+        "team": "Iraq",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 4,
+        "gd": -3,
+        "pts": 0,
+        "rank": 4,
+        "status": "alive"
+      }
+    ],
+    "J": [
+      {
+        "team": "Argentina",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 0,
+        "gd": 3,
+        "pts": 3,
+        "rank": 1,
+        "status": "alive"
+      },
+      {
+        "team": "Austria",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 1,
+        "gd": 2,
+        "pts": 3,
+        "rank": 2,
+        "status": "alive"
+      },
+      {
+        "team": "Jordan",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 3,
+        "gd": -2,
+        "pts": 0,
+        "rank": 3,
+        "status": "alive"
+      },
+      {
+        "team": "Algeria",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 3,
+        "gd": -3,
+        "pts": 0,
+        "rank": 4,
+        "status": "alive"
+      }
+    ],
+    "K": [
+      {
+        "team": "Colombia",
+        "p": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 0,
+        "rank": 1,
+        "status": "alive"
+      },
+      {
+        "team": "Congo DR",
+        "p": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 0,
+        "rank": 2,
+        "status": "alive"
+      },
+      {
+        "team": "Portugal",
+        "p": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 0,
+        "rank": 3,
+        "status": "alive"
+      },
+      {
+        "team": "Uzbekistan",
+        "p": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 0,
+        "rank": 4,
+        "status": "alive"
+      }
+    ],
+    "L": [
+      {
+        "team": "Croatia",
+        "p": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 0,
+        "rank": 1,
+        "status": "alive"
+      },
+      {
+        "team": "England",
+        "p": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 0,
+        "rank": 2,
+        "status": "alive"
+      },
+      {
+        "team": "Ghana",
+        "p": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 0,
+        "rank": 3,
+        "status": "alive"
+      },
+      {
+        "team": "Panama",
+        "p": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 0,
+        "rank": 4,
+        "status": "alive"
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "warnings": []
+  },
+  "stats": {
+    "source": "FOX Sports stat tables; FIFA official schedule/results",
+    "leaderCards": [],
+    "categories": [
+      {
+        "key": "player_xg",
+        "type": "player",
+        "title": "Player xG",
+        "abbr": "XG",
+        "note": "Who is getting the best looks, not just who finished.",
+        "leaders": [
+          {
+            "rank": 1,
+            "name": "Breel Embolo",
+            "team": "SUI",
+            "value": "1.22"
+          },
+          {
+            "rank": 2,
+            "name": "Erling Haaland",
+            "team": "NOR",
+            "value": "1.14"
+          },
+          {
+            "rank": 3,
+            "name": "Marko Arnautovic",
+            "team": "AUT",
+            "value": "1.01"
+          },
+          {
+            "rank": 4,
+            "name": "Kylian Mbappe",
+            "team": "FRA",
+            "value": "0.98"
+          },
+          {
+            "rank": 5,
+            "name": "Kai Havertz",
+            "team": "GER",
+            "value": "0.96"
+          },
+          {
+            "rank": 6,
+            "name": "Lionel Messi",
+            "team": "ARG",
+            "value": "0.92"
+          },
+          {
+            "rank": 7,
+            "name": "Jovo Lukic",
+            "team": "BIH",
+            "value": "0.90"
+          },
+          {
+            "rank": 8,
+            "name": "Viktor Gyokeres",
+            "team": "SWE",
+            "value": "0.86"
+          },
+          {
+            "rank": 9,
+            "name": "Raul Jimenez",
+            "team": "MEX",
+            "value": "0.76"
+          },
+          {
+            "rank": 10,
+            "name": "Abdulelah Alamri",
+            "team": "KSA",
+            "value": "0.73"
+          }
+        ]
+      },
+      {
+        "key": "player_goals",
+        "type": "player",
+        "title": "Goals",
+        "abbr": "G",
+        "note": "Golden Boot pulse.",
+        "leaders": [
+          {
+            "rank": 1,
+            "name": "Lionel Messi",
+            "team": "ARG",
+            "value": "3"
+          },
+          {
+            "rank": 2,
+            "name": "Erling Haaland",
+            "team": "NOR",
+            "value": "2"
+          },
+          {
+            "rank": 3,
+            "name": "Yasin Ayari",
+            "team": "SWE",
+            "value": "2"
+          },
+          {
+            "rank": 4,
+            "name": "Kai Havertz",
+            "team": "GER",
+            "value": "2"
+          },
+          {
+            "rank": 5,
+            "name": "Kylian Mbappe",
+            "team": "FRA",
+            "value": "2"
+          },
+          {
+            "rank": 6,
+            "name": "Folarin Balogun",
+            "team": "USA",
+            "value": "2"
+          },
+          {
+            "rank": 7,
+            "name": "Elijah Just",
+            "team": "NZL",
+            "value": "2"
+          },
+          {
+            "rank": 8,
+            "name": "Daichi Kamada",
+            "team": "JPN",
+            "value": "1"
+          },
+          {
+            "rank": 9,
+            "name": "Amad Diallo",
+            "team": "CIV",
+            "value": "1"
+          },
+          {
+            "rank": 10,
+            "name": "Crysencio Summerville",
+            "team": "NED",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "key": "player_assists",
+        "type": "player",
+        "title": "Assists",
+        "abbr": "A",
+        "note": "Final-pass damage.",
+        "leaders": [
+          {
+            "rank": 1,
+            "name": "Chris Wood",
+            "team": "NZL",
+            "value": "2"
+          },
+          {
+            "rank": 2,
+            "name": "Alexander Isak",
+            "team": "SWE",
+            "value": "2"
+          },
+          {
+            "rank": 3,
+            "name": "Ryan Gravenberch",
+            "team": "NED",
+            "value": "2"
+          },
+          {
+            "rank": 4,
+            "name": "Joshua Kimmich",
+            "team": "GER",
+            "value": "2"
+          },
+          {
+            "rank": 5,
+            "name": "Deniz Undav",
+            "team": "GER",
+            "value": "2"
+          },
+          {
+            "rank": 6,
+            "name": "Hannibal Mejbri",
+            "team": "TUN",
+            "value": "1"
+          },
+          {
+            "rank": 7,
+            "name": "Julio Enciso",
+            "team": "PAR",
+            "value": "1"
+          },
+          {
+            "rank": 8,
+            "name": "Lucas Bergvall",
+            "team": "SWE",
+            "value": "1"
+          },
+          {
+            "rank": 9,
+            "name": "Vladimir Coufal",
+            "team": "CZE",
+            "value": "1"
+          },
+          {
+            "rank": 10,
+            "name": "Bruno Guimaraes",
+            "team": "BRA",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "key": "player_shots",
+        "type": "player",
+        "title": "Shots",
+        "abbr": "S",
+        "note": "Volume merchants and pressure generators.",
+        "leaders": [
+          {
+            "rank": 1,
+            "name": "Arda Guler",
+            "team": "TUR",
+            "value": "8"
+          },
+          {
+            "rank": 2,
+            "name": "Son Heung-min",
+            "team": "KOR",
+            "value": "6"
+          },
+          {
+            "rank": 3,
+            "name": "Dan Ndoye",
+            "team": "SUI",
+            "value": "6"
+          },
+          {
+            "rank": 4,
+            "name": "Kenan Yildiz",
+            "team": "TUR",
+            "value": "6"
+          },
+          {
+            "rank": 5,
+            "name": "Erling Haaland",
+            "team": "NOR",
+            "value": "5"
+          },
+          {
+            "rank": 6,
+            "name": "Malik Tillman",
+            "team": "USA",
+            "value": "5"
+          },
+          {
+            "rank": 7,
+            "name": "Folarin Balogun",
+            "team": "USA",
+            "value": "5"
+          },
+          {
+            "rank": 8,
+            "name": "Federico Vinas",
+            "team": "URU",
+            "value": "5"
+          },
+          {
+            "rank": 9,
+            "name": "Omar Marmoush",
+            "team": "EGY",
+            "value": "5"
+          },
+          {
+            "rank": 10,
+            "name": "Lionel Messi",
+            "team": "ARG",
+            "value": "5"
+          }
+        ]
+      },
+      {
+        "key": "player_sog",
+        "type": "player",
+        "title": "Shots on goal",
+        "abbr": "SOG",
+        "note": "Actual keeper tests.",
+        "leaders": [
+          {
+            "rank": 1,
+            "name": "Erling Haaland",
+            "team": "NOR",
+            "value": "4"
+          },
+          {
+            "rank": 2,
+            "name": "Kylian Mbappe",
+            "team": "FRA",
+            "value": "4"
+          },
+          {
+            "rank": 3,
+            "name": "Lionel Messi",
+            "team": "ARG",
+            "value": "4"
+          },
+          {
+            "rank": 4,
+            "name": "Raul Jimenez",
+            "team": "MEX",
+            "value": "3"
+          },
+          {
+            "rank": 5,
+            "name": "Donyell Malen",
+            "team": "NED",
+            "value": "3"
+          },
+          {
+            "rank": 6,
+            "name": "Felix Nmecha",
+            "team": "GER",
+            "value": "3"
+          },
+          {
+            "rank": 7,
+            "name": "Folarin Balogun",
+            "team": "USA",
+            "value": "3"
+          },
+          {
+            "rank": 8,
+            "name": "Federico Vinas",
+            "team": "URU",
+            "value": "3"
+          },
+          {
+            "rank": 9,
+            "name": "Arda Guler",
+            "team": "TUR",
+            "value": "3"
+          },
+          {
+            "rank": 10,
+            "name": "Chris Wood",
+            "team": "NZL",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "key": "player_chances",
+        "type": "player",
+        "title": "Chances created",
+        "abbr": "CC",
+        "note": "The quiet playmaker board.",
+        "leaders": [
+          {
+            "rank": 1,
+            "name": "Joshua Kimmich",
+            "team": "GER",
+            "value": "7"
+          },
+          {
+            "rank": 2,
+            "name": "Yan Diomande",
+            "team": "CIV",
+            "value": "6"
+          },
+          {
+            "rank": 3,
+            "name": "Ferdi Kadioglu",
+            "team": "TUR",
+            "value": "5"
+          },
+          {
+            "rank": 4,
+            "name": "Breel Embolo",
+            "team": "SUI",
+            "value": "5"
+          },
+          {
+            "rank": 5,
+            "name": "Nicolas De La Cruz",
+            "team": "URU",
+            "value": "5"
+          },
+          {
+            "rank": 6,
+            "name": "Chris Wood",
+            "team": "NZL",
+            "value": "4"
+          },
+          {
+            "rank": 7,
+            "name": "Michael Olise",
+            "team": "FRA",
+            "value": "4"
+          },
+          {
+            "rank": 8,
+            "name": "Pedri",
+            "team": "ESP",
+            "value": "4"
+          },
+          {
+            "rank": 9,
+            "name": "Ivan Basic",
+            "team": "BIH",
+            "value": "4"
+          },
+          {
+            "rank": 10,
+            "name": "Viktor Gyokeres",
+            "team": "SWE",
+            "value": "4"
+          }
+        ]
+      },
+      {
+        "key": "player_rating",
+        "type": "player",
+        "title": "Player rating",
+        "abbr": "RTG",
+        "note": "One-number form signal; useful but not gospel.",
+        "leaders": [
+          {
+            "rank": 1,
+            "name": "Lionel Messi",
+            "team": "ARG",
+            "value": "9.5"
+          },
+          {
+            "rank": 2,
+            "name": "Felix Nmecha",
+            "team": "GER",
+            "value": "9.3"
+          },
+          {
+            "rank": 3,
+            "name": "Kai Havertz",
+            "team": "GER",
+            "value": "9.0"
+          },
+          {
+            "rank": 4,
+            "name": "Yasin Ayari",
+            "team": "SWE",
+            "value": "8.8"
+          },
+          {
+            "rank": 5,
+            "name": "Nathaniel Brown",
+            "team": "GER",
+            "value": "8.8"
+          },
+          {
+            "rank": 6,
+            "name": "Deniz Undav",
+            "team": "GER",
+            "value": "8.8"
+          },
+          {
+            "rank": 7,
+            "name": "Erling Haaland",
+            "team": "NOR",
+            "value": "8.7"
+          },
+          {
+            "rank": 8,
+            "name": "Joshua Kimmich",
+            "team": "GER",
+            "value": "8.7"
+          },
+          {
+            "rank": 9,
+            "name": "Folarin Balogun",
+            "team": "USA",
+            "value": "8.7"
+          },
+          {
+            "rank": 10,
+            "name": "Alexander Isak",
+            "team": "SWE",
+            "value": "8.5"
+          }
+        ]
+      },
+      {
+        "key": "keeper_save_pct",
+        "type": "player",
+        "title": "Keeper save %",
+        "abbr": "SV%",
+        "note": "Shot-stopping efficiency; volatile early.",
+        "leaders": [
+          {
+            "rank": 1,
+            "name": "Raul Rangel",
+            "team": "MEX",
+            "value": "67"
+          },
+          {
+            "rank": 2,
+            "name": "Alireza Beiranvand",
+            "team": "IRN",
+            "value": "46"
+          },
+          {
+            "rank": 3,
+            "name": "Edouard Mendy",
+            "team": "SEN",
+            "value": "45"
+          },
+          {
+            "rank": 4,
+            "name": "Zion Suzuki",
+            "team": "JPN",
+            "value": "45"
+          },
+          {
+            "rank": 5,
+            "name": "Bono",
+            "team": "MAR",
+            "value": "38"
+          },
+          {
+            "rank": 6,
+            "name": "Vozinha",
+            "team": "CPV",
+            "value": "35"
+          },
+          {
+            "rank": 7,
+            "name": "Patrick Beach",
+            "team": "AUS",
+            "value": "29"
+          },
+          {
+            "rank": 8,
+            "name": "Fernando Muslera",
+            "team": "URU",
+            "value": "29"
+          },
+          {
+            "rank": 9,
+            "name": "Alexander Schlager",
+            "team": "AUT",
+            "value": "27"
+          },
+          {
+            "rank": 10,
+            "name": "Matej Kovar",
+            "team": "CZE",
+            "value": "27"
+          }
+        ]
+      },
+      {
+        "key": "keeper_saves",
+        "type": "player",
+        "title": "Keeper saves",
+        "abbr": "SV",
+        "note": "Who is under siege.",
+        "leaders": [
+          {
+            "rank": 1,
+            "name": "Patrick Beach",
+            "team": "AUS",
+            "value": "8"
+          },
+          {
+            "rank": 2,
+            "name": "Vozinha",
+            "team": "CPV",
+            "value": "8"
+          },
+          {
+            "rank": 3,
+            "name": "Alireza Beiranvand",
+            "team": "IRN",
+            "value": "6"
+          },
+          {
+            "rank": 4,
+            "name": "Edouard Mendy",
+            "team": "SEN",
+            "value": "5"
+          },
+          {
+            "rank": 5,
+            "name": "Zion Suzuki",
+            "team": "JPN",
+            "value": "5"
+          },
+          {
+            "rank": 6,
+            "name": "Mohammed Alowais",
+            "team": "KSA",
+            "value": "5"
+          },
+          {
+            "rank": 7,
+            "name": "Hernan Galindez",
+            "team": "ECU",
+            "value": "4"
+          },
+          {
+            "rank": 8,
+            "name": "Orlando Gill",
+            "team": "PAR",
+            "value": "4"
+          },
+          {
+            "rank": 9,
+            "name": "Eloy Room",
+            "team": "CUW",
+            "value": "4"
+          },
+          {
+            "rank": 10,
+            "name": "Matej Kovar",
+            "team": "CZE",
+            "value": "4"
+          }
+        ]
+      },
+      {
+        "key": "team_xg",
+        "type": "team",
+        "title": "Team xG",
+        "abbr": "XG",
+        "note": "Best collective chance quality.",
+        "leaders": [
+          {
+            "rank": 1,
+            "name": "Germany",
+            "team": "",
+            "value": "3.6"
+          },
+          {
+            "rank": 2,
+            "name": "Switzerland",
+            "team": "",
+            "value": "3.5"
+          },
+          {
+            "rank": 3,
+            "name": "South Korea",
+            "team": "",
+            "value": "2.3"
+          },
+          {
+            "rank": 4,
+            "name": "Norway",
+            "team": "",
+            "value": "2.2"
+          },
+          {
+            "rank": 5,
+            "name": "Canada",
+            "team": "",
+            "value": "1.9"
+          },
+          {
+            "rank": 6,
+            "name": "France",
+            "team": "",
+            "value": "1.9"
+          },
+          {
+            "rank": 7,
+            "name": "Uruguay",
+            "team": "",
+            "value": "1.8"
+          },
+          {
+            "rank": 8,
+            "name": "Austria",
+            "team": "",
+            "value": "1.6"
+          },
+          {
+            "rank": 9,
+            "name": "Türkiye",
+            "team": "",
+            "value": "1.6"
+          },
+          {
+            "rank": 10,
+            "name": "Spain",
+            "team": "",
+            "value": "1.5"
+          }
+        ]
+      },
+      {
+        "key": "team_goals",
+        "type": "team",
+        "title": "Team goals",
+        "abbr": "GF",
+        "note": "Output, not projection.",
+        "leaders": [
+          {
+            "rank": 1,
+            "name": "Germany",
+            "team": "",
+            "value": "7"
+          },
+          {
+            "rank": 2,
+            "name": "Sweden",
+            "team": "",
+            "value": "5"
+          },
+          {
+            "rank": 3,
+            "name": "Norway",
+            "team": "",
+            "value": "4"
+          },
+          {
+            "rank": 4,
+            "name": "United States",
+            "team": "",
+            "value": "4"
+          },
+          {
+            "rank": 5,
+            "name": "Argentina",
+            "team": "",
+            "value": "3"
+          },
+          {
+            "rank": 6,
+            "name": "Austria",
+            "team": "",
+            "value": "3"
+          },
+          {
+            "rank": 7,
+            "name": "France",
+            "team": "",
+            "value": "3"
+          },
+          {
+            "rank": 8,
+            "name": "Australia",
+            "team": "",
+            "value": "2"
+          },
+          {
+            "rank": 9,
+            "name": "Iran",
+            "team": "",
+            "value": "2"
+          },
+          {
+            "rank": 10,
+            "name": "Japan",
+            "team": "",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "key": "team_sog",
+        "type": "team",
+        "title": "Team shots on goal",
+        "abbr": "SOG",
+        "note": "Sustained threat.",
+        "leaders": [
+          {
+            "rank": 1,
+            "name": "Germany",
+            "team": "",
+            "value": "11"
+          },
+          {
+            "rank": 2,
+            "name": "Switzerland",
+            "team": "",
+            "value": "10"
+          },
+          {
+            "rank": 3,
+            "name": "Uruguay",
+            "team": "",
+            "value": "10"
+          },
+          {
+            "rank": 4,
+            "name": "France",
+            "team": "",
+            "value": "8"
+          },
+          {
+            "rank": 5,
+            "name": "New Zealand",
+            "team": "",
+            "value": "8"
+          },
+          {
+            "rank": 6,
+            "name": "Spain",
+            "team": "",
+            "value": "8"
+          },
+          {
+            "rank": 7,
+            "name": "Sweden",
+            "team": "",
+            "value": "8"
+          },
+          {
+            "rank": 8,
+            "name": "Netherlands",
+            "team": "",
+            "value": "7"
+          },
+          {
+            "rank": 9,
+            "name": "South Korea",
+            "team": "",
+            "value": "7"
+          },
+          {
+            "rank": 10,
+            "name": "Türkiye",
+            "team": "",
+            "value": "7"
+          }
+        ]
+      },
+      {
+        "key": "team_chances",
+        "type": "team",
+        "title": "Team chances created",
+        "abbr": "CC",
+        "note": "Chance factory board.",
+        "leaders": [
+          {
+            "rank": 1,
+            "name": "Germany",
+            "team": "",
+            "value": "23"
+          },
+          {
+            "rank": 2,
+            "name": "Switzerland",
+            "team": "",
+            "value": "21"
+          },
+          {
+            "rank": 3,
+            "name": "Türkiye",
+            "team": "",
+            "value": "21"
+          },
+          {
+            "rank": 4,
+            "name": "Spain",
+            "team": "",
+            "value": "16"
+          },
+          {
+            "rank": 5,
+            "name": "Ivory Coast",
+            "team": "",
+            "value": "14"
+          },
+          {
+            "rank": 6,
+            "name": "South Korea",
+            "team": "",
+            "value": "14"
+          },
+          {
+            "rank": 7,
+            "name": "Uruguay",
+            "team": "",
+            "value": "14"
+          },
+          {
+            "rank": 8,
+            "name": "Iran",
+            "team": "",
+            "value": "12"
+          },
+          {
+            "rank": 9,
+            "name": "Canada",
+            "team": "",
+            "value": "11"
+          },
+          {
+            "rank": 10,
+            "name": "Mexico",
+            "team": "",
+            "value": "11"
+          }
+        ]
+      },
+      {
+        "key": "team_passing",
+        "type": "team",
+        "title": "Passing accuracy",
+        "abbr": "PA",
+        "note": "Control without the possession theater.",
+        "leaders": [
+          {
+            "rank": 1,
+            "name": "Algeria",
+            "team": "",
+            "value": "0.93"
+          },
+          {
+            "rank": 2,
+            "name": "Switzerland",
+            "team": "",
+            "value": "0.93"
+          },
+          {
+            "rank": 3,
+            "name": "Spain",
+            "team": "",
+            "value": "0.93"
+          },
+          {
+            "rank": 4,
+            "name": "Uruguay",
+            "team": "",
+            "value": "0.92"
+          },
+          {
+            "rank": 5,
+            "name": "Türkiye",
+            "team": "",
+            "value": "0.92"
+          },
+          {
+            "rank": 6,
+            "name": "United States",
+            "team": "",
+            "value": "0.91"
+          },
+          {
+            "rank": 7,
+            "name": "Mexico",
+            "team": "",
+            "value": "0.91"
+          },
+          {
+            "rank": 8,
+            "name": "Argentina",
+            "team": "",
+            "value": "0.90"
+          },
+          {
+            "rank": 9,
+            "name": "Norway",
+            "team": "",
+            "value": "0.90"
+          },
+          {
+            "rank": 10,
+            "name": "Netherlands",
+            "team": "",
+            "value": "0.90"
+          }
+        ]
+      },
+      {
+        "key": "team_tackles",
+        "type": "team",
+        "title": "Team tackles",
+        "abbr": "TKL",
+        "note": "Defensive contact / recovery activity.",
+        "leaders": [
+          {
+            "rank": 1,
+            "name": "Argentina",
+            "team": "",
+            "value": "17"
+          },
+          {
+            "rank": 2,
+            "name": "Ecuador",
+            "team": "",
+            "value": "17"
+          },
+          {
+            "rank": 3,
+            "name": "Egypt",
+            "team": "",
+            "value": "16"
+          },
+          {
+            "rank": 4,
+            "name": "Morocco",
+            "team": "",
+            "value": "16"
+          },
+          {
+            "rank": 5,
+            "name": "Canada",
+            "team": "",
+            "value": "15"
+          },
+          {
+            "rank": 6,
+            "name": "Iran",
+            "team": "",
+            "value": "14"
+          },
+          {
+            "rank": 7,
+            "name": "Belgium",
+            "team": "",
+            "value": "12"
+          },
+          {
+            "rank": 8,
+            "name": "Bosnia and Herzegovina",
+            "team": "",
+            "value": "12"
+          },
+          {
+            "rank": 9,
+            "name": "Brazil",
+            "team": "",
+            "value": "12"
+          },
+          {
+            "rank": 10,
+            "name": "Curacao",
+            "team": "",
+            "value": "12"
+          }
+        ]
+      },
+      {
+        "key": "team_saves",
+        "type": "team",
+        "title": "Team saves",
+        "abbr": "SV",
+        "note": "Defensive stress indicator.",
+        "leaders": [
+          {
+            "rank": 1,
+            "name": "Australia",
+            "team": "",
+            "value": "8"
+          },
+          {
+            "rank": 2,
+            "name": "Cape Verde",
+            "team": "",
+            "value": "8"
+          },
+          {
+            "rank": 3,
+            "name": "Iran",
+            "team": "",
+            "value": "6"
+          },
+          {
+            "rank": 4,
+            "name": "Japan",
+            "team": "",
+            "value": "5"
+          },
+          {
+            "rank": 5,
+            "name": "Saudi Arabia",
+            "team": "",
+            "value": "5"
+          },
+          {
+            "rank": 6,
+            "name": "Senegal",
+            "team": "",
+            "value": "5"
+          },
+          {
+            "rank": 7,
+            "name": "Curacao",
+            "team": "",
+            "value": "4"
+          },
+          {
+            "rank": 8,
+            "name": "Czechia",
+            "team": "",
+            "value": "4"
+          },
+          {
+            "rank": 9,
+            "name": "Ecuador",
+            "team": "",
+            "value": "4"
+          },
+          {
+            "rank": 10,
+            "name": "Paraguay",
+            "team": "",
+            "value": "4"
+          }
+        ]
+      },
+      {
+        "key": "team_clean_sheets",
+        "type": "team",
+        "title": "Clean sheets",
+        "abbr": "CS",
+        "note": "Simple defensive lock.",
+        "leaders": [
+          {
+            "rank": 1,
+            "name": "Argentina",
+            "team": "",
+            "value": "1"
+          },
+          {
+            "rank": 2,
+            "name": "Australia",
+            "team": "",
+            "value": "1"
+          },
+          {
+            "rank": 3,
+            "name": "Cape Verde",
+            "team": "",
+            "value": "1"
+          },
+          {
+            "rank": 4,
+            "name": "Ivory Coast",
+            "team": "",
+            "value": "1"
+          },
+          {
+            "rank": 5,
+            "name": "Mexico",
+            "team": "",
+            "value": "1"
+          },
+          {
+            "rank": 6,
+            "name": "Scotland",
+            "team": "",
+            "value": "1"
+          },
+          {
+            "rank": 7,
+            "name": "Spain",
+            "team": "",
+            "value": "1"
+          },
+          {
+            "rank": 8,
+            "name": "Algeria",
+            "team": "",
+            "value": "0"
+          },
+          {
+            "rank": 9,
+            "name": "Austria",
+            "team": "",
+            "value": "0"
+          },
+          {
+            "rank": 10,
+            "name": "Belgium",
+            "team": "",
+            "value": "0"
+          }
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "matches": 72,
+    "played": 20,
+    "scheduled": 52,
+    "groups": 12,
+    "venues": 16
+  }
+}
