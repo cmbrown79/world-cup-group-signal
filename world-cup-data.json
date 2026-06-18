@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T08:22:47-04:00",
+  "generatedAt": "2026-06-17T20:14:13-04:00",
   "refreshPolicy": "Cron checks every 30 minutes and writes only inside ESPN kickoff windows: 90m pre-match through 3h post-match; manual force bypasses the gate.",
   "scheduleSource": "https://cxm-api.fifa.com/fifaplusweb/api/sections/article/S9YG2JmeGYaMUCBbm0CcD?locale=en",
   "timeVenueSource": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?limit=200&dates=20260611-20260627",
@@ -655,8 +655,7 @@
       "awayLogo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
       "broadcasts": [
         "FS1",
-        "Tele",
-        "Peacock"
+        "Tele"
       ],
       "sourceName": "Jordan at Austria",
       "statusState": "post",
@@ -671,6 +670,8 @@
       "group": "K",
       "home": "Portugal",
       "away": "Congo DR",
+      "hs": 1,
+      "as": 1,
       "venue": "NRG Stadium",
       "id": "760435",
       "kickoffUtc": "2026-06-17T17:00Z",
@@ -690,10 +691,10 @@
         "Peacock"
       ],
       "sourceName": "Congo DR at Portugal",
-      "statusState": "pre",
-      "status": "Scheduled",
-      "statusShort": "1:00 PM ET",
-      "completed": false,
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
       "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
     },
     {
@@ -702,6 +703,8 @@
       "group": "L",
       "home": "England",
       "away": "Croatia",
+      "hs": 4,
+      "as": 2,
       "venue": "AT&T Stadium",
       "id": "760437",
       "kickoffUtc": "2026-06-17T20:00Z",
@@ -721,10 +724,10 @@
         "Peacock"
       ],
       "sourceName": "Croatia at England",
-      "statusState": "pre",
-      "status": "Scheduled",
-      "statusShort": "4:00 PM ET",
-      "completed": false,
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
       "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
     },
     {
@@ -749,7 +752,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Panama at Ghana",
       "statusState": "pre",
@@ -780,7 +783,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Colombia at Uzbekistan",
       "statusState": "pre",
@@ -811,7 +814,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "South Africa at Czechia",
       "statusState": "pre",
@@ -842,7 +845,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Bosnia-Herzegovina at Switzerland",
       "statusState": "pre",
@@ -873,7 +876,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Qatar at Canada",
       "statusState": "pre",
@@ -904,7 +907,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "South Korea at Mexico",
       "statusState": "pre",
@@ -935,7 +938,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Australia at United States",
       "statusState": "pre",
@@ -966,7 +969,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Morocco at Scotland",
       "statusState": "pre",
@@ -997,7 +1000,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Haiti at Brazil",
       "statusState": "pre",
@@ -1028,7 +1031,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Paraguay at Türkiye",
       "statusState": "pre",
@@ -1059,7 +1062,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Sweden at Netherlands",
       "statusState": "pre",
@@ -1090,7 +1093,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Ivory Coast at Germany",
       "statusState": "pre",
@@ -1121,7 +1124,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Curaçao at Ecuador",
       "statusState": "pre",
@@ -1152,7 +1155,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Japan at Tunisia",
       "statusState": "pre",
@@ -1183,7 +1186,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Saudi Arabia at Spain",
       "statusState": "pre",
@@ -1214,7 +1217,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Iran at Belgium",
       "statusState": "pre",
@@ -1245,7 +1248,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Cape Verde at Uruguay",
       "statusState": "pre",
@@ -1276,7 +1279,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Egypt at New Zealand",
       "statusState": "pre",
@@ -1307,7 +1310,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Austria at Argentina",
       "statusState": "pre",
@@ -1338,7 +1341,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Iraq at France",
       "statusState": "pre",
@@ -1369,7 +1372,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Senegal at Norway",
       "statusState": "pre",
@@ -1400,7 +1403,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Algeria at Jordan",
       "statusState": "pre",
@@ -1431,7 +1434,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Uzbekistan at Portugal",
       "statusState": "pre",
@@ -1462,7 +1465,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Ghana at England",
       "statusState": "pre",
@@ -1493,7 +1496,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Croatia at Panama",
       "statusState": "pre",
@@ -1524,7 +1527,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Congo DR at Colombia",
       "statusState": "pre",
@@ -1555,7 +1558,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Canada at Switzerland",
       "statusState": "pre",
@@ -1586,7 +1589,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Qatar at Bosnia-Herzegovina",
       "statusState": "pre",
@@ -1617,7 +1620,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Brazil at Scotland",
       "statusState": "pre",
@@ -1648,7 +1651,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Haiti at Morocco",
       "statusState": "pre",
@@ -1679,7 +1682,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Mexico at Czechia",
       "statusState": "pre",
@@ -1710,7 +1713,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "South Korea at South Africa",
       "statusState": "pre",
@@ -1741,7 +1744,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Ivory Coast at Curaçao",
       "statusState": "pre",
@@ -1772,7 +1775,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Germany at Ecuador",
       "statusState": "pre",
@@ -1803,7 +1806,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Sweden at Japan",
       "statusState": "pre",
@@ -1834,7 +1837,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Netherlands at Tunisia",
       "statusState": "pre",
@@ -1865,7 +1868,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "United States at Türkiye",
       "statusState": "pre",
@@ -1896,7 +1899,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Australia at Paraguay",
       "statusState": "pre",
@@ -1927,7 +1930,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "France at Norway",
       "statusState": "pre",
@@ -1958,7 +1961,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Iraq at Senegal",
       "statusState": "pre",
@@ -1989,7 +1992,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Saudi Arabia at Cape Verde",
       "statusState": "pre",
@@ -2020,7 +2023,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Spain at Uruguay",
       "statusState": "pre",
@@ -2051,7 +2054,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Iran at Egypt",
       "statusState": "pre",
@@ -2082,7 +2085,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Belgium at New Zealand",
       "statusState": "pre",
@@ -2113,7 +2116,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "England at Panama",
       "statusState": "pre",
@@ -2144,7 +2147,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Ghana at Croatia",
       "statusState": "pre",
@@ -2175,7 +2178,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Portugal at Colombia",
       "statusState": "pre",
@@ -2206,7 +2209,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Uzbekistan at Congo DR",
       "statusState": "pre",
@@ -2237,7 +2240,7 @@
       "broadcasts": [
         "FS1",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Austria at Algeria",
       "statusState": "pre",
@@ -2268,7 +2271,7 @@
       "broadcasts": [
         "FOX",
         "Tele",
-        "Peacock"
+        "FOX One"
       ],
       "sourceName": "Argentina at Jordan",
       "statusState": "pre",
@@ -2821,33 +2824,33 @@
     ],
     "K": [
       {
-        "team": "Colombia",
-        "p": 0,
+        "team": "Congo DR",
+        "p": 1,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
+        "gf": 1,
+        "ga": 1,
         "gd": 0,
-        "pts": 0,
+        "pts": 1,
         "rank": 1,
         "status": "alive"
       },
       {
-        "team": "Congo DR",
-        "p": 0,
+        "team": "Portugal",
+        "p": 1,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
+        "gf": 1,
+        "ga": 1,
         "gd": 0,
-        "pts": 0,
+        "pts": 1,
         "rank": 2,
         "status": "alive"
       },
       {
-        "team": "Portugal",
+        "team": "Colombia",
         "p": 0,
         "w": 0,
         "d": 0,
@@ -2875,29 +2878,16 @@
     ],
     "L": [
       {
-        "team": "Croatia",
-        "p": 0,
-        "w": 0,
-        "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0,
-        "rank": 1,
-        "status": "alive"
-      },
-      {
         "team": "England",
-        "p": 0,
-        "w": 0,
+        "p": 1,
+        "w": 1,
         "d": 0,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0,
-        "rank": 2,
+        "gf": 4,
+        "ga": 2,
+        "gd": 2,
+        "pts": 3,
+        "rank": 1,
         "status": "alive"
       },
       {
@@ -2910,7 +2900,7 @@
         "ga": 0,
         "gd": 0,
         "pts": 0,
-        "rank": 3,
+        "rank": 2,
         "status": "alive"
       },
       {
@@ -2922,6 +2912,19 @@
         "gf": 0,
         "ga": 0,
         "gd": 0,
+        "pts": 0,
+        "rank": 3,
+        "status": "alive"
+      },
+      {
+        "team": "Croatia",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 4,
+        "gd": -2,
         "pts": 0,
         "rank": 4,
         "status": "alive"
@@ -2951,57 +2954,57 @@
           },
           {
             "rank": 2,
+            "name": "Harry Kane",
+            "team": "ENG",
+            "value": "1.19"
+          },
+          {
+            "rank": 3,
             "name": "Erling Haaland",
             "team": "NOR",
             "value": "1.14"
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Marko Arnautovic",
             "team": "AUT",
             "value": "1.01"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Kylian Mbappe",
             "team": "FRA",
             "value": "0.98"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Kai Havertz",
             "team": "GER",
             "value": "0.96"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Lionel Messi",
             "team": "ARG",
             "value": "0.92"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Jovo Lukic",
             "team": "BIH",
             "value": "0.90"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Viktor Gyokeres",
             "team": "SWE",
             "value": "0.86"
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "Raul Jimenez",
             "team": "MEX",
             "value": "0.76"
-          },
-          {
-            "rank": 10,
-            "name": "Abdulelah Alamri",
-            "team": "KSA",
-            "value": "0.73"
           }
         ]
       },
@@ -3044,32 +3047,32 @@
           },
           {
             "rank": 6,
+            "name": "Harry Kane",
+            "team": "ENG",
+            "value": "2"
+          },
+          {
+            "rank": 7,
             "name": "Folarin Balogun",
             "team": "USA",
             "value": "2"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Elijah Just",
             "team": "NZL",
             "value": "2"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Daichi Kamada",
             "team": "JPN",
             "value": "1"
           },
           {
-            "rank": 9,
-            "name": "Amad Diallo",
-            "team": "CIV",
-            "value": "1"
-          },
-          {
             "rank": 10,
-            "name": "Crysencio Summerville",
-            "team": "NED",
+            "name": "Marcus Rashford",
+            "team": "ENG",
             "value": "1"
           }
         ]
@@ -3119,26 +3122,26 @@
           },
           {
             "rank": 7,
+            "name": "Elliot Anderson",
+            "team": "ENG",
+            "value": "1"
+          },
+          {
+            "rank": 8,
             "name": "Julio Enciso",
             "team": "PAR",
             "value": "1"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Lucas Bergvall",
             "team": "SWE",
             "value": "1"
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "Vladimir Coufal",
             "team": "CZE",
-            "value": "1"
-          },
-          {
-            "rank": 10,
-            "name": "Bruno Guimaraes",
-            "team": "BRA",
             "value": "1"
           }
         ]
@@ -3170,44 +3173,44 @@
           },
           {
             "rank": 4,
+            "name": "Harry Kane",
+            "team": "ENG",
+            "value": "6"
+          },
+          {
+            "rank": 5,
             "name": "Kenan Yildiz",
             "team": "TUR",
             "value": "6"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Erling Haaland",
             "team": "NOR",
             "value": "5"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Malik Tillman",
             "team": "USA",
             "value": "5"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Folarin Balogun",
             "team": "USA",
             "value": "5"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Federico Vinas",
             "team": "URU",
             "value": "5"
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "Omar Marmoush",
             "team": "EGY",
-            "value": "5"
-          },
-          {
-            "rank": 10,
-            "name": "Lionel Messi",
-            "team": "ARG",
             "value": "5"
           }
         ]
@@ -3233,51 +3236,51 @@
           },
           {
             "rank": 3,
+            "name": "Harry Kane",
+            "team": "ENG",
+            "value": "4"
+          },
+          {
+            "rank": 4,
             "name": "Lionel Messi",
             "team": "ARG",
             "value": "4"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Raul Jimenez",
             "team": "MEX",
             "value": "3"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Donyell Malen",
             "team": "NED",
             "value": "3"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Felix Nmecha",
             "team": "GER",
             "value": "3"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Folarin Balogun",
             "team": "USA",
             "value": "3"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Federico Vinas",
             "team": "URU",
             "value": "3"
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "Arda Guler",
             "team": "TUR",
             "value": "3"
-          },
-          {
-            "rank": 10,
-            "name": "Chris Wood",
-            "team": "NZL",
-            "value": "2"
           }
         ]
       },
@@ -3326,26 +3329,26 @@
           },
           {
             "rank": 7,
+            "name": "Declan Rice",
+            "team": "ENG",
+            "value": "4"
+          },
+          {
+            "rank": 8,
             "name": "Michael Olise",
             "team": "FRA",
             "value": "4"
           },
           {
-            "rank": 8,
-            "name": "Pedri",
-            "team": "ESP",
-            "value": "4"
-          },
-          {
             "rank": 9,
-            "name": "Ivan Basic",
-            "team": "BIH",
+            "name": "Ivan Perisic",
+            "team": "CRO",
             "value": "4"
           },
           {
             "rank": 10,
-            "name": "Viktor Gyokeres",
-            "team": "SWE",
+            "name": "Pedri",
+            "team": "ESP",
             "value": "4"
           }
         ]
@@ -3458,32 +3461,32 @@
           },
           {
             "rank": 6,
+            "name": "Dominik Livakovic",
+            "team": "CRO",
+            "value": "35"
+          },
+          {
+            "rank": 7,
             "name": "Vozinha",
             "team": "CPV",
             "value": "35"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Patrick Beach",
             "team": "AUS",
             "value": "29"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Fernando Muslera",
             "team": "URU",
             "value": "29"
           },
           {
-            "rank": 9,
-            "name": "Alexander Schlager",
-            "team": "AUT",
-            "value": "27"
-          },
-          {
             "rank": 10,
-            "name": "Matej Kovar",
-            "team": "CZE",
+            "name": "Jordan Pickford",
+            "team": "ENG",
             "value": "27"
           }
         ]
@@ -3509,50 +3512,50 @@
           },
           {
             "rank": 3,
+            "name": "Dominik Livakovic",
+            "team": "CRO",
+            "value": "7"
+          },
+          {
+            "rank": 4,
             "name": "Alireza Beiranvand",
             "team": "IRN",
             "value": "6"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Edouard Mendy",
             "team": "SEN",
             "value": "5"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Zion Suzuki",
             "team": "JPN",
             "value": "5"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Mohammed Alowais",
             "team": "KSA",
             "value": "5"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Hernan Galindez",
             "team": "ECU",
             "value": "4"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Orlando Gill",
             "team": "PAR",
             "value": "4"
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "Eloy Room",
             "team": "CUW",
-            "value": "4"
-          },
-          {
-            "rank": 10,
-            "name": "Matej Kovar",
-            "team": "CZE",
             "value": "4"
           }
         ]
@@ -3578,51 +3581,51 @@
           },
           {
             "rank": 3,
+            "name": "England",
+            "team": "",
+            "value": "2.9"
+          },
+          {
+            "rank": 4,
             "name": "South Korea",
             "team": "",
             "value": "2.3"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Norway",
             "team": "",
             "value": "2.2"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Canada",
             "team": "",
             "value": "1.9"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "France",
             "team": "",
             "value": "1.9"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Uruguay",
             "team": "",
             "value": "1.8"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Austria",
             "team": "",
             "value": "1.6"
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "Türkiye",
             "team": "",
             "value": "1.6"
-          },
-          {
-            "rank": 10,
-            "name": "Spain",
-            "team": "",
-            "value": "1.5"
           }
         ]
       },
@@ -3647,49 +3650,49 @@
           },
           {
             "rank": 3,
-            "name": "Norway",
+            "name": "England",
             "team": "",
             "value": "4"
           },
           {
             "rank": 4,
-            "name": "United States",
+            "name": "Norway",
             "team": "",
             "value": "4"
           },
           {
             "rank": 5,
+            "name": "United States",
+            "team": "",
+            "value": "4"
+          },
+          {
+            "rank": 6,
             "name": "Argentina",
             "team": "",
             "value": "3"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Austria",
             "team": "",
             "value": "3"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "France",
             "team": "",
             "value": "3"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Australia",
             "team": "",
             "value": "2"
           },
           {
-            "rank": 9,
-            "name": "Iran",
-            "team": "",
-            "value": "2"
-          },
-          {
             "rank": 10,
-            "name": "Japan",
+            "name": "Croatia",
             "team": "",
             "value": "2"
           }
@@ -3704,61 +3707,61 @@
         "leaders": [
           {
             "rank": 1,
+            "name": "England",
+            "team": "",
+            "value": "12"
+          },
+          {
+            "rank": 2,
             "name": "Germany",
             "team": "",
             "value": "11"
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Switzerland",
             "team": "",
             "value": "10"
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Uruguay",
             "team": "",
             "value": "10"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "France",
             "team": "",
             "value": "8"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "New Zealand",
             "team": "",
             "value": "8"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Spain",
             "team": "",
             "value": "8"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Sweden",
             "team": "",
             "value": "8"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Netherlands",
             "team": "",
             "value": "7"
           },
           {
-            "rank": 9,
-            "name": "South Korea",
-            "team": "",
-            "value": "7"
-          },
-          {
             "rank": 10,
-            "name": "Türkiye",
+            "name": "South Korea",
             "team": "",
             "value": "7"
           }
@@ -3797,37 +3800,37 @@
           },
           {
             "rank": 5,
-            "name": "Ivory Coast",
+            "name": "England",
             "team": "",
             "value": "14"
           },
           {
             "rank": 6,
-            "name": "South Korea",
+            "name": "Ivory Coast",
             "team": "",
             "value": "14"
           },
           {
             "rank": 7,
-            "name": "Uruguay",
+            "name": "South Korea",
             "team": "",
             "value": "14"
           },
           {
             "rank": 8,
+            "name": "Uruguay",
+            "team": "",
+            "value": "14"
+          },
+          {
+            "rank": 9,
             "name": "Iran",
             "team": "",
             "value": "12"
           },
           {
-            "rank": 9,
-            "name": "Canada",
-            "team": "",
-            "value": "11"
-          },
-          {
             "rank": 10,
-            "name": "Mexico",
+            "name": "Canada",
             "team": "",
             "value": "11"
           }
@@ -3842,61 +3845,61 @@
         "leaders": [
           {
             "rank": 1,
+            "name": "Portugal",
+            "team": "",
+            "value": "0.94"
+          },
+          {
+            "rank": 2,
             "name": "Algeria",
             "team": "",
             "value": "0.93"
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Switzerland",
             "team": "",
             "value": "0.93"
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Spain",
             "team": "",
             "value": "0.93"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Uruguay",
             "team": "",
             "value": "0.92"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Türkiye",
             "team": "",
             "value": "0.92"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "United States",
             "team": "",
             "value": "0.91"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Mexico",
             "team": "",
             "value": "0.91"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Argentina",
             "team": "",
             "value": "0.90"
           },
           {
-            "rank": 9,
-            "name": "Norway",
-            "team": "",
-            "value": "0.90"
-          },
-          {
             "rank": 10,
-            "name": "Netherlands",
+            "name": "Norway",
             "team": "",
             "value": "0.90"
           }
@@ -3992,49 +3995,49 @@
           },
           {
             "rank": 3,
+            "name": "Croatia",
+            "team": "",
+            "value": "7"
+          },
+          {
+            "rank": 4,
             "name": "Iran",
             "team": "",
             "value": "6"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Japan",
             "team": "",
             "value": "5"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Saudi Arabia",
             "team": "",
             "value": "5"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Senegal",
             "team": "",
             "value": "5"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Curacao",
             "team": "",
             "value": "4"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Czechia",
             "team": "",
             "value": "4"
           },
           {
-            "rank": 9,
-            "name": "Ecuador",
-            "team": "",
-            "value": "4"
-          },
-          {
             "rank": 10,
-            "name": "Paraguay",
+            "name": "Ecuador",
             "team": "",
             "value": "4"
           }
@@ -4113,8 +4116,8 @@
   },
   "summary": {
     "matches": 72,
-    "played": 20,
-    "scheduled": 52,
+    "played": 22,
+    "scheduled": 50,
     "groups": 12,
     "venues": 16
   }
