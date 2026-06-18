@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T23:21:36-04:00",
+  "generatedAt": "2026-06-18T11:48:56-04:00",
   "refreshPolicy": "Cron checks every 30 minutes and writes only inside ESPN kickoff windows: 90m pre-match through 3h post-match; manual force bypasses the gate.",
   "scheduleSource": "https://cxm-api.fifa.com/fifaplusweb/api/sections/article/S9YG2JmeGYaMUCBbm0CcD?locale=en",
   "timeVenueSource": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?limit=200&dates=20260611-20260627",
@@ -769,6 +769,8 @@
       "group": "K",
       "home": "Uzbekistan",
       "away": "Colombia",
+      "hs": 1,
+      "as": 3,
       "venue": "Estadio Banorte",
       "id": "760436",
       "kickoffUtc": "2026-06-18T02:00Z",
@@ -788,10 +790,10 @@
         "FOX One"
       ],
       "sourceName": "Colombia at Uzbekistan",
-      "statusState": "pre",
-      "status": "Scheduled",
-      "statusShort": "10:00 PM ET",
-      "completed": false,
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
       "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
     },
     {
@@ -2826,20 +2828,20 @@
     ],
     "K": [
       {
-        "team": "Congo DR",
+        "team": "Colombia",
         "p": 1,
-        "w": 0,
-        "d": 1,
+        "w": 1,
+        "d": 0,
         "l": 0,
-        "gf": 1,
+        "gf": 3,
         "ga": 1,
-        "gd": 0,
-        "pts": 1,
+        "gd": 2,
+        "pts": 3,
         "rank": 1,
         "status": "alive"
       },
       {
-        "team": "Portugal",
+        "team": "Congo DR",
         "p": 1,
         "w": 0,
         "d": 1,
@@ -2852,27 +2854,27 @@
         "status": "alive"
       },
       {
-        "team": "Colombia",
-        "p": 0,
+        "team": "Portugal",
+        "p": 1,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
+        "gf": 1,
+        "ga": 1,
         "gd": 0,
-        "pts": 0,
+        "pts": 1,
         "rank": 3,
         "status": "alive"
       },
       {
         "team": "Uzbekistan",
-        "p": 0,
+        "p": 1,
         "w": 0,
         "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 3,
+        "gd": -2,
         "pts": 0,
         "rank": 4,
         "status": "alive"
@@ -3073,8 +3075,8 @@
           },
           {
             "rank": 10,
-            "name": "Marcus Rashford",
-            "team": "ENG",
+            "name": "Daniel Munoz",
+            "team": "COL",
             "value": "1"
           }
         ]
@@ -3526,20 +3528,20 @@
           },
           {
             "rank": 5,
+            "name": "Mohammed Alowais",
+            "team": "KSA",
+            "value": "6"
+          },
+          {
+            "rank": 6,
             "name": "Edouard Mendy",
             "team": "SEN",
             "value": "5"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Zion Suzuki",
             "team": "JPN",
-            "value": "5"
-          },
-          {
-            "rank": 7,
-            "name": "Mohammed Alowais",
-            "team": "KSA",
             "value": "5"
           },
           {
@@ -3615,7 +3617,7 @@
             "rank": 8,
             "name": "Uruguay",
             "team": "",
-            "value": "1.8"
+            "value": "1.9"
           },
           {
             "rank": 9,
@@ -3682,19 +3684,19 @@
           },
           {
             "rank": 8,
-            "name": "France",
+            "name": "Colombia",
             "team": "",
             "value": "3"
           },
           {
             "rank": 9,
-            "name": "Australia",
+            "name": "France",
             "team": "",
-            "value": "2"
+            "value": "3"
           },
           {
             "rank": 10,
-            "name": "Croatia",
+            "name": "Australia",
             "team": "",
             "value": "2"
           }
@@ -3802,25 +3804,25 @@
           },
           {
             "rank": 5,
+            "name": "Uruguay",
+            "team": "",
+            "value": "16"
+          },
+          {
+            "rank": 6,
             "name": "England",
             "team": "",
             "value": "14"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Ivory Coast",
             "team": "",
             "value": "14"
           },
           {
-            "rank": 7,
-            "name": "South Korea",
-            "team": "",
-            "value": "14"
-          },
-          {
             "rank": 8,
-            "name": "Uruguay",
+            "name": "South Korea",
             "team": "",
             "value": "14"
           },
@@ -4009,13 +4011,13 @@
           },
           {
             "rank": 5,
-            "name": "Japan",
+            "name": "Saudi Arabia",
             "team": "",
-            "value": "5"
+            "value": "6"
           },
           {
             "rank": 6,
-            "name": "Saudi Arabia",
+            "name": "Japan",
             "team": "",
             "value": "5"
           },
@@ -4118,8 +4120,8 @@
   },
   "summary": {
     "matches": 72,
-    "played": 23,
-    "scheduled": 49,
+    "played": 24,
+    "scheduled": 48,
     "groups": 12,
     "venues": 16
   }
