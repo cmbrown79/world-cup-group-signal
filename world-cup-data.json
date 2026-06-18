@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T17:20:59-04:00",
+  "generatedAt": "2026-06-18T18:18:59-04:00",
   "refreshPolicy": "Cron checks every 30 minutes and writes only inside ESPN kickoff windows: 90m pre-match through 3h post-match; manual force bypasses the gate.",
   "scheduleSource": "https://cxm-api.fifa.com/fifaplusweb/api/sections/article/S9YG2JmeGYaMUCBbm0CcD?locale=en",
   "timeVenueSource": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?limit=200&dates=20260611-20260627",
@@ -2958,7 +2958,7 @@
             "rank": 1,
             "name": "Breel Embolo",
             "team": "SUI",
-            "value": "1.22"
+            "value": "1.38"
           },
           {
             "rank": 2,
@@ -2998,21 +2998,21 @@
           },
           {
             "rank": 8,
+            "name": "Ruben Vargas",
+            "team": "SUI",
+            "value": "0.92"
+          },
+          {
+            "rank": 9,
             "name": "Jovo Lukic",
             "team": "BIH",
             "value": "0.90"
           },
           {
-            "rank": 9,
-            "name": "Viktor Gyokeres",
-            "team": "SWE",
-            "value": "0.86"
-          },
-          {
             "rank": 10,
-            "name": "Caleb Yirenkyi",
-            "team": "GHA",
-            "value": "0.82"
+            "name": "Granit Xhaka",
+            "team": "SUI",
+            "value": "0.87"
           }
         ]
       },
@@ -3055,32 +3055,32 @@
           },
           {
             "rank": 6,
+            "name": "Johan Manzambi",
+            "team": "SUI",
+            "value": "2"
+          },
+          {
+            "rank": 7,
             "name": "Harry Kane",
             "team": "ENG",
             "value": "2"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Folarin Balogun",
             "team": "USA",
             "value": "2"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Elijah Just",
             "team": "NZL",
             "value": "2"
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "Daichi Kamada",
             "team": "JPN",
-            "value": "1"
-          },
-          {
-            "rank": 10,
-            "name": "Daniel Munoz",
-            "team": "COL",
             "value": "1"
           }
         ]
@@ -3163,62 +3163,62 @@
         "leaders": [
           {
             "rank": 1,
+            "name": "Dan Ndoye",
+            "team": "SUI",
+            "value": "10"
+          },
+          {
+            "rank": 2,
             "name": "Arda Guler",
             "team": "TUR",
             "value": "8"
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Son Heung-min",
             "team": "KOR",
             "value": "6"
           },
           {
-            "rank": 3,
-            "name": "Dan Ndoye",
+            "rank": 4,
+            "name": "Ruben Vargas",
             "team": "SUI",
             "value": "6"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Harry Kane",
             "team": "ENG",
             "value": "6"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Kenan Yildiz",
             "team": "TUR",
             "value": "6"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Erling Haaland",
             "team": "NOR",
             "value": "5"
           },
           {
-            "rank": 7,
+            "rank": 8,
+            "name": "Breel Embolo",
+            "team": "SUI",
+            "value": "5"
+          },
+          {
+            "rank": 9,
             "name": "Malik Tillman",
             "team": "USA",
             "value": "5"
           },
           {
-            "rank": 8,
+            "rank": 10,
             "name": "Folarin Balogun",
             "team": "USA",
-            "value": "5"
-          },
-          {
-            "rank": 9,
-            "name": "Federico Vinas",
-            "team": "URU",
-            "value": "5"
-          },
-          {
-            "rank": 10,
-            "name": "Aubrey Modiba",
-            "team": "RSA",
             "value": "5"
           }
         ]
@@ -3244,50 +3244,50 @@
           },
           {
             "rank": 3,
+            "name": "Ruben Vargas",
+            "team": "SUI",
+            "value": "4"
+          },
+          {
+            "rank": 4,
+            "name": "Dan Ndoye",
+            "team": "SUI",
+            "value": "4"
+          },
+          {
+            "rank": 5,
             "name": "Harry Kane",
             "team": "ENG",
             "value": "4"
           },
           {
-            "rank": 4,
+            "rank": 6,
             "name": "Lionel Messi",
             "team": "ARG",
             "value": "4"
           },
           {
-            "rank": 5,
+            "rank": 7,
             "name": "Raul Jimenez",
             "team": "MEX",
             "value": "3"
           },
           {
-            "rank": 6,
+            "rank": 8,
+            "name": "Breel Embolo",
+            "team": "SUI",
+            "value": "3"
+          },
+          {
+            "rank": 9,
             "name": "Donyell Malen",
             "team": "NED",
             "value": "3"
           },
           {
-            "rank": 7,
+            "rank": 10,
             "name": "Felix Nmecha",
             "team": "GER",
-            "value": "3"
-          },
-          {
-            "rank": 8,
-            "name": "Folarin Balogun",
-            "team": "USA",
-            "value": "3"
-          },
-          {
-            "rank": 9,
-            "name": "Federico Vinas",
-            "team": "URU",
-            "value": "3"
-          },
-          {
-            "rank": 10,
-            "name": "Arda Guler",
-            "team": "TUR",
             "value": "3"
           }
         ]
@@ -3577,15 +3577,15 @@
         "leaders": [
           {
             "rank": 1,
-            "name": "Germany",
+            "name": "Switzerland",
             "team": "",
-            "value": "3.6"
+            "value": "5.7"
           },
           {
             "rank": 2,
-            "name": "Switzerland",
+            "name": "Germany",
             "team": "",
-            "value": "3.5"
+            "value": "3.6"
           },
           {
             "rank": 3,
@@ -3658,51 +3658,51 @@
           },
           {
             "rank": 3,
+            "name": "Switzerland",
+            "team": "",
+            "value": "5"
+          },
+          {
+            "rank": 4,
             "name": "England",
             "team": "",
             "value": "4"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Norway",
             "team": "",
             "value": "4"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "United States",
             "team": "",
             "value": "4"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Argentina",
             "team": "",
             "value": "3"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Austria",
             "team": "",
             "value": "3"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Colombia",
             "team": "",
             "value": "3"
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "France",
             "team": "",
             "value": "3"
-          },
-          {
-            "rank": 10,
-            "name": "Australia",
-            "team": "",
-            "value": "2"
           }
         ]
       },
@@ -3715,21 +3715,21 @@
         "leaders": [
           {
             "rank": 1,
+            "name": "Switzerland",
+            "team": "",
+            "value": "18"
+          },
+          {
+            "rank": 2,
             "name": "England",
             "team": "",
             "value": "12"
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Germany",
             "team": "",
             "value": "11"
-          },
-          {
-            "rank": 3,
-            "name": "Switzerland",
-            "team": "",
-            "value": "10"
           },
           {
             "rank": 4,
@@ -3763,13 +3763,13 @@
           },
           {
             "rank": 9,
-            "name": "Czechia",
+            "name": "Bosnia and Herzegovina",
             "team": "",
             "value": "7"
           },
           {
             "rank": 10,
-            "name": "Netherlands",
+            "name": "Czechia",
             "team": "",
             "value": "7"
           }
@@ -3784,15 +3784,15 @@
         "leaders": [
           {
             "rank": 1,
-            "name": "Germany",
+            "name": "Switzerland",
             "team": "",
-            "value": "23"
+            "value": "30"
           },
           {
             "rank": 2,
-            "name": "Switzerland",
+            "name": "Germany",
             "team": "",
-            "value": "21"
+            "value": "23"
           },
           {
             "rank": 3,
@@ -3865,13 +3865,13 @@
           },
           {
             "rank": 3,
-            "name": "Switzerland",
+            "name": "Spain",
             "team": "",
             "value": "0.93"
           },
           {
             "rank": 4,
-            "name": "Spain",
+            "name": "Switzerland",
             "team": "",
             "value": "0.93"
           },
@@ -3922,61 +3922,61 @@
         "leaders": [
           {
             "rank": 1,
-            "name": "South Africa",
+            "name": "Bosnia and Herzegovina",
             "team": "",
             "value": "21"
           },
           {
             "rank": 2,
+            "name": "South Africa",
+            "team": "",
+            "value": "21"
+          },
+          {
+            "rank": 3,
             "name": "Argentina",
             "team": "",
             "value": "17"
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Ecuador",
             "team": "",
             "value": "17"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Egypt",
             "team": "",
             "value": "16"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Morocco",
             "team": "",
             "value": "16"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Canada",
             "team": "",
             "value": "15"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Iran",
             "team": "",
             "value": "14"
           },
           {
-            "rank": 8,
-            "name": "Belgium",
-            "team": "",
-            "value": "12"
-          },
-          {
             "rank": 9,
-            "name": "Bosnia and Herzegovina",
+            "name": "Switzerland",
             "team": "",
-            "value": "12"
+            "value": "13"
           },
           {
             "rank": 10,
-            "name": "Brazil",
+            "name": "Belgium",
             "team": "",
             "value": "12"
           }
@@ -4015,37 +4015,37 @@
           },
           {
             "rank": 5,
-            "name": "Iran",
+            "name": "Bosnia and Herzegovina",
             "team": "",
             "value": "6"
           },
           {
             "rank": 6,
-            "name": "Saudi Arabia",
+            "name": "Iran",
             "team": "",
             "value": "6"
           },
           {
             "rank": 7,
+            "name": "Saudi Arabia",
+            "team": "",
+            "value": "6"
+          },
+          {
+            "rank": 8,
             "name": "Japan",
             "team": "",
             "value": "5"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Senegal",
             "team": "",
             "value": "5"
           },
           {
-            "rank": 9,
-            "name": "Curacao",
-            "team": "",
-            "value": "4"
-          },
-          {
             "rank": 10,
-            "name": "Ecuador",
+            "name": "Curacao",
             "team": "",
             "value": "4"
           }
