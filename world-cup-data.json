@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T13:13:35-04:00",
+  "generatedAt": "2026-06-18T14:21:40-04:00",
   "refreshPolicy": "Cron checks every 30 minutes and writes only inside ESPN kickoff windows: 90m pre-match through 3h post-match; manual force bypasses the gate.",
   "scheduleSource": "https://cxm-api.fifa.com/fifaplusweb/api/sections/article/S9YG2JmeGYaMUCBbm0CcD?locale=en",
   "timeVenueSource": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?limit=200&dates=20260611-20260627",
@@ -802,6 +802,8 @@
       "group": "A",
       "home": "Czechia",
       "away": "South Africa",
+      "hs": 1,
+      "as": 1,
       "venue": "Mercedes-Benz Stadium",
       "id": "760438",
       "kickoffUtc": "2026-06-18T16:00Z",
@@ -821,10 +823,10 @@
         "FOX One"
       ],
       "sourceName": "South Africa at Czechia",
-      "statusState": "pre",
-      "status": "Scheduled",
-      "statusShort": "12:00 PM ET",
-      "completed": false,
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
       "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
     },
     {
@@ -2315,27 +2317,27 @@
       },
       {
         "team": "Czechia",
-        "p": 1,
+        "p": 2,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 1,
-        "gf": 1,
-        "ga": 2,
+        "gf": 2,
+        "ga": 3,
         "gd": -1,
-        "pts": 0,
+        "pts": 1,
         "rank": 3,
         "status": "alive"
       },
       {
         "team": "South Africa",
-        "p": 1,
+        "p": 2,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 1,
-        "gf": 0,
-        "ga": 2,
+        "gf": 1,
+        "ga": 3,
         "gd": -2,
-        "pts": 0,
+        "pts": 1,
         "rank": 4,
         "status": "alive"
       }
@@ -3522,44 +3524,44 @@
           },
           {
             "rank": 4,
+            "name": "Matej Kovar",
+            "team": "CZE",
+            "value": "7"
+          },
+          {
+            "rank": 5,
             "name": "Alireza Beiranvand",
             "team": "IRN",
             "value": "6"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Mohammed Alowais",
             "team": "KSA",
             "value": "6"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Edouard Mendy",
             "team": "SEN",
             "value": "5"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Zion Suzuki",
             "team": "JPN",
             "value": "5"
           },
           {
-            "rank": 8,
-            "name": "Hernan Galindez",
-            "team": "ECU",
-            "value": "4"
-          },
-          {
             "rank": 9,
-            "name": "Orlando Gill",
-            "team": "PAR",
+            "name": "Ronwen Williams",
+            "team": "RSA",
             "value": "4"
           },
           {
             "rank": 10,
-            "name": "Eloy Room",
-            "team": "CUW",
+            "name": "Hernan Galindez",
+            "team": "ECU",
             "value": "4"
           }
         ]
@@ -4120,8 +4122,8 @@
   },
   "summary": {
     "matches": 72,
-    "played": 24,
-    "scheduled": 48,
+    "played": 25,
+    "scheduled": 47,
     "groups": 12,
     "venues": 16
   }
