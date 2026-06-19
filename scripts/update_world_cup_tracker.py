@@ -22,8 +22,10 @@ ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT
 OUT = ROOT / 'world-cup-data.json'
 HISTORY_OUT = ROOT / 'world-cup-history.json'
+RECON_OUT = ROOT / 'world-cup-reconstructed-history.json'
 FIFA_ARTICLE = 'https://cxm-api.fifa.com/fifaplusweb/api/sections/article/S9YG2JmeGYaMUCBbm0CcD?locale=en'
 ESPN_SCOREBOARD = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?limit=200&dates=20260611-20260627'
+ESPN_SUMMARY = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event={event_id}'
 FOX_BASE = 'https://www.foxsports.com/soccer/fifa-world-cup'
 UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36'
 GROUP_DATES = {f'2026-06-{d:02d}' for d in range(11, 28)}
@@ -492,6 +494,127 @@ def merge_history(payload):
     }
 
 
+def parse_num(v):
+    try:
+        return float(str(v).replace('%','').replace(',','').strip())
+    except Exception:
+        return 0.0
+
+
+def add_stat(board, title, abbr, typ, name, team, value):
+    if not name:
+        return
+    k = (title, name, team or '')
+    board[k] = board.get(k, 0.0) + value
+
+
+def ranked_from_board(board, title, abbr, typ, note, value_fmt=None, limit=10):
+    rows = [(name, team, val) for (t, name, team), val in board.items() if t == title]
+    rows.sort(key=lambda x: (-x[2], x[0]))
+    leaders = []
+    for i, (name, team, val) in enumerate(rows[:limit], 1):
+        if value_fmt:
+            value = value_fmt(val)
+        else:
+            value = str(int(val)) if abs(val - int(val)) < 1e-9 else f'{val:.2f}'.rstrip('0').rstrip('.')
+        leaders.append({'rank': i, 'name': name, 'team': team, 'value': value})
+    return {'title': title, 'abbr': abbr, 'type': typ, 'note': note, 'leaders': leaders}
+
+
+def parse_goal_text(text):
+    # ESPN key event prose is regular enough: "Name (Team) ... Assisted by Name."
+    if not text or 'Goal!' not in text:
+        return None, None
+    try:
+        after = text.split('. ', 1)[1]
+    except Exception:
+        after = text
+    scorer = after.split(' (', 1)[0].strip()
+    assist = None
+    if 'Assisted by ' in text:
+        assist = text.split('Assisted by ', 1)[1].split('.', 1)[0].strip()
+        for cut in [' with ', ' following ', ' from ', ' after ']:
+            if cut in assist:
+                assist = assist.split(cut, 1)[0].strip()
+    return scorer, assist
+
+
+def reconstruct_history(payload):
+    completed = [m for m in payload.get('matches', []) if m.get('completed') or ('hs' in m and 'as' in m)]
+    completed.sort(key=lambda m: (m.get('kickoffUtc') or '', m.get('id') or ''))
+    board = {}
+    snapshots = []
+    team_totals = {}
+    for m in completed:
+        try:
+            summary = json.loads(get(ESPN_SUMMARY.format(event_id=m['id']), 'application/json'))
+        except Exception:
+            continue
+        # Team boxscore stats.
+        for t in summary.get('boxscore', {}).get('teams', []):
+            team = t.get('team', {}).get('displayName')
+            stats = {x.get('name'): parse_num(x.get('displayValue')) for x in t.get('statistics', [])}
+            if not team:
+                continue
+            team_totals.setdefault(team, {'accuratePasses': 0, 'totalPasses': 0})
+            gf = m.get('hs') if team == m.get('home') else m.get('as') if team == m.get('away') else 0
+            ga = m.get('as') if team == m.get('home') else m.get('hs') if team == m.get('away') else 0
+            add_stat(board, 'Team goals', 'GF', 'team', team, 'team', float(gf or 0))
+            add_stat(board, 'Team shots on goal', 'SOG', 'team', team, 'team', stats.get('shotsOnTarget', 0))
+            add_stat(board, 'Team saves', 'SV', 'team', team, 'team', stats.get('saves', 0))
+            add_stat(board, 'Team shots', 'S', 'team', team, 'team', stats.get('totalShots', 0))
+            add_stat(board, 'Clean sheets', 'CS', 'team', team, 'team', 1.0 if ga == 0 else 0.0)
+            add_stat(board, 'Team defensive interventions', 'DI', 'team', team, 'team', stats.get('defensiveInterventions', 0))
+            team_totals[team]['accuratePasses'] += stats.get('accuratePasses', 0)
+            team_totals[team]['totalPasses'] += stats.get('totalPasses', 0)
+        # ESPN per-match leaders for shots/saves/passes/defensive interventions.
+        for team_block in summary.get('leaders', []):
+            team = team_block.get('team', {}).get('abbreviation') or team_block.get('team', {}).get('displayName') or ''
+            for grp in team_block.get('leaders', []):
+                title = grp.get('name')
+                for row in grp.get('leaders', []):
+                    name = row.get('athlete', {}).get('displayName')
+                    val = parse_num(row.get('displayValue'))
+                    if title == 'totalShots': add_stat(board, 'Shots', 'S', 'player', name, team, val)
+                    elif title == 'saves': add_stat(board, 'Keeper saves', 'SV', 'player', name, team, val)
+                    elif title == 'accuratePasses': add_stat(board, 'Accurate passes', 'AP', 'player', name, team, val)
+                    elif title == 'defensiveInterventions': add_stat(board, 'Defensive interventions', 'DI', 'player', name, team, val)
+        # Goals and assists from goal event prose.
+        for ev in summary.get('keyEvents', []):
+            if ev.get('type', {}).get('type') == 'goal':
+                team = (ev.get('team') or {}).get('displayName') or ''
+                scorer, assist = parse_goal_text(ev.get('text'))
+                add_stat(board, 'Goals', 'G', 'player', scorer, team, 1)
+                if assist: add_stat(board, 'Assists', 'A', 'player', assist, team, 1)
+        # Passing accuracy is weighted from accumulated passes.
+        pass_board = {}
+        for team, vals in team_totals.items():
+            total = vals.get('totalPasses') or 0
+            if total:
+                pass_board[('Passing accuracy', team, 'team')] = vals.get('accuratePasses', 0) / total
+        merged = dict(board); merged.update(pass_board)
+        cats = [
+            ranked_from_board(merged, 'Goals', 'G', 'player', 'Reconstructed from ESPN goal events.'),
+            ranked_from_board(merged, 'Assists', 'A', 'player', 'Reconstructed from ESPN goal-event assists.'),
+            ranked_from_board(merged, 'Shots', 'S', 'player', 'Reconstructed from ESPN match leaders.'),
+            ranked_from_board(merged, 'Keeper saves', 'SV', 'player', 'Reconstructed from ESPN match leaders.'),
+            ranked_from_board(merged, 'Team goals', 'GF', 'team', 'Reconstructed from official scorelines.'),
+            ranked_from_board(merged, 'Team shots on goal', 'SOG', 'team', 'Reconstructed from ESPN team boxscores.'),
+            ranked_from_board(merged, 'Team saves', 'SV', 'team', 'Reconstructed from ESPN team boxscores.'),
+            ranked_from_board(merged, 'Team shots', 'S', 'team', 'Reconstructed from ESPN team boxscores.'),
+            ranked_from_board(merged, 'Clean sheets', 'CS', 'team', 'Reconstructed from official scorelines.'),
+            ranked_from_board(merged, 'Passing accuracy', 'PA', 'team', 'Weighted from ESPN accurate/total passes.', lambda v: f'{v:.2f}'),
+        ]
+        snapshots.append({
+            'generatedAt': m.get('kickoffUtc') or payload.get('generatedAt'),
+            'played': len(snapshots) + 1,
+            'lastMatchId': m.get('id'),
+            'lastMatch': f"{m.get('home')} {m.get('hs')}–{m.get('as')} {m.get('away')}",
+            'stats': cats,
+        })
+    return {'generatedAt': payload.get('generatedAt'), 'source': 'Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.', 'coverage': {'reconstructedMatches': len(snapshots), 'completedMatches': len(completed)}, 'snapshots': snapshots}
+
+
 def inside_window(now: datetime) -> bool:
     # Exact-ish match window from ESPN kickoff times: refresh from 90m before first kickoff
     # through 3h after last kickoff on each group-stage matchday. Fallback to broad date gate.
@@ -540,6 +663,7 @@ def main():
     history_text = json.dumps(history_payload, ensure_ascii=False, indent=2) + '\n'
     OUT.write_text(text)
     HISTORY_OUT.write_text(history_text)
+    RECON_OUT.write_text(json.dumps(reconstruct_history(payload), ensure_ascii=False, indent=2) + '\n')
     if args.notify and text != old:
         print(f'world-cup-tracker refreshed: {played}/{len(matches)} played, {len(payload["stats"]["categories"])} stat boards')
     return 0

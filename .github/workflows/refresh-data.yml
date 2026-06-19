@@ -25,12 +25,12 @@ jobs:
 
       - name: Commit updated data
         run: |
-          if git diff --quiet -- world-cup-data.json world-cup-history.json; then
+          if git diff --quiet -- world-cup-data.json world-cup-history.json world-cup-reconstructed-history.json; then
             echo "No data changes."
             exit 0
           fi
           git config user.name "world-cup-group-signal-bot"
           git config user.email "actions@github.com"
-          git add world-cup-data.json world-cup-history.json
+          git add world-cup-data.json world-cup-history.json world-cup-reconstructed-history.json
           git commit -m "data: refresh World Cup tracker"
           git push
