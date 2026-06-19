@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T21:41:00-04:00",
+  "generatedAt": "2026-06-18T23:23:28-04:00",
   "refreshPolicy": "Cron checks every 30 minutes and writes only inside ESPN kickoff windows: 90m pre-match through 3h post-match; manual force bypasses the gate.",
   "scheduleSource": "https://cxm-api.fifa.com/fifaplusweb/api/sections/article/S9YG2JmeGYaMUCBbm0CcD?locale=en",
   "timeVenueSource": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?limit=200&dates=20260611-20260627",
@@ -901,6 +901,8 @@
       "group": "A",
       "home": "Mexico",
       "away": "Korea Republic",
+      "hs": 1,
+      "as": 0,
       "venue": "Estadio Akron",
       "id": "760441",
       "kickoffUtc": "2026-06-19T01:00Z",
@@ -920,10 +922,10 @@
         "FOX One"
       ],
       "sourceName": "South Korea at Mexico",
-      "statusState": "pre",
-      "status": "Scheduled",
-      "statusShort": "9:00 PM ET",
-      "completed": false,
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
       "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
     },
     {
@@ -2295,26 +2297,26 @@
     "A": [
       {
         "team": "Mexico",
-        "p": 1,
-        "w": 1,
+        "p": 2,
+        "w": 2,
         "d": 0,
         "l": 0,
-        "gf": 2,
+        "gf": 3,
         "ga": 0,
-        "gd": 2,
-        "pts": 3,
+        "gd": 3,
+        "pts": 6,
         "rank": 1,
-        "status": "alive"
+        "status": "qualified-watch"
       },
       {
         "team": "Korea Republic",
-        "p": 1,
+        "p": 2,
         "w": 1,
         "d": 0,
-        "l": 0,
+        "l": 1,
         "gf": 2,
-        "ga": 1,
-        "gd": 1,
+        "ga": 2,
+        "gd": 0,
         "pts": 3,
         "rank": 2,
         "status": "alive"
@@ -3605,7 +3607,7 @@
             "rank": 5,
             "name": "South Korea",
             "team": "",
-            "value": "2.3"
+            "value": "2.8"
           },
           {
             "rank": 6,
@@ -3615,25 +3617,25 @@
           },
           {
             "rank": 7,
+            "name": "Mexico",
+            "team": "",
+            "value": "2.0"
+          },
+          {
+            "rank": 8,
             "name": "France",
             "team": "",
             "value": "1.9"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Uruguay",
             "team": "",
             "value": "1.9"
           },
           {
-            "rank": 9,
-            "name": "Austria",
-            "team": "",
-            "value": "1.6"
-          },
-          {
             "rank": 10,
-            "name": "Türkiye",
+            "name": "Austria",
             "team": "",
             "value": "1.6"
           }
@@ -3954,33 +3956,33 @@
           },
           {
             "rank": 6,
+            "name": "Qatar",
+            "team": "",
+            "value": "17"
+          },
+          {
+            "rank": 7,
             "name": "Egypt",
             "team": "",
             "value": "16"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Morocco",
             "team": "",
             "value": "16"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Iran",
             "team": "",
             "value": "14"
           },
           {
-            "rank": 9,
-            "name": "Qatar",
+            "rank": 10,
+            "name": "Mexico",
             "team": "",
             "value": "14"
-          },
-          {
-            "rank": 10,
-            "name": "Switzerland",
-            "team": "",
-            "value": "13"
           }
         ]
       },
@@ -4126,8 +4128,8 @@
   },
   "summary": {
     "matches": 72,
-    "played": 27,
-    "scheduled": 45,
+    "played": 28,
+    "scheduled": 44,
     "groups": 12,
     "venues": 16
   }
