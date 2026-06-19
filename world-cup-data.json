@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T20:06:51-04:00",
+  "generatedAt": "2026-06-18T21:41:00-04:00",
   "refreshPolicy": "Cron checks every 30 minutes and writes only inside ESPN kickoff windows: 90m pre-match through 3h post-match; manual force bypasses the gate.",
   "scheduleSource": "https://cxm-api.fifa.com/fifaplusweb/api/sections/article/S9YG2JmeGYaMUCBbm0CcD?locale=en",
   "timeVenueSource": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?limit=200&dates=20260611-20260627",
@@ -868,6 +868,8 @@
       "group": "B",
       "home": "Canada",
       "away": "Qatar",
+      "hs": 6,
+      "as": 0,
       "venue": "BC Place",
       "id": "760440",
       "kickoffUtc": "2026-06-18T22:00Z",
@@ -887,10 +889,10 @@
         "FOX One"
       ],
       "sourceName": "Qatar at Canada",
-      "statusState": "pre",
-      "status": "Scheduled",
-      "statusShort": "6:00 PM ET",
-      "completed": false,
+      "statusState": "post",
+      "status": "Full Time",
+      "statusShort": "FT",
+      "completed": true,
       "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
     },
     {
@@ -2346,6 +2348,19 @@
     ],
     "B": [
       {
+        "team": "Canada",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 7,
+        "ga": 1,
+        "gd": 6,
+        "pts": 4,
+        "rank": 1,
+        "status": "alive"
+      },
+      {
         "team": "Switzerland",
         "p": 2,
         "w": 1,
@@ -2355,33 +2370,7 @@
         "ga": 2,
         "gd": 3,
         "pts": 4,
-        "rank": 1,
-        "status": "alive"
-      },
-      {
-        "team": "Canada",
-        "p": 1,
-        "w": 0,
-        "d": 1,
-        "l": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "pts": 1,
         "rank": 2,
-        "status": "alive"
-      },
-      {
-        "team": "Qatar",
-        "p": 1,
-        "w": 0,
-        "d": 1,
-        "l": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "pts": 1,
-        "rank": 3,
         "status": "alive"
       },
       {
@@ -2393,6 +2382,19 @@
         "gf": 2,
         "ga": 5,
         "gd": -3,
+        "pts": 1,
+        "rank": 3,
+        "status": "alive"
+      },
+      {
+        "team": "Qatar",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 1,
+        "ga": 7,
+        "gd": -6,
         "pts": 1,
         "rank": 4,
         "status": "alive"
@@ -2956,63 +2958,63 @@
         "leaders": [
           {
             "rank": 1,
+            "name": "Jonathan David",
+            "team": "CAN",
+            "value": "1.70"
+          },
+          {
+            "rank": 2,
             "name": "Breel Embolo",
             "team": "SUI",
             "value": "1.38"
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Harry Kane",
             "team": "ENG",
             "value": "1.19"
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Erling Haaland",
             "team": "NOR",
             "value": "1.14"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Marko Arnautovic",
             "team": "AUT",
             "value": "1.01"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Kylian Mbappe",
             "team": "FRA",
             "value": "0.98"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Kai Havertz",
             "team": "GER",
             "value": "0.96"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Lionel Messi",
             "team": "ARG",
             "value": "0.92"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Ruben Vargas",
             "team": "SUI",
             "value": "0.92"
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "Jovo Lukic",
             "team": "BIH",
             "value": "0.90"
-          },
-          {
-            "rank": 10,
-            "name": "Granit Xhaka",
-            "team": "SUI",
-            "value": "0.87"
           }
         ]
       },
@@ -3025,63 +3027,63 @@
         "leaders": [
           {
             "rank": 1,
+            "name": "Jonathan David",
+            "team": "CAN",
+            "value": "3"
+          },
+          {
+            "rank": 2,
             "name": "Lionel Messi",
             "team": "ARG",
             "value": "3"
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Erling Haaland",
             "team": "NOR",
             "value": "2"
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Yasin Ayari",
             "team": "SWE",
             "value": "2"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Kai Havertz",
             "team": "GER",
             "value": "2"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Kylian Mbappe",
             "team": "FRA",
             "value": "2"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Johan Manzambi",
             "team": "SUI",
             "value": "2"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Harry Kane",
             "team": "ENG",
             "value": "2"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Folarin Balogun",
             "team": "USA",
             "value": "2"
           },
           {
-            "rank": 9,
-            "name": "Elijah Just",
-            "team": "NZL",
-            "value": "2"
-          },
-          {
             "rank": 10,
-            "name": "Daichi Kamada",
-            "team": "JPN",
-            "value": "1"
+            "name": "Cyle Larin",
+            "team": "CAN",
+            "value": "2"
           }
         ]
       },
@@ -3169,56 +3171,56 @@
           },
           {
             "rank": 2,
+            "name": "Jonathan David",
+            "team": "CAN",
+            "value": "10"
+          },
+          {
+            "rank": 3,
             "name": "Arda Guler",
             "team": "TUR",
             "value": "8"
           },
           {
-            "rank": 3,
+            "rank": 4,
+            "name": "Cyle Larin",
+            "team": "CAN",
+            "value": "7"
+          },
+          {
+            "rank": 5,
             "name": "Son Heung-min",
             "team": "KOR",
             "value": "6"
           },
           {
-            "rank": 4,
+            "rank": 6,
             "name": "Ruben Vargas",
             "team": "SUI",
             "value": "6"
           },
           {
-            "rank": 5,
+            "rank": 7,
             "name": "Harry Kane",
             "team": "ENG",
             "value": "6"
           },
           {
-            "rank": 6,
+            "rank": 8,
             "name": "Kenan Yildiz",
             "team": "TUR",
             "value": "6"
           },
           {
-            "rank": 7,
+            "rank": 9,
             "name": "Erling Haaland",
             "team": "NOR",
             "value": "5"
           },
           {
-            "rank": 8,
+            "rank": 10,
             "name": "Breel Embolo",
             "team": "SUI",
-            "value": "5"
-          },
-          {
-            "rank": 9,
-            "name": "Malik Tillman",
-            "team": "USA",
-            "value": "5"
-          },
-          {
-            "rank": 10,
-            "name": "Folarin Balogun",
-            "team": "USA",
             "value": "5"
           }
         ]
@@ -3232,62 +3234,62 @@
         "leaders": [
           {
             "rank": 1,
+            "name": "Jonathan David",
+            "team": "CAN",
+            "value": "6"
+          },
+          {
+            "rank": 2,
             "name": "Erling Haaland",
             "team": "NOR",
             "value": "4"
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Kylian Mbappe",
             "team": "FRA",
             "value": "4"
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Ruben Vargas",
             "team": "SUI",
             "value": "4"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Dan Ndoye",
             "team": "SUI",
             "value": "4"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Harry Kane",
             "team": "ENG",
             "value": "4"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Lionel Messi",
             "team": "ARG",
             "value": "4"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Raul Jimenez",
             "team": "MEX",
             "value": "3"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Breel Embolo",
             "team": "SUI",
             "value": "3"
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "Donyell Malen",
             "team": "NED",
-            "value": "3"
-          },
-          {
-            "rank": 10,
-            "name": "Felix Nmecha",
-            "team": "GER",
             "value": "3"
           }
         ]
@@ -3331,32 +3333,32 @@
           },
           {
             "rank": 6,
+            "name": "Richie Laryea",
+            "team": "CAN",
+            "value": "5"
+          },
+          {
+            "rank": 7,
+            "name": "Stephen Eustaquio",
+            "team": "CAN",
+            "value": "5"
+          },
+          {
+            "rank": 8,
             "name": "Nicolas De La Cruz",
             "team": "URU",
             "value": "5"
           },
           {
-            "rank": 7,
+            "rank": 9,
             "name": "Ivan Basic",
             "team": "BIH",
             "value": "5"
           },
           {
-            "rank": 8,
+            "rank": 10,
             "name": "Chris Wood",
             "team": "NZL",
-            "value": "4"
-          },
-          {
-            "rank": 9,
-            "name": "Vladimir Coufal",
-            "team": "CZE",
-            "value": "4"
-          },
-          {
-            "rank": 10,
-            "name": "Declan Rice",
-            "team": "ENG",
             "value": "4"
           }
         ]
@@ -3424,9 +3426,9 @@
           },
           {
             "rank": 10,
-            "name": "Alexander Isak",
-            "team": "SWE",
-            "value": "8.5"
+            "name": "Nathan Saliba",
+            "team": "CAN",
+            "value": "8.7"
           }
         ]
       },
@@ -3583,33 +3585,33 @@
           },
           {
             "rank": 2,
+            "name": "Canada",
+            "team": "",
+            "value": "5.3"
+          },
+          {
+            "rank": 3,
             "name": "Germany",
             "team": "",
             "value": "3.6"
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "England",
             "team": "",
             "value": "2.9"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "South Korea",
             "team": "",
             "value": "2.3"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Norway",
             "team": "",
             "value": "2.2"
-          },
-          {
-            "rank": 6,
-            "name": "Canada",
-            "team": "",
-            "value": "1.9"
           },
           {
             "rank": 7,
@@ -3646,61 +3648,61 @@
         "leaders": [
           {
             "rank": 1,
-            "name": "Germany",
+            "name": "Canada",
             "team": "",
             "value": "7"
           },
           {
             "rank": 2,
+            "name": "Germany",
+            "team": "",
+            "value": "7"
+          },
+          {
+            "rank": 3,
             "name": "Sweden",
             "team": "",
             "value": "5"
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Switzerland",
             "team": "",
             "value": "5"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "England",
             "team": "",
             "value": "4"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Norway",
             "team": "",
             "value": "4"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "United States",
             "team": "",
             "value": "4"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Argentina",
             "team": "",
             "value": "3"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Austria",
             "team": "",
             "value": "3"
           },
           {
-            "rank": 9,
-            "name": "Colombia",
-            "team": "",
-            "value": "3"
-          },
-          {
             "rank": 10,
-            "name": "France",
+            "name": "Colombia",
             "team": "",
             "value": "3"
           }
@@ -3721,55 +3723,55 @@
           },
           {
             "rank": 2,
+            "name": "Canada",
+            "team": "",
+            "value": "13"
+          },
+          {
+            "rank": 3,
             "name": "England",
             "team": "",
             "value": "12"
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Germany",
             "team": "",
             "value": "11"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Uruguay",
             "team": "",
             "value": "10"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "France",
             "team": "",
             "value": "8"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "New Zealand",
             "team": "",
             "value": "8"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Spain",
             "team": "",
             "value": "8"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Sweden",
             "team": "",
             "value": "8"
           },
           {
-            "rank": 9,
-            "name": "Bosnia and Herzegovina",
-            "team": "",
-            "value": "7"
-          },
-          {
             "rank": 10,
-            "name": "Czechia",
+            "name": "Bosnia and Herzegovina",
             "team": "",
             "value": "7"
           }
@@ -3790,57 +3792,57 @@
           },
           {
             "rank": 2,
+            "name": "Canada",
+            "team": "",
+            "value": "28"
+          },
+          {
+            "rank": 3,
             "name": "Germany",
             "team": "",
             "value": "23"
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Türkiye",
             "team": "",
             "value": "21"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Spain",
             "team": "",
             "value": "16"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Uruguay",
             "team": "",
             "value": "16"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "England",
             "team": "",
             "value": "14"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Ivory Coast",
             "team": "",
             "value": "14"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "South Korea",
             "team": "",
             "value": "14"
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "South Africa",
             "team": "",
             "value": "13"
-          },
-          {
-            "rank": 10,
-            "name": "Iran",
-            "team": "",
-            "value": "12"
           }
         ]
       },
@@ -3928,39 +3930,39 @@
           },
           {
             "rank": 2,
-            "name": "South Africa",
+            "name": "Canada",
             "team": "",
             "value": "21"
           },
           {
             "rank": 3,
+            "name": "South Africa",
+            "team": "",
+            "value": "21"
+          },
+          {
+            "rank": 4,
             "name": "Argentina",
             "team": "",
             "value": "17"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Ecuador",
             "team": "",
             "value": "17"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Egypt",
             "team": "",
             "value": "16"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Morocco",
             "team": "",
             "value": "16"
-          },
-          {
-            "rank": 7,
-            "name": "Canada",
-            "team": "",
-            "value": "15"
           },
           {
             "rank": 8,
@@ -3970,15 +3972,15 @@
           },
           {
             "rank": 9,
-            "name": "Switzerland",
+            "name": "Qatar",
             "team": "",
-            "value": "13"
+            "value": "14"
           },
           {
             "rank": 10,
-            "name": "Belgium",
+            "name": "Switzerland",
             "team": "",
-            "value": "12"
+            "value": "13"
           }
         ]
       },
@@ -4072,49 +4074,49 @@
           },
           {
             "rank": 3,
-            "name": "Cape Verde",
+            "name": "Canada",
             "team": "",
             "value": "1"
           },
           {
             "rank": 4,
-            "name": "Ghana",
+            "name": "Cape Verde",
             "team": "",
             "value": "1"
           },
           {
             "rank": 5,
-            "name": "Ivory Coast",
+            "name": "Ghana",
             "team": "",
             "value": "1"
           },
           {
             "rank": 6,
-            "name": "Mexico",
+            "name": "Ivory Coast",
             "team": "",
             "value": "1"
           },
           {
             "rank": 7,
-            "name": "Scotland",
+            "name": "Mexico",
             "team": "",
             "value": "1"
           },
           {
             "rank": 8,
-            "name": "Spain",
+            "name": "Scotland",
             "team": "",
             "value": "1"
           },
           {
             "rank": 9,
-            "name": "Algeria",
+            "name": "Spain",
             "team": "",
-            "value": "0"
+            "value": "1"
           },
           {
             "rank": 10,
-            "name": "Austria",
+            "name": "Algeria",
             "team": "",
             "value": "0"
           }
@@ -4124,8 +4126,8 @@
   },
   "summary": {
     "matches": 72,
-    "played": 26,
-    "scheduled": 46,
+    "played": 27,
+    "scheduled": 45,
     "groups": 12,
     "venues": 16
   }
