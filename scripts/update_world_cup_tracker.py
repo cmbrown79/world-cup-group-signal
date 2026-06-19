@@ -27,6 +27,7 @@ FIFA_ARTICLE = 'https://cxm-api.fifa.com/fifaplusweb/api/sections/article/S9YG2J
 ESPN_SCOREBOARD = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?limit=200&dates=20260611-20260627'
 ESPN_SUMMARY = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event={event_id}'
 FOX_BASE = 'https://www.foxsports.com/soccer/fifa-world-cup'
+XGSCORE_TEAM_STATS = 'https://api.xgscore.io/team-stats/current?tournamentSlug=world-cup'
 UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36'
 GROUP_DATES = {f'2026-06-{d:02d}' for d in range(11, 28)}
 
@@ -225,22 +226,103 @@ def fox_leader_cards():
     return cards
 
 
+def fmt_float(v, places=2):
+    try:
+        return f'{float(v):.{places}f}'.rstrip('0').rstrip('.')
+    except Exception:
+        return str(v)
+
+
+def fetch_xgscore_team_stats():
+    req = urllib.request.Request(XGSCORE_TEAM_STATS, headers={
+        'User-Agent': UA,
+        'Accept': 'application/json',
+        'Origin': 'https://xgscore.io',
+        'Referer': 'https://xgscore.io/xg-statistics/world-cup/2026',
+    })
+    with urllib.request.urlopen(req, timeout=35) as r:
+        rows = json.loads(r.read().decode('utf-8', 'ignore'))
+    out = []
+    for row in rows:
+        team = (row.get('team') or {}).get('name') or ''
+        if not team:
+            continue
+        row = dict(row)
+        display_aliases = {
+            'Bosnia and Herz.': 'Bosnia and Herzegovina',
+            'Czech': 'Czechia',
+            'Saudi A.': 'Saudi Arabia',
+            'South Korea': 'Korea Republic',
+            'Turkey': 'Türkiye',
+        }
+        team = display_aliases.get(team, team)
+        row['teamName'] = team
+        row['teamKey'] = match_team_key(team)
+        out.append(row)
+    return out
+
+
+def xgscore_category(rows, key, title, field, abbr, note, reverse=True, places=2, transform=None):
+    vals = []
+    for row in rows:
+        val = row.get(field)
+        if transform:
+            val = transform(row)
+        if val is None:
+            continue
+        try:
+            fval = float(val)
+        except Exception:
+            continue
+        vals.append((row['teamName'], fval))
+    vals.sort(key=lambda x: ((-x[1]) if reverse else x[1], x[0]))
+    leaders = [{'rank': i, 'name': name, 'team': 'team', 'value': fmt_float(val, places)} for i, (name, val) in enumerate(vals[:10], 1)]
+    return {'key': key, 'type': 'team', 'title': title, 'abbr': abbr, 'note': note, 'leaders': leaders, 'source': 'xGscore'}
+
+
+def build_xgscore_categories():
+    rows = fetch_xgscore_team_stats()
+    cats = [
+        xgscore_category(rows, 'xgs_team_xg', 'Team xG', 'xgScored', 'XG', 'xGscore team expected goals; stronger advanced substrate than FOX aggregate table.'),
+        xgscore_category(rows, 'xgs_team_xga', 'Team xG conceded', 'xgConceded', 'xGA', 'Chance quality allowed. Lower is better.', reverse=False),
+        xgscore_category(rows, 'xgs_team_xgot', 'Team xG on target', 'xgOnTarget', 'xGOT', 'Shot quality after placement: keeper-test danger.'),
+        xgscore_category(rows, 'xgs_team_xpoints', 'Team xPoints', 'xPoints', 'xPTS', 'Expected points from chance profile.'),
+        xgscore_category(rows, 'xgs_team_open_xg', 'Open-play xG', 'xgOpenPlay', 'OPXG', 'Threat generated from open play.'),
+        xgscore_category(rows, 'xgs_team_set_xg', 'Set-play xG', 'xgSetPlay', 'SPXG', 'Threat generated from set pieces.'),
+        xgscore_category(rows, 'xgs_team_finish_delta', 'Finishing delta', None, 'G-XG', 'Goals minus xG: hot finishing or cold finishing.', transform=lambda r: (r.get('goalsScored') or 0) - (r.get('xgScored') or 0)),
+    ]
+    return rows, cats
+
+
 def build_stats():
     categories = []
+    xgscore_rows = []
+    xgscore_cats = []
+    try:
+        xgscore_rows, xgscore_cats = build_xgscore_categories()
+    except Exception:
+        xgscore_rows, xgscore_cats = [], []
     for key, title, path, stat, note in PLAYER_STAT_SPECS:
         try:
             leaders = parse_stat_table(FOX_BASE + path, stat, 10)
         except Exception as e:
             leaders = []
         categories.append({'key': key, 'type': 'player', 'title': title, 'abbr': stat, 'note': note, 'leaders': leaders})
+    xgscore_by_title = {c['title']: c for c in xgscore_cats}
     for key, title, path, stat, note in TEAM_STAT_SPECS:
+        if title in xgscore_by_title:
+            categories.append(xgscore_by_title.pop(title))
+            continue
         try:
             leaders = parse_stat_table(FOX_BASE + path, stat, 10)
         except Exception:
             leaders = []
         categories.append({'key': key, 'type': 'team', 'title': title, 'abbr': stat, 'note': note, 'leaders': leaders})
+    categories.extend(xgscore_by_title.values())
     return {
-        'source': 'FOX Sports stat tables; FIFA official schedule/results',
+        'source': 'FOX Sports player/stat tables + xGscore team advanced stats + FIFA/ESPN schedule/results',
+        'advancedTeamStatsSource': XGSCORE_TEAM_STATS,
+        'xgscoreTeamStats': xgscore_rows,
         'leaderCards': fox_leader_cards(),
         'categories': categories,
     }
@@ -651,7 +733,8 @@ def main():
         'refreshPolicy': 'Cron checks every 30 minutes and writes only inside ESPN kickoff windows: 90m pre-match through 3h post-match; manual force bypasses the gate.',
         'scheduleSource': FIFA_ARTICLE,
         'timeVenueSource': ESPN_SCOREBOARD,
-        'statsSource': 'https://www.foxsports.com/soccer/fifa-world-cup-men/stats',
+        'statsSource': 'FOX Sports player boards + xGscore team advanced stats',
+        'advancedTeamStatsSource': XGSCORE_TEAM_STATS,
         'matches': matches,
         'standings': compute_standings(matches),
         'validation': {'ok': not warnings, 'warnings': warnings},
