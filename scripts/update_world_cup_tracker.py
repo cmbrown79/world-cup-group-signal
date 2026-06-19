@@ -21,6 +21,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT
 OUT = ROOT / 'world-cup-data.json'
+HISTORY_OUT = ROOT / 'world-cup-history.json'
 FIFA_ARTICLE = 'https://cxm-api.fifa.com/fifaplusweb/api/sections/article/S9YG2JmeGYaMUCBbm0CcD?locale=en'
 ESPN_SCOREBOARD = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?limit=200&dates=20260611-20260627'
 FOX_BASE = 'https://www.foxsports.com/soccer/fifa-world-cup'
@@ -437,6 +438,60 @@ def validate_payload(matches):
     return warnings
 
 
+def stat_snapshot(payload):
+    return {
+        'generatedAt': payload.get('generatedAt'),
+        'played': payload.get('summary', {}).get('played'),
+        'matches': [
+            {
+                'id': m.get('id'), 'group': m.get('group'), 'home': m.get('home'), 'away': m.get('away'),
+                'hs': m.get('hs'), 'as': m.get('as'), 'completed': bool('hs' in m and 'as' in m),
+                'kickoffUtc': m.get('kickoffUtc'), 'venue': m.get('venue'), 'city': m.get('city')
+            }
+            for m in payload.get('matches', [])
+        ],
+        'standings': payload.get('standings', {}),
+        'stats': [
+            {
+                'title': c.get('title'), 'abbr': c.get('abbr'), 'type': c.get('type'),
+                'leaders': [
+                    {'rank': r.get('rank'), 'name': r.get('name'), 'team': r.get('team'), 'value': r.get('value')}
+                    for r in (c.get('leaders') or [])[:10]
+                ]
+            }
+            for c in payload.get('stats', {}).get('categories', [])
+        ]
+    }
+
+
+def merge_history(payload):
+    current = stat_snapshot(payload)
+    history = []
+    if HISTORY_OUT.exists():
+        try:
+            raw = json.loads(HISTORY_OUT.read_text())
+            history = raw.get('snapshots', []) if isinstance(raw, dict) else []
+        except Exception:
+            history = []
+    # Seed from previous payload if no history exists; gives the motion lab a first baseline.
+    if not history and OUT.exists():
+        try:
+            prev = json.loads(OUT.read_text())
+            if prev.get('generatedAt') and prev.get('generatedAt') != payload.get('generatedAt'):
+                history.append(stat_snapshot(prev))
+        except Exception:
+            pass
+    by_time = {h.get('generatedAt'): h for h in history if h.get('generatedAt')}
+    by_time[current['generatedAt']] = current
+    snapshots = sorted(by_time.values(), key=lambda x: x.get('generatedAt') or '')[-96:]
+    return {
+        'generatedAt': payload.get('generatedAt'),
+        'source': 'world-cup-data.json refresh snapshots',
+        'snapshotCount': len(snapshots),
+        'snapshots': snapshots,
+    }
+
+
 def inside_window(now: datetime) -> bool:
     # Exact-ish match window from ESPN kickoff times: refresh from 90m before first kickoff
     # through 3h after last kickoff on each group-stage matchday. Fallback to broad date gate.
@@ -480,8 +535,11 @@ def main():
         'stats': build_stats(),
         'summary': {'matches': len(matches), 'played': played, 'scheduled': len(matches) - played, 'groups': 12, 'venues': len(set(m.get('venue') for m in matches if m.get('venue')))},
     }
+    history_payload = merge_history(payload)
     text = json.dumps(payload, ensure_ascii=False, indent=2) + '\n'
+    history_text = json.dumps(history_payload, ensure_ascii=False, indent=2) + '\n'
     OUT.write_text(text)
+    HISTORY_OUT.write_text(history_text)
     if args.notify and text != old:
         print(f'world-cup-tracker refreshed: {played}/{len(matches)} played, {len(payload["stats"]["categories"])} stat boards')
     return 0
