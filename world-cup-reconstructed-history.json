@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T21:16:05-04:00",
+  "generatedAt": "2026-06-19T22:26:16-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 30,
@@ -15942,38 +15942,38 @@
             },
             {
               "rank": 5,
+              "name": "Johan Manzambi",
+              "team": "Switzerland",
+              "value": "2"
+            },
+            {
+              "rank": 6,
               "name": "Kylian Mbappé",
               "team": "France",
               "value": "2"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Yasin Ayari",
               "team": "Sweden",
               "value": "2"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Abdulelah Al Amri",
               "team": "Saudi Arabia",
               "value": "1"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Alexander Isak",
               "team": "Sweden",
               "value": "1"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Ali Olwan",
               "team": "Jordan",
-              "value": "1"
-            },
-            {
-              "rank": 10,
-              "name": "Amad Diallo",
-              "team": "Ivory Coast",
               "value": "1"
             }
           ]
@@ -16606,62 +16606,62 @@
           "leaders": [
             {
               "rank": 1,
+              "name": "Jonathan David",
+              "team": "Canada",
+              "value": "3"
+            },
+            {
+              "rank": 2,
               "name": "Lionel Messi",
               "team": "Argentina",
               "value": "3"
             },
             {
-              "rank": 2,
+              "rank": 3,
               "name": "Cyle Larin",
               "team": "Canada",
               "value": "2"
             },
             {
-              "rank": 3,
+              "rank": 4,
               "name": "Elijah Just",
               "team": "New Zealand",
               "value": "2"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "name": "Erling Haaland",
               "team": "Norway",
               "value": "2"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Folarin Balogun",
               "team": "United States",
               "value": "2"
             },
             {
-              "rank": 6,
+              "rank": 7,
+              "name": "Johan Manzambi",
+              "team": "Switzerland",
+              "value": "2"
+            },
+            {
+              "rank": 8,
               "name": "Kylian Mbappé",
               "team": "France",
               "value": "2"
             },
             {
-              "rank": 7,
+              "rank": 9,
               "name": "Yasin Ayari",
               "team": "Sweden",
               "value": "2"
             },
             {
-              "rank": 8,
+              "rank": 10,
               "name": "Abdulelah Al Amri",
               "team": "Saudi Arabia",
-              "value": "1"
-            },
-            {
-              "rank": 9,
-              "name": "Alexander Isak",
-              "team": "Sweden",
-              "value": "1"
-            },
-            {
-              "rank": 10,
-              "name": "Ali Olwan",
-              "team": "Jordan",
               "value": "1"
             }
           ]
@@ -17294,62 +17294,62 @@
           "leaders": [
             {
               "rank": 1,
+              "name": "Jonathan David",
+              "team": "Canada",
+              "value": "3"
+            },
+            {
+              "rank": 2,
               "name": "Lionel Messi",
               "team": "Argentina",
               "value": "3"
             },
             {
-              "rank": 2,
+              "rank": 3,
               "name": "Cyle Larin",
               "team": "Canada",
               "value": "2"
             },
             {
-              "rank": 3,
+              "rank": 4,
               "name": "Elijah Just",
               "team": "New Zealand",
               "value": "2"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "name": "Erling Haaland",
               "team": "Norway",
               "value": "2"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Folarin Balogun",
               "team": "United States",
               "value": "2"
             },
             {
-              "rank": 6,
+              "rank": 7,
+              "name": "Johan Manzambi",
+              "team": "Switzerland",
+              "value": "2"
+            },
+            {
+              "rank": 8,
               "name": "Kylian Mbappé",
               "team": "France",
               "value": "2"
             },
             {
-              "rank": 7,
+              "rank": 9,
               "name": "Yasin Ayari",
               "team": "Sweden",
               "value": "2"
             },
             {
-              "rank": 8,
+              "rank": 10,
               "name": "Abdulelah Al Amri",
               "team": "Saudi Arabia",
-              "value": "1"
-            },
-            {
-              "rank": 9,
-              "name": "Alexander Isak",
-              "team": "Sweden",
-              "value": "1"
-            },
-            {
-              "rank": 10,
-              "name": "Ali Olwan",
-              "team": "Jordan",
               "value": "1"
             }
           ]
@@ -17982,62 +17982,62 @@
           "leaders": [
             {
               "rank": 1,
+              "name": "Jonathan David",
+              "team": "Canada",
+              "value": "3"
+            },
+            {
+              "rank": 2,
               "name": "Lionel Messi",
               "team": "Argentina",
               "value": "3"
             },
             {
-              "rank": 2,
+              "rank": 3,
               "name": "Cyle Larin",
               "team": "Canada",
               "value": "2"
             },
             {
-              "rank": 3,
+              "rank": 4,
               "name": "Elijah Just",
               "team": "New Zealand",
               "value": "2"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "name": "Erling Haaland",
               "team": "Norway",
               "value": "2"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Folarin Balogun",
               "team": "United States",
               "value": "2"
             },
             {
-              "rank": 6,
+              "rank": 7,
+              "name": "Johan Manzambi",
+              "team": "Switzerland",
+              "value": "2"
+            },
+            {
+              "rank": 8,
               "name": "Kylian Mbappé",
               "team": "France",
               "value": "2"
             },
             {
-              "rank": 7,
+              "rank": 9,
               "name": "Yasin Ayari",
               "team": "Sweden",
               "value": "2"
             },
             {
-              "rank": 8,
+              "rank": 10,
               "name": "Abdulelah Al Amri",
               "team": "Saudi Arabia",
-              "value": "1"
-            },
-            {
-              "rank": 9,
-              "name": "Alexander Isak",
-              "team": "Sweden",
-              "value": "1"
-            },
-            {
-              "rank": 10,
-              "name": "Ali Olwan",
-              "team": "Jordan",
               "value": "1"
             }
           ]
@@ -18670,63 +18670,63 @@
           "leaders": [
             {
               "rank": 1,
+              "name": "Jonathan David",
+              "team": "Canada",
+              "value": "3"
+            },
+            {
+              "rank": 2,
               "name": "Lionel Messi",
               "team": "Argentina",
               "value": "3"
             },
             {
-              "rank": 2,
+              "rank": 3,
               "name": "Cyle Larin",
               "team": "Canada",
               "value": "2"
             },
             {
-              "rank": 3,
+              "rank": 4,
               "name": "Elijah Just",
               "team": "New Zealand",
               "value": "2"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "name": "Erling Haaland",
               "team": "Norway",
               "value": "2"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Folarin Balogun",
               "team": "United States",
               "value": "2"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Ismael Saibari",
               "team": "Morocco",
               "value": "2"
             },
             {
-              "rank": 7,
+              "rank": 8,
+              "name": "Johan Manzambi",
+              "team": "Switzerland",
+              "value": "2"
+            },
+            {
+              "rank": 9,
               "name": "Kylian Mbappé",
               "team": "France",
               "value": "2"
             },
             {
-              "rank": 8,
+              "rank": 10,
               "name": "Yasin Ayari",
               "team": "Sweden",
               "value": "2"
-            },
-            {
-              "rank": 9,
-              "name": "Abdulelah Al Amri",
-              "team": "Saudi Arabia",
-              "value": "1"
-            },
-            {
-              "rank": 10,
-              "name": "Alexander Isak",
-              "team": "Sweden",
-              "value": "1"
             }
           ]
         },
