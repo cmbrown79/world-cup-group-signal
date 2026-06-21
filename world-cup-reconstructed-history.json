@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T19:34:32-04:00",
+  "generatedAt": "2026-06-20T21:25:30-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 34,
@@ -21422,44 +21422,44 @@
           "leaders": [
             {
               "rank": 1,
-              "name": "Deniz Undav",
-              "team": "Germany",
-              "value": "3"
-            },
-            {
-              "rank": 2,
               "name": "Jonathan David",
               "team": "Canada",
               "value": "3"
             },
             {
-              "rank": 3,
+              "rank": 2,
               "name": "Lionel Messi",
               "team": "Argentina",
               "value": "3"
             },
             {
-              "rank": 4,
+              "rank": 3,
               "name": "Brian Brobbey",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 5,
+              "rank": 4,
               "name": "Cody Gakpo",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 6,
+              "rank": 5,
               "name": "Crysencio Summerville",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 7,
+              "rank": 6,
               "name": "Cyle Larin",
               "team": "Canada",
+              "value": "2"
+            },
+            {
+              "rank": 7,
+              "name": "Deniz Undav",
+              "team": "Germany",
               "value": "2"
             },
             {
