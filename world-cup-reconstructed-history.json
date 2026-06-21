@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T18:33:55-04:00",
+  "generatedAt": "2026-06-21T19:36:59-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 39,
@@ -24852,7 +24852,7 @@
       "generatedAt": "2026-06-21T22:00Z",
       "played": 39,
       "lastMatchId": "760450",
-      "lastMatch": "Uruguay 0–1 Cabo Verde",
+      "lastMatch": "Uruguay 2–2 Cabo Verde",
       "stats": [
         {
           "title": "Goals",
@@ -25046,14 +25046,14 @@
             },
             {
               "rank": 9,
-              "name": "Kenan Yildiz",
-              "team": "TUR",
+              "name": "Federico Valverde",
+              "team": "URU",
               "value": "6"
             },
             {
               "rank": 10,
-              "name": "Lionel Messi",
-              "team": "ARG",
+              "name": "Kenan Yildiz",
+              "team": "TUR",
               "value": "6"
             }
           ]
@@ -25250,15 +25250,15 @@
             },
             {
               "rank": 9,
-              "name": "England",
+              "name": "Uruguay",
               "team": "team",
-              "value": "11"
+              "value": "12"
             },
             {
               "rank": 10,
-              "name": "Belgium",
+              "name": "England",
               "team": "team",
-              "value": "10"
+              "value": "11"
             }
           ]
         },
@@ -25374,15 +25374,15 @@
             },
             {
               "rank": 7,
-              "name": "Belgium",
+              "name": "Uruguay",
               "team": "team",
-              "value": "38"
+              "value": "39"
             },
             {
               "rank": 8,
-              "name": "Uruguay",
+              "name": "Belgium",
               "team": "team",
-              "value": "33"
+              "value": "38"
             },
             {
               "rank": 9,
