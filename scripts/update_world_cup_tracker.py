@@ -698,22 +698,16 @@ def reconstruct_history(payload):
 
 
 def inside_window(now: datetime) -> bool:
-    # Exact-ish match window from ESPN kickoff times: refresh from 90m before first kickoff
-    # through 3h after last kickoff on each group-stage matchday. Fallback to broad date gate.
-    try:
-        matches = parse_espn_matches()
-        et = ZoneInfo('America/New_York')
-        for m in matches:
-            if not m.get('kickoffUtc'):
-                continue
-            ko = datetime.fromisoformat(m['kickoffUtc'].replace('Z', '+00:00')).astimezone(et)
-            if ko - timedelta(minutes=90) <= now <= ko + timedelta(hours=3):
-                return True
-        return False
-    except Exception:
-        if now.date().isoformat() not in GROUP_DATES:
-            return False
-        return time(7, 0) <= now.time() <= time(23, 59, 59)
+    # During the group stage, refresh on every scheduled tick. Earlier we limited writes
+    # to 90m pre-match through 3h post-kickoff, but midnight ET / west-coast fixtures
+    # plus upstream result lag meant completed matches could remain stale until the next
+    # live window. The payload is cheap enough to rebuild every 30m during group dates.
+    if now.date().isoformat() in GROUP_DATES:
+        return True
+    # One-day grace catches final late-night result/stat corrections after Jun 27.
+    if now.date().isoformat() == '2026-06-28':
+        return True
+    return False
 
 
 def main():
@@ -730,7 +724,7 @@ def main():
     warnings = validate_payload(matches)
     payload = {
         'generatedAt': now.isoformat(timespec='seconds'),
-        'refreshPolicy': 'Cron checks every 30 minutes and writes only inside ESPN kickoff windows: 90m pre-match through 3h post-match; manual force bypasses the gate.',
+        'refreshPolicy': 'During group-stage dates, scheduled refresh rebuilds every 30 minutes; manual force also supported. Page auto-refetches the published JSON every 2 minutes.',
         'scheduleSource': FIFA_ARTICLE,
         'timeVenueSource': ESPN_SCOREBOARD,
         'statsSource': 'FOX Sports player boards + xGscore team advanced stats',
