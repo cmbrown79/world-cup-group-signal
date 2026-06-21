@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T15:38:37-04:00",
+  "generatedAt": "2026-06-21T16:40:54-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 38,
@@ -24328,44 +24328,44 @@
             },
             {
               "rank": 4,
+              "name": "Kevin De Bruyne",
+              "team": "BEL",
+              "value": "9"
+            },
+            {
+              "rank": 5,
               "name": "Arda Güler",
               "team": "TUR",
               "value": "8"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Cody Gakpo",
               "team": "NED",
               "value": "7"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Enner Valencia",
               "team": "ECU",
               "value": "7"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Harry Kane",
               "team": "ENG",
               "value": "7"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Kai Havertz",
               "team": "GER",
               "value": "7"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Kenan Yildiz",
               "team": "TUR",
-              "value": "6"
-            },
-            {
-              "rank": 10,
-              "name": "Lionel Messi",
-              "team": "ARG",
               "value": "6"
             }
           ]
@@ -24390,21 +24390,21 @@
             },
             {
               "rank": 3,
+              "name": "Alireza Beiranvand",
+              "team": "IRN",
+              "value": "12"
+            },
+            {
+              "rank": 4,
               "name": "Mahmoud Abunada",
               "team": "QAT",
               "value": "9"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "name": "Patrick Beach",
               "team": "AUS",
               "value": "9"
-            },
-            {
-              "rank": 5,
-              "name": "Alireza Beiranvand",
-              "team": "IRN",
-              "value": "8"
             },
             {
               "rank": 6,
@@ -24594,21 +24594,21 @@
             },
             {
               "rank": 3,
+              "name": "Iran",
+              "team": "team",
+              "value": "12"
+            },
+            {
+              "rank": 4,
               "name": "Australia",
               "team": "team",
               "value": "9"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "name": "Qatar",
               "team": "team",
               "value": "9"
-            },
-            {
-              "rank": 5,
-              "name": "Iran",
-              "team": "team",
-              "value": "8"
             },
             {
               "rank": 6,
@@ -24686,25 +24686,25 @@
             },
             {
               "rank": 7,
+              "name": "Belgium",
+              "team": "team",
+              "value": "32"
+            },
+            {
+              "rank": 8,
               "name": "Sweden",
               "team": "team",
               "value": "29"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Uruguay",
               "team": "team",
               "value": "27"
             },
             {
-              "rank": 9,
-              "name": "Morocco",
-              "team": "team",
-              "value": "26"
-            },
-            {
               "rank": 10,
-              "name": "United States",
+              "name": "Morocco",
               "team": "team",
               "value": "26"
             }
