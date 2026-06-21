@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T10:38:55-04:00",
+  "generatedAt": "2026-06-21T10:46:07-04:00",
   "refreshPolicy": "During group-stage dates, scheduled refresh rebuilds every 30 minutes; manual force also supported. Page auto-refetches the published JSON every 2 minutes.",
   "scheduleSource": "https://cxm-api.fifa.com/fifaplusweb/api/sections/article/S9YG2JmeGYaMUCBbm0CcD?locale=en",
   "timeVenueSource": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?limit=200&dates=20260611-20260627",
@@ -37,7 +37,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Thu 11 Jun",
@@ -70,7 +70,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Fri 12 Jun",
@@ -103,7 +103,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Fri 12 Jun",
@@ -136,7 +136,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sat 13 Jun",
@@ -169,7 +169,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sat 13 Jun",
@@ -202,7 +202,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sat 13 Jun",
@@ -235,7 +235,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sat 13 Jun",
@@ -268,7 +268,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sun 14 Jun",
@@ -301,7 +301,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sun 14 Jun",
@@ -334,7 +334,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sun 14 Jun",
@@ -367,7 +367,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sun 14 Jun",
@@ -400,7 +400,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Mon 15 Jun",
@@ -433,7 +433,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Mon 15 Jun",
@@ -466,7 +466,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Mon 15 Jun",
@@ -499,7 +499,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Mon 15 Jun",
@@ -532,7 +532,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Tue 16 Jun",
@@ -565,7 +565,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Tue 16 Jun",
@@ -598,7 +598,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Tue 16 Jun",
@@ -631,7 +631,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Tue 16 Jun",
@@ -663,7 +663,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Wed 17 Jun",
@@ -696,7 +696,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Wed 17 Jun",
@@ -729,7 +729,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Wed 17 Jun",
@@ -762,7 +762,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Wed 17 Jun",
@@ -795,7 +795,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Thu 18 Jun",
@@ -828,7 +828,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Thu 18 Jun",
@@ -861,7 +861,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Thu 18 Jun",
@@ -894,7 +894,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Thu 18 Jun",
@@ -927,7 +927,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Fri 19 Jun",
@@ -960,7 +960,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Fri 19 Jun",
@@ -993,7 +993,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Fri 19 Jun",
@@ -1026,7 +1026,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Fri 19 Jun",
@@ -1059,7 +1059,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sat 20 Jun",
@@ -1092,7 +1092,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sat 20 Jun",
@@ -1125,7 +1125,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sat 20 Jun",
@@ -1158,7 +1158,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sat 20 Jun",
@@ -1191,7 +1191,7 @@
       "status": "Full Time",
       "statusShort": "FT",
       "completed": true,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sun 21 Jun",
@@ -1220,9 +1220,9 @@
       "sourceName": "Saudi Arabia at Spain",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "12:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sun 21 Jun",
@@ -1251,9 +1251,9 @@
       "sourceName": "Iran at Belgium",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "3:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sun 21 Jun",
@@ -1282,9 +1282,9 @@
       "sourceName": "Cape Verde at Uruguay",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "6:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sun 21 Jun",
@@ -1313,9 +1313,9 @@
       "sourceName": "Egypt at New Zealand",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "9:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Mon 22 Jun",
@@ -1344,9 +1344,9 @@
       "sourceName": "Austria at Argentina",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "1:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Mon 22 Jun",
@@ -1375,9 +1375,9 @@
       "sourceName": "Iraq at France",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "5:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Mon 22 Jun",
@@ -1406,9 +1406,9 @@
       "sourceName": "Senegal at Norway",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "8:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Mon 22 Jun",
@@ -1437,9 +1437,9 @@
       "sourceName": "Algeria at Jordan",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "11:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Tue 23 Jun",
@@ -1468,9 +1468,9 @@
       "sourceName": "Uzbekistan at Portugal",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "1:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Tue 23 Jun",
@@ -1499,9 +1499,9 @@
       "sourceName": "Ghana at England",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "4:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Tue 23 Jun",
@@ -1530,9 +1530,9 @@
       "sourceName": "Croatia at Panama",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "7:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Tue 23 Jun",
@@ -1561,9 +1561,9 @@
       "sourceName": "Congo DR at Colombia",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "10:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Wed 24 Jun",
@@ -1592,9 +1592,9 @@
       "sourceName": "Canada at Switzerland",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "3:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Wed 24 Jun",
@@ -1623,9 +1623,9 @@
       "sourceName": "Qatar at Bosnia-Herzegovina",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "3:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Wed 24 Jun",
@@ -1654,9 +1654,9 @@
       "sourceName": "Brazil at Scotland",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "6:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Wed 24 Jun",
@@ -1685,9 +1685,9 @@
       "sourceName": "Haiti at Morocco",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "6:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Wed 24 Jun",
@@ -1716,9 +1716,9 @@
       "sourceName": "Mexico at Czechia",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "9:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Wed 24 Jun",
@@ -1747,9 +1747,9 @@
       "sourceName": "South Korea at South Africa",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "9:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Thu 25 Jun",
@@ -1778,9 +1778,9 @@
       "sourceName": "Ivory Coast at Curaçao",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "4:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Thu 25 Jun",
@@ -1809,9 +1809,9 @@
       "sourceName": "Germany at Ecuador",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "4:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Thu 25 Jun",
@@ -1840,9 +1840,9 @@
       "sourceName": "Sweden at Japan",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "7:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Thu 25 Jun",
@@ -1871,9 +1871,9 @@
       "sourceName": "Netherlands at Tunisia",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "7:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Thu 25 Jun",
@@ -1902,9 +1902,9 @@
       "sourceName": "United States at Türkiye",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "10:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Thu 25 Jun",
@@ -1933,9 +1933,9 @@
       "sourceName": "Australia at Paraguay",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "10:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Fri 26 Jun",
@@ -1964,9 +1964,9 @@
       "sourceName": "France at Norway",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "3:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Fri 26 Jun",
@@ -1995,9 +1995,9 @@
       "sourceName": "Iraq at Senegal",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "3:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Fri 26 Jun",
@@ -2026,9 +2026,9 @@
       "sourceName": "Saudi Arabia at Cape Verde",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "8:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Fri 26 Jun",
@@ -2057,9 +2057,9 @@
       "sourceName": "Spain at Uruguay",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "8:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Fri 26 Jun",
@@ -2088,9 +2088,9 @@
       "sourceName": "Iran at Egypt",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "11:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Fri 26 Jun",
@@ -2119,9 +2119,9 @@
       "sourceName": "Belgium at New Zealand",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "11:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sat 27 Jun",
@@ -2150,9 +2150,9 @@
       "sourceName": "England at Panama",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "5:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sat 27 Jun",
@@ -2181,9 +2181,9 @@
       "sourceName": "Ghana at Croatia",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "5:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sat 27 Jun",
@@ -2212,9 +2212,9 @@
       "sourceName": "Portugal at Colombia",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "7:30 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sat 27 Jun",
@@ -2243,9 +2243,9 @@
       "sourceName": "Uzbekistan at Congo DR",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "7:30 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sat 27 Jun",
@@ -2274,9 +2274,9 @@
       "sourceName": "Austria at Algeria",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "10:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
     {
       "date": "Sat 27 Jun",
@@ -2305,9 +2305,9 @@
       "sourceName": "Argentina at Jordan",
       "statusState": "pre",
       "status": "Scheduled",
-      "statusShort": "10:00 PM ET",
+      "statusShort": "Scheduled",
       "completed": false,
-      "mergeNote": "scores/results from FIFA article; kickoff/city/venue metadata from ESPN"
+      "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     }
   ],
   "standings": {

@@ -458,12 +458,23 @@ def merge_fifa_espn_matches():
                 'broadcasts': em.get('broadcasts') or [],
                 'sourceName': em.get('sourceName') or '',
             })
+        fifa_scored = ('hs' in fm and 'as' in fm)
+        espn_scored = em and ('hs' in em and 'as' in em) and (em.get('completed') or em.get('statusState') == 'in')
+        if (not fifa_scored) and espn_scored:
+            m['hs'] = em.get('hs')
+            m['as'] = em.get('as')
+        scored = isinstance(m.get('hs'), int) and isinstance(m.get('as'), int)
+        espn_state = em.get('statusState') if em else ''
+        espn_status = em.get('status') if em else ''
+        espn_short = em.get('statusShort') if em else ''
+        completed = bool(fifa_scored or (em and em.get('completed')))
+        is_live = bool(espn_state == 'in' or (espn_short and espn_short not in ('FT', 'Scheduled') and scored and not completed))
         m.update({
-            'statusState': 'post' if ('hs' in fm and 'as' in fm) else 'pre',
-            'status': 'Full Time' if ('hs' in fm and 'as' in fm) else 'Scheduled',
-            'statusShort': 'FT' if ('hs' in fm and 'as' in fm) else (m.get('kickoffEt') or 'SET'),
-            'completed': bool('hs' in fm and 'as' in fm),
-            'mergeNote': 'scores/results from FIFA article; kickoff/city/venue metadata from ESPN',
+            'statusState': 'post' if completed else ('in' if is_live else 'pre'),
+            'status': 'Full Time' if completed else (espn_status or 'Scheduled'),
+            'statusShort': 'FT' if completed else (espn_short or (m.get('kickoffEt') or 'SET')),
+            'completed': completed,
+            'mergeNote': 'scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata',
         })
         merged.append(m)
     if misses:
