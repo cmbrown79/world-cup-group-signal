@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T16:40:54-04:00",
+  "generatedAt": "2026-06-21T17:36:39-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 38,
@@ -24328,44 +24328,44 @@
             },
             {
               "rank": 4,
-              "name": "Kevin De Bruyne",
-              "team": "BEL",
-              "value": "9"
-            },
-            {
-              "rank": 5,
               "name": "Arda Güler",
               "team": "TUR",
               "value": "8"
             },
             {
-              "rank": 6,
+              "rank": 5,
               "name": "Cody Gakpo",
               "team": "NED",
               "value": "7"
             },
             {
-              "rank": 7,
+              "rank": 6,
               "name": "Enner Valencia",
               "team": "ECU",
               "value": "7"
             },
             {
-              "rank": 8,
+              "rank": 7,
               "name": "Harry Kane",
               "team": "ENG",
               "value": "7"
             },
             {
-              "rank": 9,
+              "rank": 8,
               "name": "Kai Havertz",
               "team": "GER",
               "value": "7"
             },
             {
-              "rank": 10,
+              "rank": 9,
               "name": "Kenan Yildiz",
               "team": "TUR",
+              "value": "6"
+            },
+            {
+              "rank": 10,
+              "name": "Lionel Messi",
+              "team": "ARG",
               "value": "6"
             }
           ]
@@ -24392,7 +24392,7 @@
               "rank": 3,
               "name": "Alireza Beiranvand",
               "team": "IRN",
-              "value": "12"
+              "value": "13"
             },
             {
               "rank": 4,
@@ -24568,7 +24568,7 @@
             },
             {
               "rank": 10,
-              "name": "Brazil",
+              "name": "Belgium",
               "team": "team",
               "value": "10"
             }
@@ -24596,7 +24596,7 @@
               "rank": 3,
               "name": "Iran",
               "team": "team",
-              "value": "12"
+              "value": "13"
             },
             {
               "rank": 4,
@@ -24688,7 +24688,7 @@
               "rank": 7,
               "name": "Belgium",
               "team": "team",
-              "value": "32"
+              "value": "38"
             },
             {
               "rank": 8,
