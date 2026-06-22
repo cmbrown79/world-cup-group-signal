@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T17:26:37-04:00",
+  "generatedAt": "2026-06-22T18:15:49-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 42,
@@ -27092,32 +27092,32 @@
             },
             {
               "rank": 6,
+              "name": "Kylian Mbappé",
+              "team": "FRA",
+              "value": "8"
+            },
+            {
+              "rank": 7,
               "name": "Cody Gakpo",
               "team": "NED",
               "value": "7"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Enner Valencia",
               "team": "ECU",
               "value": "7"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Federico Valverde",
               "team": "URU",
               "value": "7"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Harry Kane",
               "team": "ENG",
-              "value": "7"
-            },
-            {
-              "rank": 10,
-              "name": "Kai Havertz",
-              "team": "GER",
               "value": "7"
             }
           ]
@@ -27580,19 +27580,19 @@
             },
             {
               "rank": 8,
+              "name": "France",
+              "team": "team",
+              "value": "0.89"
+            },
+            {
+              "rank": 9,
               "name": "Netherlands",
               "team": "team",
               "value": "0.88"
             },
             {
-              "rank": 9,
-              "name": "Morocco",
-              "team": "team",
-              "value": "0.88"
-            },
-            {
               "rank": 10,
-              "name": "Ecuador",
+              "name": "Morocco",
               "team": "team",
               "value": "0.88"
             }
