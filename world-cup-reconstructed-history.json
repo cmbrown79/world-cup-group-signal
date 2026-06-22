@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T13:13:27-04:00",
+  "generatedAt": "2026-06-22T14:49:29-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 41,
@@ -26228,7 +26228,7 @@
       "generatedAt": "2026-06-22T17:00Z",
       "played": 41,
       "lastMatchId": "760456",
-      "lastMatch": "Argentina 0–0 Austria",
+      "lastMatch": "Argentina 1–0 Austria",
       "stats": [
         {
           "title": "Goals",
@@ -26238,20 +26238,20 @@
           "leaders": [
             {
               "rank": 1,
+              "name": "Lionel Messi",
+              "team": "Argentina",
+              "value": "4"
+            },
+            {
+              "rank": 2,
               "name": "Deniz Undav",
               "team": "Germany",
               "value": "3"
             },
             {
-              "rank": 2,
+              "rank": 3,
               "name": "Jonathan David",
               "team": "Canada",
-              "value": "3"
-            },
-            {
-              "rank": 3,
-              "name": "Lionel Messi",
-              "team": "Argentina",
               "value": "3"
             },
             {
@@ -26386,50 +26386,50 @@
             },
             {
               "rank": 3,
+              "name": "Lionel Messi",
+              "team": "ARG",
+              "value": "10"
+            },
+            {
+              "rank": 4,
               "name": "Viktor Gyökeres",
               "team": "SWE",
               "value": "10"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "name": "Arda Güler",
               "team": "TUR",
               "value": "8"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Cody Gakpo",
               "team": "NED",
               "value": "7"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Enner Valencia",
               "team": "ECU",
               "value": "7"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Federico Valverde",
               "team": "URU",
               "value": "7"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Harry Kane",
               "team": "ENG",
               "value": "7"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Kai Havertz",
               "team": "GER",
-              "value": "7"
-            },
-            {
-              "rank": 10,
-              "name": "Lionel Messi",
-              "team": "ARG",
               "value": "7"
             }
           ]
@@ -26546,25 +26546,25 @@
             },
             {
               "rank": 7,
-              "name": "Brazil",
+              "name": "Argentina",
               "team": "team",
               "value": "4"
             },
             {
               "rank": 8,
-              "name": "Egypt",
+              "name": "Brazil",
               "team": "team",
               "value": "4"
             },
             {
               "rank": 9,
-              "name": "England",
+              "name": "Egypt",
               "team": "team",
               "value": "4"
             },
             {
               "rank": 10,
-              "name": "Norway",
+              "name": "England",
               "team": "team",
               "value": "4"
             }
@@ -26868,19 +26868,19 @@
             },
             {
               "rank": 4,
-              "name": "Argentina",
-              "team": "team",
-              "value": "0.90"
-            },
-            {
-              "rank": 5,
               "name": "Switzerland",
               "team": "team",
               "value": "0.90"
             },
             {
-              "rank": 6,
+              "rank": 5,
               "name": "Türkiye",
+              "team": "team",
+              "value": "0.90"
+            },
+            {
+              "rank": 6,
+              "name": "Argentina",
               "team": "team",
               "value": "0.90"
             },
