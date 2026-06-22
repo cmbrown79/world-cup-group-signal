@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T14:49:29-04:00",
+  "generatedAt": "2026-06-22T16:07:37-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 41,
@@ -26228,7 +26228,7 @@
       "generatedAt": "2026-06-22T17:00Z",
       "played": 41,
       "lastMatchId": "760456",
-      "lastMatch": "Argentina 1–0 Austria",
+      "lastMatch": "Argentina 2–0 Austria",
       "stats": [
         {
           "title": "Goals",
@@ -26240,7 +26240,7 @@
               "rank": 1,
               "name": "Lionel Messi",
               "team": "Argentina",
-              "value": "4"
+              "value": "5"
             },
             {
               "rank": 2,
@@ -26374,20 +26374,20 @@
           "leaders": [
             {
               "rank": 1,
+              "name": "Lionel Messi",
+              "team": "ARG",
+              "value": "13"
+            },
+            {
+              "rank": 2,
               "name": "Jonathan David",
               "team": "CAN",
               "value": "11"
             },
             {
-              "rank": 2,
+              "rank": 3,
               "name": "Dan Ndoye",
               "team": "SUI",
-              "value": "10"
-            },
-            {
-              "rank": 3,
-              "name": "Lionel Messi",
-              "team": "ARG",
               "value": "10"
             },
             {
@@ -26540,15 +26540,15 @@
             },
             {
               "rank": 6,
-              "name": "Switzerland",
+              "name": "Argentina",
               "team": "team",
               "value": "5"
             },
             {
               "rank": 7,
-              "name": "Argentina",
+              "name": "Switzerland",
               "team": "team",
-              "value": "4"
+              "value": "5"
             },
             {
               "rank": 8,
@@ -26882,7 +26882,7 @@
               "rank": 6,
               "name": "Argentina",
               "team": "team",
-              "value": "0.90"
+              "value": "0.89"
             },
             {
               "rank": 7,
