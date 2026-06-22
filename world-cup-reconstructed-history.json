@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T21:25:09-04:00",
+  "generatedAt": "2026-06-21T22:26:18-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 40,
@@ -21422,44 +21422,44 @@
           "leaders": [
             {
               "rank": 1,
+              "name": "Deniz Undav",
+              "team": "Germany",
+              "value": "3"
+            },
+            {
+              "rank": 2,
               "name": "Jonathan David",
               "team": "Canada",
               "value": "3"
             },
             {
-              "rank": 2,
+              "rank": 3,
               "name": "Lionel Messi",
               "team": "Argentina",
               "value": "3"
             },
             {
-              "rank": 3,
+              "rank": 4,
               "name": "Brian Brobbey",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "name": "Cody Gakpo",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Crysencio Summerville",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Cyle Larin",
               "team": "Canada",
-              "value": "2"
-            },
-            {
-              "rank": 7,
-              "name": "Deniz Undav",
-              "team": "Germany",
               "value": "2"
             },
             {
@@ -22110,44 +22110,44 @@
           "leaders": [
             {
               "rank": 1,
+              "name": "Deniz Undav",
+              "team": "Germany",
+              "value": "3"
+            },
+            {
+              "rank": 2,
               "name": "Jonathan David",
               "team": "Canada",
               "value": "3"
             },
             {
-              "rank": 2,
+              "rank": 3,
               "name": "Lionel Messi",
               "team": "Argentina",
               "value": "3"
             },
             {
-              "rank": 3,
+              "rank": 4,
               "name": "Brian Brobbey",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "name": "Cody Gakpo",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Crysencio Summerville",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Cyle Larin",
               "team": "Canada",
-              "value": "2"
-            },
-            {
-              "rank": 7,
-              "name": "Deniz Undav",
-              "team": "Germany",
               "value": "2"
             },
             {
@@ -22798,44 +22798,44 @@
           "leaders": [
             {
               "rank": 1,
+              "name": "Deniz Undav",
+              "team": "Germany",
+              "value": "3"
+            },
+            {
+              "rank": 2,
               "name": "Jonathan David",
               "team": "Canada",
               "value": "3"
             },
             {
-              "rank": 2,
+              "rank": 3,
               "name": "Lionel Messi",
               "team": "Argentina",
               "value": "3"
             },
             {
-              "rank": 3,
+              "rank": 4,
               "name": "Brian Brobbey",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "name": "Cody Gakpo",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Crysencio Summerville",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Cyle Larin",
               "team": "Canada",
-              "value": "2"
-            },
-            {
-              "rank": 7,
-              "name": "Deniz Undav",
-              "team": "Germany",
               "value": "2"
             },
             {
@@ -23486,44 +23486,44 @@
           "leaders": [
             {
               "rank": 1,
+              "name": "Deniz Undav",
+              "team": "Germany",
+              "value": "3"
+            },
+            {
+              "rank": 2,
               "name": "Jonathan David",
               "team": "Canada",
               "value": "3"
             },
             {
-              "rank": 2,
+              "rank": 3,
               "name": "Lionel Messi",
               "team": "Argentina",
               "value": "3"
             },
             {
-              "rank": 3,
+              "rank": 4,
               "name": "Brian Brobbey",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "name": "Cody Gakpo",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Crysencio Summerville",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Cyle Larin",
               "team": "Canada",
-              "value": "2"
-            },
-            {
-              "rank": 7,
-              "name": "Deniz Undav",
-              "team": "Germany",
               "value": "2"
             },
             {
@@ -24174,44 +24174,44 @@
           "leaders": [
             {
               "rank": 1,
+              "name": "Deniz Undav",
+              "team": "Germany",
+              "value": "3"
+            },
+            {
+              "rank": 2,
               "name": "Jonathan David",
               "team": "Canada",
               "value": "3"
             },
             {
-              "rank": 2,
+              "rank": 3,
               "name": "Lionel Messi",
               "team": "Argentina",
               "value": "3"
             },
             {
-              "rank": 3,
+              "rank": 4,
               "name": "Brian Brobbey",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "name": "Cody Gakpo",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Crysencio Summerville",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Cyle Larin",
               "team": "Canada",
-              "value": "2"
-            },
-            {
-              "rank": 7,
-              "name": "Deniz Undav",
-              "team": "Germany",
               "value": "2"
             },
             {
@@ -24862,44 +24862,44 @@
           "leaders": [
             {
               "rank": 1,
+              "name": "Deniz Undav",
+              "team": "Germany",
+              "value": "3"
+            },
+            {
+              "rank": 2,
               "name": "Jonathan David",
               "team": "Canada",
               "value": "3"
             },
             {
-              "rank": 2,
+              "rank": 3,
               "name": "Lionel Messi",
               "team": "Argentina",
               "value": "3"
             },
             {
-              "rank": 3,
+              "rank": 4,
               "name": "Brian Brobbey",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "name": "Cody Gakpo",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Crysencio Summerville",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Cyle Larin",
               "team": "Canada",
-              "value": "2"
-            },
-            {
-              "rank": 7,
-              "name": "Deniz Undav",
-              "team": "Germany",
               "value": "2"
             },
             {
@@ -25540,7 +25540,7 @@
       "generatedAt": "2026-06-22T01:00Z",
       "played": 40,
       "lastMatchId": "760452",
-      "lastMatch": "New Zealand 1–0 Egypt",
+      "lastMatch": "New Zealand 1–1 Egypt",
       "stats": [
         {
           "title": "Goals",
@@ -25550,44 +25550,44 @@
           "leaders": [
             {
               "rank": 1,
+              "name": "Deniz Undav",
+              "team": "Germany",
+              "value": "3"
+            },
+            {
+              "rank": 2,
               "name": "Jonathan David",
               "team": "Canada",
               "value": "3"
             },
             {
-              "rank": 2,
+              "rank": 3,
               "name": "Lionel Messi",
               "team": "Argentina",
               "value": "3"
             },
             {
-              "rank": 3,
+              "rank": 4,
               "name": "Brian Brobbey",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "name": "Cody Gakpo",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Crysencio Summerville",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Cyle Larin",
               "team": "Canada",
-              "value": "2"
-            },
-            {
-              "rank": 7,
-              "name": "Deniz Undav",
-              "team": "Germany",
               "value": "2"
             },
             {
@@ -25938,15 +25938,15 @@
             },
             {
               "rank": 9,
-              "name": "Uruguay",
+              "name": "New Zealand",
               "team": "team",
               "value": "12"
             },
             {
               "rank": 10,
-              "name": "England",
+              "name": "Uruguay",
               "team": "team",
-              "value": "11"
+              "value": "12"
             }
           ]
         },
@@ -26080,9 +26080,9 @@
             },
             {
               "rank": 10,
-              "name": "Morocco",
+              "name": "Egypt",
               "team": "team",
-              "value": "26"
+              "value": "28"
             }
           ]
         },
