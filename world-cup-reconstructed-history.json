@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T23:49:24-04:00",
+  "generatedAt": "2026-06-23T01:31:23-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 44,
@@ -28292,7 +28292,7 @@
       "generatedAt": "2026-06-23T03:00Z",
       "played": 44,
       "lastMatchId": "760455",
-      "lastMatch": "Jordan 1–0 Algeria",
+      "lastMatch": "Jordan 1–2 Algeria",
       "stats": [
         {
           "title": "Goals",
@@ -28928,7 +28928,7 @@
               "rank": 3,
               "name": "Algeria",
               "team": "team",
-              "value": "0.91"
+              "value": "0.90"
             },
             {
               "rank": 4,
