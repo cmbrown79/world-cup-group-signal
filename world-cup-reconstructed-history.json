@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T16:52:48-04:00",
+  "generatedAt": "2026-06-23T17:40:19-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 46,
@@ -30054,25 +30054,25 @@
             },
             {
               "rank": 7,
-              "name": "France",
+              "name": "England",
               "team": "team",
               "value": "13"
             },
             {
               "rank": 8,
-              "name": "Netherlands",
+              "name": "France",
               "team": "team",
               "value": "13"
             },
             {
               "rank": 9,
-              "name": "New Zealand",
+              "name": "Netherlands",
               "team": "team",
               "value": "13"
             },
             {
               "rank": 10,
-              "name": "Türkiye",
+              "name": "New Zealand",
               "team": "team",
               "value": "13"
             }
@@ -30202,15 +30202,15 @@
             },
             {
               "rank": 9,
-              "name": "Egypt",
+              "name": "England",
               "team": "team",
-              "value": "33"
+              "value": "36"
             },
             {
               "rank": 10,
-              "name": "France",
+              "name": "Egypt",
               "team": "team",
-              "value": "30"
+              "value": "33"
             }
           ]
         },
@@ -30314,21 +30314,21 @@
             },
             {
               "rank": 5,
-              "name": "Türkiye",
+              "name": "England",
               "team": "team",
               "value": "0.90"
             },
             {
               "rank": 6,
-              "name": "Argentina",
+              "name": "Türkiye",
               "team": "team",
               "value": "0.90"
             },
             {
               "rank": 7,
-              "name": "England",
+              "name": "Argentina",
               "team": "team",
-              "value": "0.89"
+              "value": "0.90"
             },
             {
               "rank": 8,
