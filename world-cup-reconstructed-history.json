@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T17:40:19-04:00",
+  "generatedAt": "2026-06-23T18:35:06-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 46,
@@ -30048,15 +30048,15 @@
             },
             {
               "rank": 6,
-              "name": "Switzerland",
+              "name": "England",
               "team": "team",
               "value": "14"
             },
             {
               "rank": 7,
-              "name": "England",
+              "name": "Switzerland",
               "team": "team",
-              "value": "13"
+              "value": "14"
             },
             {
               "rank": 8,
@@ -30184,27 +30184,27 @@
             },
             {
               "rank": 6,
+              "name": "England",
+              "team": "team",
+              "value": "41"
+            },
+            {
+              "rank": 7,
               "name": "Ecuador",
               "team": "team",
               "value": "39"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Switzerland",
               "team": "team",
               "value": "39"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Belgium",
               "team": "team",
               "value": "38"
-            },
-            {
-              "rank": 9,
-              "name": "England",
-              "team": "team",
-              "value": "36"
             },
             {
               "rank": 10,
