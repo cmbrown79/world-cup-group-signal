@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T13:42:24-04:00",
+  "generatedAt": "2026-06-23T14:53:43-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 45,
@@ -28980,7 +28980,7 @@
       "generatedAt": "2026-06-23T17:00Z",
       "played": 45,
       "lastMatchId": "760461",
-      "lastMatch": "Portugal 3–0 Uzbekistan",
+      "lastMatch": "Portugal 5–0 Uzbekistan",
       "stats": [
         {
           "title": "Goals",
@@ -29144,44 +29144,44 @@
             },
             {
               "rank": 4,
+              "name": "Cristiano Ronaldo",
+              "team": "POR",
+              "value": "10"
+            },
+            {
+              "rank": 5,
               "name": "Dan Ndoye",
               "team": "SUI",
               "value": "10"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Erling Haaland",
               "team": "NOR",
               "value": "10"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Viktor Gyökeres",
               "team": "SWE",
               "value": "10"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Ismaïla Sarr",
               "team": "SEN",
               "value": "9"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Arda Güler",
               "team": "TUR",
               "value": "8"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Cody Gakpo",
               "team": "NED",
-              "value": "7"
-            },
-            {
-              "rank": 10,
-              "name": "Enner Valencia",
-              "team": "ECU",
               "value": "7"
             }
           ]
@@ -29298,27 +29298,27 @@
             },
             {
               "rank": 7,
-              "name": "Sweden",
+              "name": "Portugal",
               "team": "team",
               "value": "6"
             },
             {
               "rank": 8,
+              "name": "Sweden",
+              "team": "team",
+              "value": "6"
+            },
+            {
+              "rank": 9,
               "name": "Argentina",
               "team": "team",
               "value": "5"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Switzerland",
               "team": "team",
               "value": "5"
-            },
-            {
-              "rank": 10,
-              "name": "Brazil",
-              "team": "team",
-              "value": "4"
             }
           ]
         },
