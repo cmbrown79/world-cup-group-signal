@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T21:11:19-04:00",
+  "generatedAt": "2026-06-22T22:25:15-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 43,
@@ -27604,7 +27604,7 @@
       "generatedAt": "2026-06-23T00:00Z",
       "played": 43,
       "lastMatchId": "760454",
-      "lastMatch": "Norway 2–0 Senegal",
+      "lastMatch": "Norway 3–2 Senegal",
       "stats": [
         {
           "title": "Goals",
@@ -27620,20 +27620,20 @@
             },
             {
               "rank": 2,
+              "name": "Erling Haaland",
+              "team": "Norway",
+              "value": "4"
+            },
+            {
+              "rank": 3,
               "name": "Kylian Mbappé",
               "team": "France",
               "value": "4"
             },
             {
-              "rank": 3,
+              "rank": 4,
               "name": "Deniz Undav",
               "team": "Germany",
-              "value": "3"
-            },
-            {
-              "rank": 4,
-              "name": "Erling Haaland",
-              "team": "Norway",
               "value": "3"
             },
             {
@@ -27774,38 +27774,38 @@
             },
             {
               "rank": 5,
+              "name": "Erling Haaland",
+              "team": "NOR",
+              "value": "10"
+            },
+            {
+              "rank": 6,
               "name": "Viktor Gyökeres",
               "team": "SWE",
               "value": "10"
             },
             {
-              "rank": 6,
+              "rank": 7,
+              "name": "Ismaïla Sarr",
+              "team": "SEN",
+              "value": "9"
+            },
+            {
+              "rank": 8,
               "name": "Arda Güler",
               "team": "TUR",
               "value": "8"
             },
             {
-              "rank": 7,
-              "name": "Erling Haaland",
-              "team": "NOR",
-              "value": "8"
-            },
-            {
-              "rank": 8,
+              "rank": 9,
               "name": "Cody Gakpo",
               "team": "NED",
               "value": "7"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Enner Valencia",
               "team": "ECU",
-              "value": "7"
-            },
-            {
-              "rank": 10,
-              "name": "Federico Valverde",
-              "team": "URU",
               "value": "7"
             }
           ]
@@ -27904,19 +27904,19 @@
             },
             {
               "rank": 4,
+              "name": "Norway",
+              "team": "team",
+              "value": "7"
+            },
+            {
+              "rank": 5,
               "name": "France",
               "team": "team",
               "value": "6"
             },
             {
-              "rank": 5,
-              "name": "Japan",
-              "team": "team",
-              "value": "6"
-            },
-            {
               "rank": 6,
-              "name": "Norway",
+              "name": "Japan",
               "team": "team",
               "value": "6"
             },
