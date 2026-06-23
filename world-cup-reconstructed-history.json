@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-23T18:35:06-04:00",
+  "generatedAt": "2026-06-23T19:30:23-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
-    "reconstructedMatches": 46,
-    "completedMatches": 46
+    "reconstructedMatches": 47,
+    "completedMatches": 47
   },
   "snapshots": [
     {
@@ -29669,6 +29669,694 @@
       "played": 46,
       "lastMatchId": "760458",
       "lastMatch": "England 0–0 Ghana",
+      "stats": [
+        {
+          "title": "Goals",
+          "abbr": "G",
+          "type": "player",
+          "note": "Reconstructed from ESPN goal events.",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Lionel Messi",
+              "team": "Argentina",
+              "value": "5"
+            },
+            {
+              "rank": 2,
+              "name": "Erling Haaland",
+              "team": "Norway",
+              "value": "4"
+            },
+            {
+              "rank": 3,
+              "name": "Kylian Mbappé",
+              "team": "France",
+              "value": "4"
+            },
+            {
+              "rank": 4,
+              "name": "Deniz Undav",
+              "team": "Germany",
+              "value": "3"
+            },
+            {
+              "rank": 5,
+              "name": "Jonathan David",
+              "team": "Canada",
+              "value": "3"
+            },
+            {
+              "rank": 6,
+              "name": "Brian Brobbey",
+              "team": "Netherlands",
+              "value": "2"
+            },
+            {
+              "rank": 7,
+              "name": "Cody Gakpo",
+              "team": "Netherlands",
+              "value": "2"
+            },
+            {
+              "rank": 8,
+              "name": "Crysencio Summerville",
+              "team": "Netherlands",
+              "value": "2"
+            },
+            {
+              "rank": 9,
+              "name": "Cyle Larin",
+              "team": "Canada",
+              "value": "2"
+            },
+            {
+              "rank": 10,
+              "name": "Elijah Just",
+              "team": "New Zealand",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Assists",
+          "abbr": "A",
+          "type": "player",
+          "note": "Reconstructed from ESPN goal-event assists.",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Alexander Isak",
+              "team": "Sweden",
+              "value": "3"
+            },
+            {
+              "rank": 2,
+              "name": "Michael Olise",
+              "team": "France",
+              "value": "3"
+            },
+            {
+              "rank": 3,
+              "name": "Brahim Díaz",
+              "team": "Morocco",
+              "value": "2"
+            },
+            {
+              "rank": 4,
+              "name": "Chris Wood",
+              "team": "New Zealand",
+              "value": "2"
+            },
+            {
+              "rank": 5,
+              "name": "Denzel Dumfries",
+              "team": "Netherlands",
+              "value": "2"
+            },
+            {
+              "rank": 6,
+              "name": "Joshua Kimmich",
+              "team": "Germany",
+              "value": "2"
+            },
+            {
+              "rank": 7,
+              "name": "Julio Enciso",
+              "team": "Paraguay",
+              "value": "2"
+            },
+            {
+              "rank": 8,
+              "name": "Adrien Rabiot",
+              "team": "France",
+              "value": "1"
+            },
+            {
+              "rank": 9,
+              "name": "Alex Freeman",
+              "team": "United States",
+              "value": "1"
+            },
+            {
+              "rank": 10,
+              "name": "Alexandr Sojka",
+              "team": "Czechia",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "title": "Shots",
+          "abbr": "S",
+          "type": "player",
+          "note": "Reconstructed from ESPN match leaders.",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Lionel Messi",
+              "team": "ARG",
+              "value": "13"
+            },
+            {
+              "rank": 2,
+              "name": "Kylian Mbappé",
+              "team": "FRA",
+              "value": "12"
+            },
+            {
+              "rank": 3,
+              "name": "Jonathan David",
+              "team": "CAN",
+              "value": "11"
+            },
+            {
+              "rank": 4,
+              "name": "Cristiano Ronaldo",
+              "team": "POR",
+              "value": "10"
+            },
+            {
+              "rank": 5,
+              "name": "Dan Ndoye",
+              "team": "SUI",
+              "value": "10"
+            },
+            {
+              "rank": 6,
+              "name": "Erling Haaland",
+              "team": "NOR",
+              "value": "10"
+            },
+            {
+              "rank": 7,
+              "name": "Viktor Gyökeres",
+              "team": "SWE",
+              "value": "10"
+            },
+            {
+              "rank": 8,
+              "name": "Ismaïla Sarr",
+              "team": "SEN",
+              "value": "9"
+            },
+            {
+              "rank": 9,
+              "name": "Arda Güler",
+              "team": "TUR",
+              "value": "8"
+            },
+            {
+              "rank": 10,
+              "name": "Cody Gakpo",
+              "team": "NED",
+              "value": "7"
+            }
+          ]
+        },
+        {
+          "title": "Keeper saves",
+          "abbr": "SV",
+          "type": "player",
+          "note": "Reconstructed from ESPN match leaders.",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Eloy Room",
+              "team": "CUW",
+              "value": "19"
+            },
+            {
+              "rank": 2,
+              "name": "Mohammed Al-Owais",
+              "team": "KSA",
+              "value": "14"
+            },
+            {
+              "rank": 3,
+              "name": "Alireza Beiranvand",
+              "team": "IRN",
+              "value": "13"
+            },
+            {
+              "rank": 4,
+              "name": "Mahmoud Abunada",
+              "team": "QAT",
+              "value": "9"
+            },
+            {
+              "rank": 5,
+              "name": "Patrick Beach",
+              "team": "AUS",
+              "value": "9"
+            },
+            {
+              "rank": 6,
+              "name": "Bart Verbruggen",
+              "team": "NED",
+              "value": "8"
+            },
+            {
+              "rank": 7,
+              "name": "Orlando Gil",
+              "team": "PAR",
+              "value": "8"
+            },
+            {
+              "rank": 8,
+              "name": "Édouard Mendy",
+              "team": "SEN",
+              "value": "8"
+            },
+            {
+              "rank": 9,
+              "name": "Dominik Livakovic",
+              "team": "CRO",
+              "value": "7"
+            },
+            {
+              "rank": 10,
+              "name": "Matej Kovár",
+              "team": "CZE",
+              "value": "7"
+            }
+          ]
+        },
+        {
+          "title": "Team goals",
+          "abbr": "GF",
+          "type": "team",
+          "note": "Reconstructed from official scorelines.",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Germany",
+              "team": "team",
+              "value": "9"
+            },
+            {
+              "rank": 2,
+              "name": "Canada",
+              "team": "team",
+              "value": "7"
+            },
+            {
+              "rank": 3,
+              "name": "Netherlands",
+              "team": "team",
+              "value": "7"
+            },
+            {
+              "rank": 4,
+              "name": "Norway",
+              "team": "team",
+              "value": "7"
+            },
+            {
+              "rank": 5,
+              "name": "France",
+              "team": "team",
+              "value": "6"
+            },
+            {
+              "rank": 6,
+              "name": "Japan",
+              "team": "team",
+              "value": "6"
+            },
+            {
+              "rank": 7,
+              "name": "Portugal",
+              "team": "team",
+              "value": "6"
+            },
+            {
+              "rank": 8,
+              "name": "Sweden",
+              "team": "team",
+              "value": "6"
+            },
+            {
+              "rank": 9,
+              "name": "Argentina",
+              "team": "team",
+              "value": "5"
+            },
+            {
+              "rank": 10,
+              "name": "Switzerland",
+              "team": "team",
+              "value": "5"
+            }
+          ]
+        },
+        {
+          "title": "Team shots on goal",
+          "abbr": "SOG",
+          "type": "team",
+          "note": "Reconstructed from ESPN team boxscores.",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Germany",
+              "team": "team",
+              "value": "19"
+            },
+            {
+              "rank": 2,
+              "name": "Ecuador",
+              "team": "team",
+              "value": "16"
+            },
+            {
+              "rank": 3,
+              "name": "Spain",
+              "team": "team",
+              "value": "15"
+            },
+            {
+              "rank": 4,
+              "name": "Sweden",
+              "team": "team",
+              "value": "15"
+            },
+            {
+              "rank": 5,
+              "name": "Canada",
+              "team": "team",
+              "value": "14"
+            },
+            {
+              "rank": 6,
+              "name": "England",
+              "team": "team",
+              "value": "14"
+            },
+            {
+              "rank": 7,
+              "name": "Switzerland",
+              "team": "team",
+              "value": "14"
+            },
+            {
+              "rank": 8,
+              "name": "France",
+              "team": "team",
+              "value": "13"
+            },
+            {
+              "rank": 9,
+              "name": "Netherlands",
+              "team": "team",
+              "value": "13"
+            },
+            {
+              "rank": 10,
+              "name": "New Zealand",
+              "team": "team",
+              "value": "13"
+            }
+          ]
+        },
+        {
+          "title": "Team saves",
+          "abbr": "SV",
+          "type": "team",
+          "note": "Reconstructed from ESPN team boxscores.",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Curaçao",
+              "team": "team",
+              "value": "19"
+            },
+            {
+              "rank": 2,
+              "name": "Saudi Arabia",
+              "team": "team",
+              "value": "14"
+            },
+            {
+              "rank": 3,
+              "name": "Iran",
+              "team": "team",
+              "value": "13"
+            },
+            {
+              "rank": 4,
+              "name": "Australia",
+              "team": "team",
+              "value": "9"
+            },
+            {
+              "rank": 5,
+              "name": "Qatar",
+              "team": "team",
+              "value": "9"
+            },
+            {
+              "rank": 6,
+              "name": "Netherlands",
+              "team": "team",
+              "value": "8"
+            },
+            {
+              "rank": 7,
+              "name": "Paraguay",
+              "team": "team",
+              "value": "8"
+            },
+            {
+              "rank": 8,
+              "name": "Senegal",
+              "team": "team",
+              "value": "8"
+            },
+            {
+              "rank": 9,
+              "name": "Cape Verde",
+              "team": "team",
+              "value": "7"
+            },
+            {
+              "rank": 10,
+              "name": "Croatia",
+              "team": "team",
+              "value": "7"
+            }
+          ]
+        },
+        {
+          "title": "Team shots",
+          "abbr": "S",
+          "type": "team",
+          "note": "Reconstructed from ESPN team boxscores.",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Türkiye",
+              "team": "team",
+              "value": "62"
+            },
+            {
+              "rank": 2,
+              "name": "Spain",
+              "team": "team",
+              "value": "49"
+            },
+            {
+              "rank": 3,
+              "name": "Canada",
+              "team": "team",
+              "value": "45"
+            },
+            {
+              "rank": 4,
+              "name": "Uruguay",
+              "team": "team",
+              "value": "44"
+            },
+            {
+              "rank": 5,
+              "name": "Germany",
+              "team": "team",
+              "value": "42"
+            },
+            {
+              "rank": 6,
+              "name": "England",
+              "team": "team",
+              "value": "41"
+            },
+            {
+              "rank": 7,
+              "name": "Ecuador",
+              "team": "team",
+              "value": "39"
+            },
+            {
+              "rank": 8,
+              "name": "Switzerland",
+              "team": "team",
+              "value": "39"
+            },
+            {
+              "rank": 9,
+              "name": "Belgium",
+              "team": "team",
+              "value": "38"
+            },
+            {
+              "rank": 10,
+              "name": "Egypt",
+              "team": "team",
+              "value": "33"
+            }
+          ]
+        },
+        {
+          "title": "Clean sheets",
+          "abbr": "CS",
+          "type": "team",
+          "note": "Reconstructed from official scorelines.",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Argentina",
+              "team": "team",
+              "value": "2"
+            },
+            {
+              "rank": 2,
+              "name": "Bosnia-Herzegovina",
+              "team": "team",
+              "value": "2"
+            },
+            {
+              "rank": 3,
+              "name": "Cape Verde",
+              "team": "team",
+              "value": "2"
+            },
+            {
+              "rank": 4,
+              "name": "Ghana",
+              "team": "team",
+              "value": "2"
+            },
+            {
+              "rank": 5,
+              "name": "Iran",
+              "team": "team",
+              "value": "2"
+            },
+            {
+              "rank": 6,
+              "name": "Ivory Coast",
+              "team": "team",
+              "value": "2"
+            },
+            {
+              "rank": 7,
+              "name": "Mexico",
+              "team": "team",
+              "value": "2"
+            },
+            {
+              "rank": 8,
+              "name": "South Korea",
+              "team": "team",
+              "value": "2"
+            },
+            {
+              "rank": 9,
+              "name": "Spain",
+              "team": "team",
+              "value": "2"
+            },
+            {
+              "rank": 10,
+              "name": "United States",
+              "team": "team",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Passing accuracy",
+          "abbr": "PA",
+          "type": "team",
+          "note": "Weighted from ESPN accurate/total passes.",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Spain",
+              "team": "team",
+              "value": "0.92"
+            },
+            {
+              "rank": 2,
+              "name": "Portugal",
+              "team": "team",
+              "value": "0.91"
+            },
+            {
+              "rank": 3,
+              "name": "Algeria",
+              "team": "team",
+              "value": "0.90"
+            },
+            {
+              "rank": 4,
+              "name": "Switzerland",
+              "team": "team",
+              "value": "0.90"
+            },
+            {
+              "rank": 5,
+              "name": "England",
+              "team": "team",
+              "value": "0.90"
+            },
+            {
+              "rank": 6,
+              "name": "Türkiye",
+              "team": "team",
+              "value": "0.90"
+            },
+            {
+              "rank": 7,
+              "name": "Argentina",
+              "team": "team",
+              "value": "0.90"
+            },
+            {
+              "rank": 8,
+              "name": "France",
+              "team": "team",
+              "value": "0.89"
+            },
+            {
+              "rank": 9,
+              "name": "Netherlands",
+              "team": "team",
+              "value": "0.88"
+            },
+            {
+              "rank": 10,
+              "name": "Morocco",
+              "team": "team",
+              "value": "0.88"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "generatedAt": "2026-06-23T23:00Z",
+      "played": 47,
+      "lastMatchId": "760460",
+      "lastMatch": "Panama 0–0 Croatia",
       "stats": [
         {
           "title": "Goals",
