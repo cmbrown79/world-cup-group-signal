@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T19:30:23-04:00",
+  "generatedAt": "2026-06-23T21:08:31-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 47,
@@ -30356,7 +30356,7 @@
       "generatedAt": "2026-06-23T23:00Z",
       "played": 47,
       "lastMatchId": "760460",
-      "lastMatch": "Panama 0–0 Croatia",
+      "lastMatch": "Panama 0–1 Croatia",
       "stats": [
         {
           "title": "Goals",
@@ -30606,21 +30606,21 @@
             },
             {
               "rank": 7,
+              "name": "Dominik Livakovic",
+              "team": "CRO",
+              "value": "8"
+            },
+            {
+              "rank": 8,
               "name": "Orlando Gil",
               "team": "PAR",
               "value": "8"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Édouard Mendy",
               "team": "SEN",
               "value": "8"
-            },
-            {
-              "rank": 9,
-              "name": "Dominik Livakovic",
-              "team": "CRO",
-              "value": "7"
             },
             {
               "rank": 10,
@@ -30804,31 +30804,31 @@
             },
             {
               "rank": 6,
-              "name": "Netherlands",
+              "name": "Croatia",
               "team": "team",
               "value": "8"
             },
             {
               "rank": 7,
-              "name": "Paraguay",
+              "name": "Netherlands",
               "team": "team",
               "value": "8"
             },
             {
               "rank": 8,
-              "name": "Senegal",
+              "name": "Paraguay",
               "team": "team",
               "value": "8"
             },
             {
               "rank": 9,
-              "name": "Cape Verde",
+              "name": "Senegal",
               "team": "team",
-              "value": "7"
+              "value": "8"
             },
             {
               "rank": 10,
-              "name": "Croatia",
+              "name": "Cape Verde",
               "team": "team",
               "value": "7"
             }
