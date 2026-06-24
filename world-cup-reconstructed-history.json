@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T22:25:02-04:00",
+  "generatedAt": "2026-06-23T23:49:07-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 48,
@@ -31044,7 +31044,7 @@
       "generatedAt": "2026-06-24T02:00Z",
       "played": 48,
       "lastMatchId": "760459",
-      "lastMatch": "Colombia 0–0 Congo DR",
+      "lastMatch": "Colombia 1–0 Congo DR",
       "stats": [
         {
           "title": "Goals",
@@ -31108,8 +31108,8 @@
             },
             {
               "rank": 10,
-              "name": "Elijah Just",
-              "team": "New Zealand",
+              "name": "Daniel Muñoz",
+              "team": "Colombia",
               "value": "2"
             }
           ]
@@ -31300,21 +31300,21 @@
             },
             {
               "rank": 8,
+              "name": "Lionel Mpasi",
+              "team": "COD",
+              "value": "8"
+            },
+            {
+              "rank": 9,
               "name": "Orlando Gil",
               "team": "PAR",
               "value": "8"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Édouard Mendy",
               "team": "SEN",
               "value": "8"
-            },
-            {
-              "rank": 10,
-              "name": "Matej Kovár",
-              "team": "CZE",
-              "value": "7"
             }
           ]
         },
@@ -31436,19 +31436,19 @@
             },
             {
               "rank": 8,
-              "name": "France",
+              "name": "Colombia",
               "team": "team",
               "value": "13"
             },
             {
               "rank": 9,
-              "name": "Netherlands",
+              "name": "France",
               "team": "team",
               "value": "13"
             },
             {
               "rank": 10,
-              "name": "New Zealand",
+              "name": "Netherlands",
               "team": "team",
               "value": "13"
             }
@@ -31492,33 +31492,33 @@
             },
             {
               "rank": 6,
-              "name": "Croatia",
+              "name": "Congo DR",
               "team": "team",
               "value": "8"
             },
             {
               "rank": 7,
-              "name": "Netherlands",
+              "name": "Croatia",
               "team": "team",
               "value": "8"
             },
             {
               "rank": 8,
-              "name": "Paraguay",
+              "name": "Netherlands",
               "team": "team",
               "value": "8"
             },
             {
               "rank": 9,
-              "name": "Senegal",
+              "name": "Paraguay",
               "team": "team",
               "value": "8"
             },
             {
               "rank": 10,
-              "name": "Cape Verde",
+              "name": "Senegal",
               "team": "team",
-              "value": "7"
+              "value": "8"
             }
           ]
         },
@@ -31584,9 +31584,9 @@
             },
             {
               "rank": 10,
-              "name": "Egypt",
+              "name": "Colombia",
               "team": "team",
-              "value": "33"
+              "value": "34"
             }
           ]
         },
