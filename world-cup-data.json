@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T17:06:56-04:00",
+  "generatedAt": "2026-06-24T17:59:27-04:00",
   "refreshPolicy": "During group-stage dates, scheduled refresh rebuilds every 30 minutes; manual force also supported. Page auto-refetches the published JSON every 2 minutes.",
   "scheduleSource": "https://cxm-api.fifa.com/fifaplusweb/api/sections/article/S9YG2JmeGYaMUCBbm0CcD?locale=en",
   "timeVenueSource": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?limit=200&dates=20260611-20260627",
@@ -1595,6 +1595,8 @@
       "group": "B",
       "home": "Switzerland",
       "away": "Canada",
+      "hs": 2,
+      "as": 1,
       "venue": "BC Place",
       "id": "760463",
       "kickoffUtc": "2026-06-24T19:00Z",
@@ -1614,8 +1616,6 @@
         "FOX One"
       ],
       "sourceName": "Canada at Switzerland",
-      "hs": 2,
-      "as": 1,
       "statusState": "post",
       "status": "Full Time",
       "statusShort": "FT",
@@ -1628,6 +1628,8 @@
       "group": "B",
       "home": "Bosnia and Herzegovina",
       "away": "Qatar",
+      "hs": 3,
+      "as": 1,
       "venue": "Lumen Field",
       "id": "760462",
       "kickoffUtc": "2026-06-24T19:00Z",
@@ -1647,8 +1649,6 @@
         "FOX One"
       ],
       "sourceName": "Qatar at Bosnia-Herzegovina",
-      "hs": 3,
-      "as": 1,
       "statusState": "post",
       "status": "Full Time",
       "statusShort": "FT",
