@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T15:06:57-04:00",
+  "generatedAt": "2026-06-24T16:11:19-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 50,
@@ -31732,7 +31732,7 @@
       "generatedAt": "2026-06-24T19:00Z",
       "played": 49,
       "lastMatchId": "760462",
-      "lastMatch": "Bosnia and Herzegovina 0–0 Qatar",
+      "lastMatch": "Bosnia and Herzegovina 2–1 Qatar",
       "stats": [
         {
           "title": "Goals",
@@ -32420,7 +32420,7 @@
       "generatedAt": "2026-06-24T19:00Z",
       "played": 50,
       "lastMatchId": "760463",
-      "lastMatch": "Switzerland 0–0 Canada",
+      "lastMatch": "Switzerland 1–0 Canada",
       "stats": [
         {
           "title": "Goals",
@@ -32676,20 +32676,20 @@
             },
             {
               "rank": 8,
+              "name": "Gregor Kobel",
+              "team": "SUI",
+              "value": "8"
+            },
+            {
+              "rank": 9,
               "name": "Lionel Mpasi",
               "team": "COD",
               "value": "8"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Orlando Gil",
               "team": "PAR",
-              "value": "8"
-            },
-            {
-              "rank": 10,
-              "name": "Édouard Mendy",
-              "team": "SEN",
               "value": "8"
             }
           ]
@@ -32750,13 +32750,13 @@
             },
             {
               "rank": 9,
-              "name": "Argentina",
+              "name": "Switzerland",
               "team": "team",
-              "value": "5"
+              "value": "6"
             },
             {
               "rank": 10,
-              "name": "Switzerland",
+              "name": "Argentina",
               "team": "team",
               "value": "5"
             }
@@ -32776,37 +32776,37 @@
             },
             {
               "rank": 2,
+              "name": "Canada",
+              "team": "team",
+              "value": "17"
+            },
+            {
+              "rank": 3,
+              "name": "Switzerland",
+              "team": "team",
+              "value": "17"
+            },
+            {
+              "rank": 4,
               "name": "Ecuador",
               "team": "team",
               "value": "16"
             },
             {
-              "rank": 3,
+              "rank": 5,
               "name": "Spain",
               "team": "team",
               "value": "15"
             },
             {
-              "rank": 4,
+              "rank": 6,
               "name": "Sweden",
               "team": "team",
               "value": "15"
             },
             {
-              "rank": 5,
-              "name": "Canada",
-              "team": "team",
-              "value": "14"
-            },
-            {
-              "rank": 6,
-              "name": "England",
-              "team": "team",
-              "value": "14"
-            },
-            {
               "rank": 7,
-              "name": "Switzerland",
+              "name": "England",
               "team": "team",
               "value": "14"
             },
@@ -32912,43 +32912,43 @@
             },
             {
               "rank": 2,
+              "name": "Canada",
+              "team": "team",
+              "value": "50"
+            },
+            {
+              "rank": 3,
               "name": "Spain",
               "team": "team",
               "value": "49"
             },
             {
-              "rank": 3,
-              "name": "Canada",
-              "team": "team",
-              "value": "45"
-            },
-            {
               "rank": 4,
-              "name": "Uruguay",
+              "name": "Switzerland",
               "team": "team",
               "value": "44"
             },
             {
               "rank": 5,
+              "name": "Uruguay",
+              "team": "team",
+              "value": "44"
+            },
+            {
+              "rank": 6,
               "name": "Germany",
               "team": "team",
               "value": "42"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "England",
               "team": "team",
               "value": "41"
             },
             {
-              "rank": 7,
-              "name": "Ecuador",
-              "team": "team",
-              "value": "39"
-            },
-            {
               "rank": 8,
-              "name": "Switzerland",
+              "name": "Ecuador",
               "team": "team",
               "value": "39"
             },
@@ -32986,49 +32986,49 @@
             },
             {
               "rank": 3,
-              "name": "Canada",
-              "team": "team",
-              "value": "2"
-            },
-            {
-              "rank": 4,
               "name": "Cape Verde",
               "team": "team",
               "value": "2"
             },
             {
-              "rank": 5,
+              "rank": 4,
               "name": "Ghana",
               "team": "team",
               "value": "2"
             },
             {
-              "rank": 6,
+              "rank": 5,
               "name": "Iran",
               "team": "team",
               "value": "2"
             },
             {
-              "rank": 7,
+              "rank": 6,
               "name": "Ivory Coast",
               "team": "team",
               "value": "2"
             },
             {
-              "rank": 8,
+              "rank": 7,
               "name": "Mexico",
               "team": "team",
               "value": "2"
             },
             {
-              "rank": 9,
+              "rank": 8,
               "name": "South Korea",
               "team": "team",
               "value": "2"
             },
             {
-              "rank": 10,
+              "rank": 9,
               "name": "Spain",
+              "team": "team",
+              "value": "2"
+            },
+            {
+              "rank": 10,
+              "name": "United States",
               "team": "team",
               "value": "2"
             }
@@ -33060,27 +33060,27 @@
             },
             {
               "rank": 4,
-              "name": "Switzerland",
-              "team": "team",
-              "value": "0.90"
-            },
-            {
-              "rank": 5,
               "name": "England",
               "team": "team",
               "value": "0.90"
             },
             {
-              "rank": 6,
+              "rank": 5,
               "name": "Türkiye",
               "team": "team",
               "value": "0.90"
             },
             {
-              "rank": 7,
+              "rank": 6,
               "name": "Argentina",
               "team": "team",
               "value": "0.90"
+            },
+            {
+              "rank": 7,
+              "name": "Switzerland",
+              "team": "team",
+              "value": "0.89"
             },
             {
               "rank": 8,
