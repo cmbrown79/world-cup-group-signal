@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T21:12:40-04:00",
+  "generatedAt": "2026-06-24T22:26:04-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 54,
@@ -34436,13 +34436,13 @@
             },
             {
               "rank": 4,
-              "name": "England",
+              "name": "Brazil",
               "team": "team",
               "value": "0.90"
             },
             {
               "rank": 5,
-              "name": "Brazil",
+              "name": "England",
               "team": "team",
               "value": "0.90"
             },
@@ -34484,7 +34484,7 @@
       "generatedAt": "2026-06-25T01:00Z",
       "played": 53,
       "lastMatchId": "760466",
-      "lastMatch": "South Africa 0–0 Korea Republic",
+      "lastMatch": "South Africa 1–0 Korea Republic",
       "stats": [
         {
           "title": "Goals",
@@ -34740,20 +34740,20 @@
             },
             {
               "rank": 8,
+              "name": "Kim Seung-Gyu",
+              "team": "KOR",
+              "value": "9"
+            },
+            {
+              "rank": 9,
               "name": "Patrick Beach",
               "team": "AUS",
               "value": "9"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Angus Gunn",
               "team": "SCO",
-              "value": "8"
-            },
-            {
-              "rank": 10,
-              "name": "Bart Verbruggen",
-              "team": "NED",
               "value": "8"
             }
           ]
@@ -34950,13 +34950,13 @@
             },
             {
               "rank": 9,
-              "name": "Congo DR",
+              "name": "South Korea",
               "team": "team",
-              "value": "8"
+              "value": "9"
             },
             {
               "rank": 10,
-              "name": "Croatia",
+              "name": "Congo DR",
               "team": "team",
               "value": "8"
             }
@@ -35124,13 +35124,13 @@
             },
             {
               "rank": 4,
-              "name": "England",
+              "name": "Brazil",
               "team": "team",
               "value": "0.90"
             },
             {
               "rank": 5,
-              "name": "Brazil",
+              "name": "England",
               "team": "team",
               "value": "0.90"
             },
@@ -35172,7 +35172,7 @@
       "generatedAt": "2026-06-25T01:00Z",
       "played": 54,
       "lastMatchId": "760467",
-      "lastMatch": "Czechia 0–0 Mexico",
+      "lastMatch": "Czechia 0–2 Mexico",
       "stats": [
         {
           "title": "Goals",
@@ -35428,20 +35428,20 @@
             },
             {
               "rank": 8,
+              "name": "Kim Seung-Gyu",
+              "team": "KOR",
+              "value": "9"
+            },
+            {
+              "rank": 9,
               "name": "Patrick Beach",
               "team": "AUS",
               "value": "9"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Angus Gunn",
               "team": "SCO",
-              "value": "8"
-            },
-            {
-              "rank": 10,
-              "name": "Bart Verbruggen",
-              "team": "NED",
               "value": "8"
             }
           ]
@@ -35638,13 +35638,13 @@
             },
             {
               "rank": 9,
-              "name": "Congo DR",
+              "name": "South Korea",
               "team": "team",
-              "value": "8"
+              "value": "9"
             },
             {
               "rank": 10,
-              "name": "Croatia",
+              "name": "Congo DR",
               "team": "team",
               "value": "8"
             }
@@ -35812,13 +35812,13 @@
             },
             {
               "rank": 4,
-              "name": "England",
+              "name": "Brazil",
               "team": "team",
               "value": "0.90"
             },
             {
               "rank": 5,
-              "name": "Brazil",
+              "name": "England",
               "team": "team",
               "value": "0.90"
             },
