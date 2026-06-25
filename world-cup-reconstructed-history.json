@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T17:39:21-04:00",
+  "generatedAt": "2026-06-25T18:38:14-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 56,
@@ -36054,14 +36054,14 @@
             },
             {
               "rank": 9,
-              "name": "Enner Valencia",
-              "team": "ECU",
+              "name": "Ismaïla Sarr",
+              "team": "SEN",
               "value": "9"
             },
             {
               "rank": 10,
-              "name": "Ismaïla Sarr",
-              "team": "SEN",
+              "name": "Julián Quiñones",
+              "team": "MEX",
               "value": "9"
             }
           ]
@@ -36230,7 +36230,7 @@
               "rank": 4,
               "name": "Ecuador",
               "team": "team",
-              "value": "18"
+              "value": "19"
             },
             {
               "rank": 5,
@@ -36360,7 +36360,7 @@
               "rank": 3,
               "name": "Germany",
               "team": "team",
-              "value": "51"
+              "value": "53"
             },
             {
               "rank": 4,
@@ -36378,7 +36378,7 @@
               "rank": 6,
               "name": "Ecuador",
               "team": "team",
-              "value": "45"
+              "value": "46"
             },
             {
               "rank": 7,
@@ -36742,14 +36742,14 @@
             },
             {
               "rank": 9,
-              "name": "Enner Valencia",
-              "team": "ECU",
+              "name": "Ismaïla Sarr",
+              "team": "SEN",
               "value": "9"
             },
             {
               "rank": 10,
-              "name": "Ismaïla Sarr",
-              "team": "SEN",
+              "name": "Julián Quiñones",
+              "team": "MEX",
               "value": "9"
             }
           ]
@@ -36764,7 +36764,7 @@
               "rank": 1,
               "name": "Eloy Room",
               "team": "CUW",
-              "value": "19"
+              "value": "20"
             },
             {
               "rank": 2,
@@ -36918,7 +36918,7 @@
               "rank": 4,
               "name": "Ecuador",
               "team": "team",
-              "value": "18"
+              "value": "19"
             },
             {
               "rank": 5,
@@ -36968,7 +36968,7 @@
               "rank": 1,
               "name": "Curaçao",
               "team": "team",
-              "value": "19"
+              "value": "20"
             },
             {
               "rank": 2,
@@ -37048,7 +37048,7 @@
               "rank": 3,
               "name": "Germany",
               "team": "team",
-              "value": "51"
+              "value": "53"
             },
             {
               "rank": 4,
@@ -37066,7 +37066,7 @@
               "rank": 6,
               "name": "Ecuador",
               "team": "team",
-              "value": "45"
+              "value": "46"
             },
             {
               "rank": 7,
