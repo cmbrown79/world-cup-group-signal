@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T22:26:04-04:00",
+  "generatedAt": "2026-06-24T23:50:29-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 54,
@@ -35172,7 +35172,7 @@
       "generatedAt": "2026-06-25T01:00Z",
       "played": 54,
       "lastMatchId": "760467",
-      "lastMatch": "Czechia 0–2 Mexico",
+      "lastMatch": "Czechia 0–3 Mexico",
       "stats": [
         {
           "title": "Goals",
@@ -35372,9 +35372,9 @@
             },
             {
               "rank": 10,
-              "name": "Arda Güler",
-              "team": "TUR",
-              "value": "8"
+              "name": "Julián Quiñones",
+              "team": "MEX",
+              "value": "9"
             }
           ]
         },
@@ -35434,15 +35434,15 @@
             },
             {
               "rank": 9,
-              "name": "Patrick Beach",
-              "team": "AUS",
+              "name": "Matej Kovár",
+              "team": "CZE",
               "value": "9"
             },
             {
               "rank": 10,
-              "name": "Angus Gunn",
-              "team": "SCO",
-              "value": "8"
+              "name": "Patrick Beach",
+              "team": "AUS",
+              "value": "9"
             }
           ]
         },
@@ -35502,13 +35502,13 @@
             },
             {
               "rank": 9,
-              "name": "Morocco",
+              "name": "Mexico",
               "team": "team",
               "value": "6"
             },
             {
               "rank": 10,
-              "name": "Portugal",
+              "name": "Morocco",
               "team": "team",
               "value": "6"
             }
@@ -35638,15 +35638,15 @@
             },
             {
               "rank": 9,
-              "name": "South Korea",
+              "name": "Czechia",
               "team": "team",
               "value": "9"
             },
             {
               "rank": 10,
-              "name": "Congo DR",
+              "name": "South Korea",
               "team": "team",
-              "value": "8"
+              "value": "9"
             }
           ]
         },
