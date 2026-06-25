@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T16:47:49-04:00",
+  "generatedAt": "2026-06-25T17:39:21-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 56,
@@ -35860,7 +35860,7 @@
       "generatedAt": "2026-06-25T20:00Z",
       "played": 55,
       "lastMatchId": "760468",
-      "lastMatch": "Ecuador 1–1 Germany",
+      "lastMatch": "Ecuador 2–1 Germany",
       "stats": [
         {
           "title": "Goals",
@@ -36054,14 +36054,14 @@
             },
             {
               "rank": 9,
-              "name": "Ismaïla Sarr",
-              "team": "SEN",
+              "name": "Enner Valencia",
+              "team": "ECU",
               "value": "9"
             },
             {
               "rank": 10,
-              "name": "Julián Quiñones",
-              "team": "MEX",
+              "name": "Ismaïla Sarr",
+              "team": "SEN",
               "value": "9"
             }
           ]
@@ -36210,13 +36210,13 @@
           "leaders": [
             {
               "rank": 1,
-              "name": "Canada",
+              "name": "Germany",
               "team": "team",
-              "value": "21"
+              "value": "22"
             },
             {
               "rank": 2,
-              "name": "Germany",
+              "name": "Canada",
               "team": "team",
               "value": "21"
             },
@@ -36228,15 +36228,15 @@
             },
             {
               "rank": 4,
-              "name": "Switzerland",
+              "name": "Ecuador",
               "team": "team",
               "value": "18"
             },
             {
               "rank": 5,
-              "name": "Ecuador",
+              "name": "Switzerland",
               "team": "team",
-              "value": "17"
+              "value": "18"
             },
             {
               "rank": 6,
@@ -36358,15 +36358,15 @@
             },
             {
               "rank": 3,
-              "name": "Spain",
+              "name": "Germany",
               "team": "team",
-              "value": "49"
+              "value": "51"
             },
             {
               "rank": 4,
-              "name": "Germany",
+              "name": "Spain",
               "team": "team",
-              "value": "48"
+              "value": "49"
             },
             {
               "rank": 5,
@@ -36376,25 +36376,25 @@
             },
             {
               "rank": 6,
-              "name": "Switzerland",
+              "name": "Ecuador",
               "team": "team",
               "value": "45"
             },
             {
               "rank": 7,
+              "name": "Switzerland",
+              "team": "team",
+              "value": "45"
+            },
+            {
+              "rank": 8,
               "name": "Uruguay",
               "team": "team",
               "value": "44"
             },
             {
-              "rank": 8,
-              "name": "Brazil",
-              "team": "team",
-              "value": "41"
-            },
-            {
               "rank": 9,
-              "name": "Ecuador",
+              "name": "Brazil",
               "team": "team",
               "value": "41"
             },
@@ -36548,7 +36548,7 @@
       "generatedAt": "2026-06-25T20:00Z",
       "played": 56,
       "lastMatchId": "760473",
-      "lastMatch": "Curaçao 0–1 Côte d'Ivoire",
+      "lastMatch": "Curaçao 0–2 Côte d'Ivoire",
       "stats": [
         {
           "title": "Goals",
@@ -36742,14 +36742,14 @@
             },
             {
               "rank": 9,
-              "name": "Ismaïla Sarr",
-              "team": "SEN",
+              "name": "Enner Valencia",
+              "team": "ECU",
               "value": "9"
             },
             {
               "rank": 10,
-              "name": "Julián Quiñones",
-              "team": "MEX",
+              "name": "Ismaïla Sarr",
+              "team": "SEN",
               "value": "9"
             }
           ]
@@ -36898,13 +36898,13 @@
           "leaders": [
             {
               "rank": 1,
-              "name": "Canada",
+              "name": "Germany",
               "team": "team",
-              "value": "21"
+              "value": "22"
             },
             {
               "rank": 2,
-              "name": "Germany",
+              "name": "Canada",
               "team": "team",
               "value": "21"
             },
@@ -36916,15 +36916,15 @@
             },
             {
               "rank": 4,
-              "name": "Switzerland",
+              "name": "Ecuador",
               "team": "team",
               "value": "18"
             },
             {
               "rank": 5,
-              "name": "Ecuador",
+              "name": "Switzerland",
               "team": "team",
-              "value": "17"
+              "value": "18"
             },
             {
               "rank": 6,
@@ -37046,15 +37046,15 @@
             },
             {
               "rank": 3,
-              "name": "Spain",
+              "name": "Germany",
               "team": "team",
-              "value": "49"
+              "value": "51"
             },
             {
               "rank": 4,
-              "name": "Germany",
+              "name": "Spain",
               "team": "team",
-              "value": "48"
+              "value": "49"
             },
             {
               "rank": 5,
@@ -37064,25 +37064,25 @@
             },
             {
               "rank": 6,
-              "name": "Switzerland",
+              "name": "Ecuador",
               "team": "team",
               "value": "45"
             },
             {
               "rank": 7,
+              "name": "Switzerland",
+              "team": "team",
+              "value": "45"
+            },
+            {
+              "rank": 8,
               "name": "Uruguay",
               "team": "team",
               "value": "44"
             },
             {
-              "rank": 8,
-              "name": "Brazil",
-              "team": "team",
-              "value": "41"
-            },
-            {
               "rank": 9,
-              "name": "Ecuador",
+              "name": "Brazil",
               "team": "team",
               "value": "41"
             },
