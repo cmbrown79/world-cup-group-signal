@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T19:36:14-04:00",
+  "generatedAt": "2026-06-25T21:15:42-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 58,
@@ -37236,7 +37236,7 @@
       "generatedAt": "2026-06-25T23:00Z",
       "played": 57,
       "lastMatchId": "760471",
-      "lastMatch": "Japan 0–0 Sweden",
+      "lastMatch": "Japan 1–1 Sweden",
       "stats": [
         {
           "title": "Goals",
@@ -37300,8 +37300,8 @@
             },
             {
               "rank": 10,
-              "name": "Brian Brobbey",
-              "team": "Netherlands",
+              "name": "Anthony Elanga",
+              "team": "Sweden",
               "value": "2"
             }
           ]
@@ -37536,43 +37536,43 @@
             },
             {
               "rank": 4,
-              "name": "Netherlands",
+              "name": "Japan",
               "team": "team",
               "value": "7"
             },
             {
               "rank": 5,
-              "name": "Norway",
+              "name": "Netherlands",
               "team": "team",
               "value": "7"
             },
             {
               "rank": 6,
-              "name": "Switzerland",
+              "name": "Norway",
               "team": "team",
               "value": "7"
             },
             {
               "rank": 7,
+              "name": "Sweden",
+              "team": "team",
+              "value": "7"
+            },
+            {
+              "rank": 8,
+              "name": "Switzerland",
+              "team": "team",
+              "value": "7"
+            },
+            {
+              "rank": 9,
               "name": "France",
               "team": "team",
               "value": "6"
             },
             {
-              "rank": 8,
-              "name": "Japan",
-              "team": "team",
-              "value": "6"
-            },
-            {
-              "rank": 9,
-              "name": "Mexico",
-              "team": "team",
-              "value": "6"
-            },
-            {
               "rank": 10,
-              "name": "Morocco",
+              "name": "Mexico",
               "team": "team",
               "value": "6"
             }
@@ -37598,31 +37598,31 @@
             },
             {
               "rank": 3,
+              "name": "Sweden",
+              "team": "team",
+              "value": "20"
+            },
+            {
+              "rank": 4,
               "name": "Brazil",
               "team": "team",
               "value": "19"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "name": "Ecuador",
               "team": "team",
               "value": "19"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Switzerland",
               "team": "team",
               "value": "18"
             },
             {
-              "rank": 6,
-              "name": "Morocco",
-              "team": "team",
-              "value": "16"
-            },
-            {
               "rank": 7,
-              "name": "Sweden",
+              "name": "Morocco",
               "team": "team",
               "value": "16"
             },
@@ -37844,7 +37844,7 @@
             },
             {
               "rank": 10,
-              "name": "Japan",
+              "name": "Spain",
               "team": "team",
               "value": "2"
             }
@@ -37924,7 +37924,7 @@
       "generatedAt": "2026-06-25T23:00Z",
       "played": 58,
       "lastMatchId": "760472",
-      "lastMatch": "Tunisia 0–2 Netherlands",
+      "lastMatch": "Tunisia 1–3 Netherlands",
       "stats": [
         {
           "title": "Goals",
@@ -37952,45 +37952,45 @@
             },
             {
               "rank": 4,
+              "name": "Brian Brobbey",
+              "team": "Netherlands",
+              "value": "3"
+            },
+            {
+              "rank": 5,
               "name": "Deniz Undav",
               "team": "Germany",
               "value": "3"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Ismael Saibari",
               "team": "Morocco",
               "value": "3"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Johan Manzambi",
               "team": "Switzerland",
               "value": "3"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Jonathan David",
               "team": "Canada",
               "value": "3"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Matheus Cunha",
               "team": "Brazil",
               "value": "3"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Vinícius Júnior",
               "team": "Brazil",
               "value": "3"
-            },
-            {
-              "rank": 10,
-              "name": "Brian Brobbey",
-              "team": "Netherlands",
-              "value": "2"
             }
           ]
         },
@@ -38162,27 +38162,27 @@
             },
             {
               "rank": 5,
+              "name": "Bart Verbruggen",
+              "team": "NED",
+              "value": "11"
+            },
+            {
+              "rank": 6,
               "name": "Gregor Kobel",
               "team": "SUI",
               "value": "11"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Johny Placide",
               "team": "HAI",
               "value": "11"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Alisson Becker",
               "team": "BRA",
               "value": "10"
-            },
-            {
-              "rank": 8,
-              "name": "Bart Verbruggen",
-              "team": "NED",
-              "value": "9"
             },
             {
               "rank": 9,
@@ -38214,7 +38214,7 @@
               "rank": 2,
               "name": "Netherlands",
               "team": "team",
-              "value": "9"
+              "value": "10"
             },
             {
               "rank": 3,
@@ -38230,37 +38230,37 @@
             },
             {
               "rank": 5,
-              "name": "Norway",
+              "name": "Japan",
               "team": "team",
               "value": "7"
             },
             {
               "rank": 6,
-              "name": "Switzerland",
+              "name": "Norway",
               "team": "team",
               "value": "7"
             },
             {
               "rank": 7,
+              "name": "Sweden",
+              "team": "team",
+              "value": "7"
+            },
+            {
+              "rank": 8,
+              "name": "Switzerland",
+              "team": "team",
+              "value": "7"
+            },
+            {
+              "rank": 9,
               "name": "France",
               "team": "team",
               "value": "6"
             },
             {
-              "rank": 8,
-              "name": "Japan",
-              "team": "team",
-              "value": "6"
-            },
-            {
-              "rank": 9,
-              "name": "Mexico",
-              "team": "team",
-              "value": "6"
-            },
-            {
               "rank": 10,
-              "name": "Morocco",
+              "name": "Mexico",
               "team": "team",
               "value": "6"
             }
@@ -38286,39 +38286,39 @@
             },
             {
               "rank": 3,
+              "name": "Netherlands",
+              "team": "team",
+              "value": "20"
+            },
+            {
+              "rank": 4,
+              "name": "Sweden",
+              "team": "team",
+              "value": "20"
+            },
+            {
+              "rank": 5,
               "name": "Brazil",
               "team": "team",
               "value": "19"
             },
             {
-              "rank": 4,
+              "rank": 6,
               "name": "Ecuador",
               "team": "team",
               "value": "19"
             },
             {
-              "rank": 5,
+              "rank": 7,
               "name": "Switzerland",
               "team": "team",
               "value": "18"
             },
             {
-              "rank": 6,
+              "rank": 8,
               "name": "Morocco",
               "team": "team",
               "value": "16"
-            },
-            {
-              "rank": 7,
-              "name": "Sweden",
-              "team": "team",
-              "value": "16"
-            },
-            {
-              "rank": 8,
-              "name": "Netherlands",
-              "team": "team",
-              "value": "15"
             },
             {
               "rank": 9,
@@ -38372,31 +38372,31 @@
             },
             {
               "rank": 6,
-              "name": "Switzerland",
+              "name": "Netherlands",
               "team": "team",
               "value": "11"
             },
             {
               "rank": 7,
+              "name": "Switzerland",
+              "team": "team",
+              "value": "11"
+            },
+            {
+              "rank": 8,
               "name": "Brazil",
               "team": "team",
               "value": "10"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Australia",
               "team": "team",
               "value": "9"
             },
             {
-              "rank": 9,
-              "name": "Czechia",
-              "team": "team",
-              "value": "9"
-            },
-            {
               "rank": 10,
-              "name": "Netherlands",
+              "name": "Czechia",
               "team": "team",
               "value": "9"
             }
@@ -38532,7 +38532,7 @@
             },
             {
               "rank": 10,
-              "name": "Japan",
+              "name": "Spain",
               "team": "team",
               "value": "2"
             }
@@ -38558,39 +38558,39 @@
             },
             {
               "rank": 3,
-              "name": "Algeria",
+              "name": "Netherlands",
               "team": "team",
               "value": "0.90"
             },
             {
               "rank": 4,
-              "name": "Brazil",
+              "name": "Algeria",
               "team": "team",
               "value": "0.90"
             },
             {
               "rank": 5,
-              "name": "England",
+              "name": "Brazil",
               "team": "team",
               "value": "0.90"
             },
             {
               "rank": 6,
-              "name": "Türkiye",
+              "name": "England",
               "team": "team",
               "value": "0.90"
             },
             {
               "rank": 7,
-              "name": "Argentina",
+              "name": "Türkiye",
               "team": "team",
               "value": "0.90"
             },
             {
               "rank": 8,
-              "name": "Netherlands",
+              "name": "Argentina",
               "team": "team",
-              "value": "0.89"
+              "value": "0.90"
             },
             {
               "rank": 9,
