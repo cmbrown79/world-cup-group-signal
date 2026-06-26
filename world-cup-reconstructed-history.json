@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T23:50:48-04:00",
+  "generatedAt": "2026-06-26T01:36:33-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 60,
@@ -38844,14 +38844,14 @@
             },
             {
               "rank": 4,
-              "name": "Mahmoud Abunada",
-              "team": "QAT",
-              "value": "12"
+              "name": "Orlando Gil",
+              "team": "PAR",
+              "value": "13"
             },
             {
               "rank": 5,
-              "name": "Orlando Gil",
-              "team": "PAR",
+              "name": "Mahmoud Abunada",
+              "team": "QAT",
               "value": "12"
             },
             {
@@ -38874,14 +38874,14 @@
             },
             {
               "rank": 9,
-              "name": "Alisson Becker",
-              "team": "BRA",
-              "value": "10"
+              "name": "Patrick Beach",
+              "team": "AUS",
+              "value": "11"
             },
             {
               "rank": 10,
-              "name": "Patrick Beach",
-              "team": "AUS",
+              "name": "Alisson Becker",
+              "team": "BRA",
               "value": "10"
             }
           ]
@@ -39050,7 +39050,7 @@
               "rank": 4,
               "name": "Paraguay",
               "team": "team",
-              "value": "12"
+              "value": "13"
             },
             {
               "rank": 5,
@@ -39060,27 +39060,27 @@
             },
             {
               "rank": 6,
-              "name": "Haiti",
+              "name": "Australia",
               "team": "team",
               "value": "11"
             },
             {
               "rank": 7,
-              "name": "Netherlands",
+              "name": "Haiti",
               "team": "team",
               "value": "11"
             },
             {
               "rank": 8,
-              "name": "Switzerland",
+              "name": "Netherlands",
               "team": "team",
               "value": "11"
             },
             {
               "rank": 9,
-              "name": "Australia",
+              "name": "Switzerland",
               "team": "team",
-              "value": "10"
+              "value": "11"
             },
             {
               "rank": 10,
@@ -39300,7 +39300,7 @@
       "generatedAt": "2026-06-26T02:00Z",
       "played": 60,
       "lastMatchId": "760470",
-      "lastMatch": "Türkiye 2–2 USA",
+      "lastMatch": "Türkiye 3–2 USA",
       "stats": [
         {
           "title": "Goals",
@@ -39532,14 +39532,14 @@
             },
             {
               "rank": 4,
-              "name": "Mahmoud Abunada",
-              "team": "QAT",
-              "value": "12"
+              "name": "Orlando Gil",
+              "team": "PAR",
+              "value": "13"
             },
             {
               "rank": 5,
-              "name": "Orlando Gil",
-              "team": "PAR",
+              "name": "Mahmoud Abunada",
+              "team": "QAT",
               "value": "12"
             },
             {
@@ -39562,14 +39562,14 @@
             },
             {
               "rank": 9,
-              "name": "Alisson Becker",
-              "team": "BRA",
-              "value": "10"
+              "name": "Patrick Beach",
+              "team": "AUS",
+              "value": "11"
             },
             {
               "rank": 10,
-              "name": "Patrick Beach",
-              "team": "AUS",
+              "name": "Alisson Becker",
+              "team": "BRA",
               "value": "10"
             }
           ]
@@ -39698,13 +39698,13 @@
             },
             {
               "rank": 9,
-              "name": "Spain",
+              "name": "Türkiye",
               "team": "team",
-              "value": "15"
+              "value": "16"
             },
             {
               "rank": 10,
-              "name": "Türkiye",
+              "name": "Spain",
               "team": "team",
               "value": "15"
             }
@@ -39738,7 +39738,7 @@
               "rank": 4,
               "name": "Paraguay",
               "team": "team",
-              "value": "12"
+              "value": "13"
             },
             {
               "rank": 5,
@@ -39748,27 +39748,27 @@
             },
             {
               "rank": 6,
-              "name": "Haiti",
+              "name": "Australia",
               "team": "team",
               "value": "11"
             },
             {
               "rank": 7,
-              "name": "Netherlands",
+              "name": "Haiti",
               "team": "team",
               "value": "11"
             },
             {
               "rank": 8,
-              "name": "Switzerland",
+              "name": "Netherlands",
               "team": "team",
               "value": "11"
             },
             {
               "rank": 9,
-              "name": "Australia",
+              "name": "Switzerland",
               "team": "team",
-              "value": "10"
+              "value": "11"
             },
             {
               "rank": 10,
@@ -39788,7 +39788,7 @@
               "rank": 1,
               "name": "Türkiye",
               "team": "team",
-              "value": "70"
+              "value": "71"
             },
             {
               "rank": 2,
@@ -39828,15 +39828,15 @@
             },
             {
               "rank": 8,
-              "name": "Uruguay",
+              "name": "United States",
               "team": "team",
               "value": "44"
             },
             {
               "rank": 9,
-              "name": "United States",
+              "name": "Uruguay",
               "team": "team",
-              "value": "42"
+              "value": "44"
             },
             {
               "rank": 10,
