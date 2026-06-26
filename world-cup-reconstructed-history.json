@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T15:09:52-04:00",
+  "generatedAt": "2026-06-26T16:11:29-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 62,
@@ -40676,7 +40676,7 @@
       "generatedAt": "2026-06-26T19:00Z",
       "played": 62,
       "lastMatchId": "760475",
-      "lastMatch": "Norway 0–1 France",
+      "lastMatch": "Norway 1–3 France",
       "stats": [
         {
           "title": "Goals",
@@ -40704,45 +40704,45 @@
             },
             {
               "rank": 4,
+              "name": "Ousmane Dembélé",
+              "team": "France",
+              "value": "4"
+            },
+            {
+              "rank": 5,
               "name": "Deniz Undav",
               "team": "Germany",
               "value": "3"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Ismael Saibari",
               "team": "Morocco",
               "value": "3"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Johan Manzambi",
               "team": "Switzerland",
               "value": "3"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Jonathan David",
               "team": "Canada",
               "value": "3"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Matheus Cunha",
               "team": "Brazil",
               "value": "3"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Vinícius Júnior",
               "team": "Brazil",
               "value": "3"
-            },
-            {
-              "rank": 10,
-              "name": "Anthony Elanga",
-              "team": "Sweden",
-              "value": "2"
             }
           ]
         },
@@ -40970,31 +40970,31 @@
             },
             {
               "rank": 3,
+              "name": "France",
+              "team": "team",
+              "value": "9"
+            },
+            {
+              "rank": 4,
               "name": "Canada",
               "team": "team",
               "value": "8"
             },
             {
-              "rank": 4,
+              "rank": 5,
+              "name": "Norway",
+              "team": "team",
+              "value": "8"
+            },
+            {
+              "rank": 6,
               "name": "Brazil",
               "team": "team",
               "value": "7"
             },
             {
-              "rank": 5,
-              "name": "France",
-              "team": "team",
-              "value": "7"
-            },
-            {
-              "rank": 6,
-              "name": "Japan",
-              "team": "team",
-              "value": "7"
-            },
-            {
               "rank": 7,
-              "name": "Norway",
+              "name": "Japan",
               "team": "team",
               "value": "7"
             },
@@ -41038,39 +41038,39 @@
             },
             {
               "rank": 3,
+              "name": "France",
+              "team": "team",
+              "value": "21"
+            },
+            {
+              "rank": 4,
               "name": "Netherlands",
               "team": "team",
               "value": "20"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "name": "Sweden",
               "team": "team",
               "value": "20"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Brazil",
               "team": "team",
               "value": "19"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Ecuador",
               "team": "team",
               "value": "19"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Switzerland",
               "team": "team",
               "value": "18"
-            },
-            {
-              "rank": 8,
-              "name": "France",
-              "team": "team",
-              "value": "17"
             },
             {
               "rank": 9,
@@ -41204,21 +41204,21 @@
             },
             {
               "rank": 8,
-              "name": "United States",
+              "name": "France",
               "team": "team",
               "value": "44"
             },
             {
               "rank": 9,
-              "name": "Uruguay",
+              "name": "United States",
               "team": "team",
               "value": "44"
             },
             {
               "rank": 10,
-              "name": "Brazil",
+              "name": "Uruguay",
               "team": "team",
-              "value": "41"
+              "value": "44"
             }
           ]
         },
@@ -41284,7 +41284,7 @@
             },
             {
               "rank": 10,
-              "name": "France",
+              "name": "Ghana",
               "team": "team",
               "value": "2"
             }
