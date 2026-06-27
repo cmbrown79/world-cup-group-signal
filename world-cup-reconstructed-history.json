@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T21:11:17-04:00",
+  "generatedAt": "2026-06-26T22:25:07-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 64,
@@ -37952,45 +37952,45 @@
             },
             {
               "rank": 4,
+              "name": "Brian Brobbey",
+              "team": "Netherlands",
+              "value": "3"
+            },
+            {
+              "rank": 5,
               "name": "Deniz Undav",
               "team": "Germany",
               "value": "3"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Ismael Saibari",
               "team": "Morocco",
               "value": "3"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Johan Manzambi",
               "team": "Switzerland",
               "value": "3"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Jonathan David",
               "team": "Canada",
               "value": "3"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Matheus Cunha",
               "team": "Brazil",
               "value": "3"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Vinícius Júnior",
               "team": "Brazil",
               "value": "3"
-            },
-            {
-              "rank": 10,
-              "name": "Anthony Elanga",
-              "team": "Sweden",
-              "value": "2"
             }
           ]
         },
@@ -38640,45 +38640,45 @@
             },
             {
               "rank": 4,
+              "name": "Brian Brobbey",
+              "team": "Netherlands",
+              "value": "3"
+            },
+            {
+              "rank": 5,
               "name": "Deniz Undav",
               "team": "Germany",
               "value": "3"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Ismael Saibari",
               "team": "Morocco",
               "value": "3"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Johan Manzambi",
               "team": "Switzerland",
               "value": "3"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Jonathan David",
               "team": "Canada",
               "value": "3"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Matheus Cunha",
               "team": "Brazil",
               "value": "3"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Vinícius Júnior",
               "team": "Brazil",
               "value": "3"
-            },
-            {
-              "rank": 10,
-              "name": "Anthony Elanga",
-              "team": "Sweden",
-              "value": "2"
             }
           ]
         },
@@ -39328,45 +39328,45 @@
             },
             {
               "rank": 4,
+              "name": "Brian Brobbey",
+              "team": "Netherlands",
+              "value": "3"
+            },
+            {
+              "rank": 5,
               "name": "Deniz Undav",
               "team": "Germany",
               "value": "3"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Ismael Saibari",
               "team": "Morocco",
               "value": "3"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Johan Manzambi",
               "team": "Switzerland",
               "value": "3"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Jonathan David",
               "team": "Canada",
               "value": "3"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Matheus Cunha",
               "team": "Brazil",
               "value": "3"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Vinícius Júnior",
               "team": "Brazil",
               "value": "3"
-            },
-            {
-              "rank": 10,
-              "name": "Anthony Elanga",
-              "team": "Sweden",
-              "value": "2"
             }
           ]
         },
@@ -40016,43 +40016,43 @@
             },
             {
               "rank": 4,
+              "name": "Brian Brobbey",
+              "team": "Netherlands",
+              "value": "3"
+            },
+            {
+              "rank": 5,
               "name": "Deniz Undav",
               "team": "Germany",
               "value": "3"
             },
             {
-              "rank": 5,
+              "rank": 6,
               "name": "Ismael Saibari",
               "team": "Morocco",
               "value": "3"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Ismaïla Sarr",
               "team": "Senegal",
               "value": "3"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Johan Manzambi",
               "team": "Switzerland",
               "value": "3"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Jonathan David",
               "team": "Canada",
               "value": "3"
             },
             {
-              "rank": 9,
-              "name": "Matheus Cunha",
-              "team": "Brazil",
-              "value": "3"
-            },
-            {
               "rank": 10,
-              "name": "Vinícius Júnior",
+              "name": "Matheus Cunha",
               "team": "Brazil",
               "value": "3"
             }
@@ -40710,38 +40710,38 @@
             },
             {
               "rank": 5,
+              "name": "Brian Brobbey",
+              "team": "Netherlands",
+              "value": "3"
+            },
+            {
+              "rank": 6,
               "name": "Deniz Undav",
               "team": "Germany",
               "value": "3"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Ismael Saibari",
               "team": "Morocco",
               "value": "3"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Ismaïla Sarr",
               "team": "Senegal",
               "value": "3"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Johan Manzambi",
               "team": "Switzerland",
               "value": "3"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Jonathan David",
               "team": "Canada",
-              "value": "3"
-            },
-            {
-              "rank": 10,
-              "name": "Matheus Cunha",
-              "team": "Brazil",
               "value": "3"
             }
           ]
@@ -41398,38 +41398,38 @@
             },
             {
               "rank": 5,
+              "name": "Brian Brobbey",
+              "team": "Netherlands",
+              "value": "3"
+            },
+            {
+              "rank": 6,
               "name": "Deniz Undav",
               "team": "Germany",
               "value": "3"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Ismael Saibari",
               "team": "Morocco",
               "value": "3"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Ismaïla Sarr",
               "team": "Senegal",
               "value": "3"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Johan Manzambi",
               "team": "Switzerland",
               "value": "3"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Jonathan David",
               "team": "Canada",
-              "value": "3"
-            },
-            {
-              "rank": 10,
-              "name": "Matheus Cunha",
-              "team": "Brazil",
               "value": "3"
             }
           ]
@@ -41586,7 +41586,7 @@
               "rank": 2,
               "name": "Mohammed Al-Owais",
               "team": "KSA",
-              "value": "14"
+              "value": "16"
             },
             {
               "rank": 3,
@@ -41790,7 +41790,7 @@
               "rank": 2,
               "name": "Saudi Arabia",
               "team": "team",
-              "value": "15"
+              "value": "16"
             },
             {
               "rank": 3,
@@ -42086,38 +42086,38 @@
             },
             {
               "rank": 5,
+              "name": "Brian Brobbey",
+              "team": "Netherlands",
+              "value": "3"
+            },
+            {
+              "rank": 6,
               "name": "Deniz Undav",
               "team": "Germany",
               "value": "3"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Ismael Saibari",
               "team": "Morocco",
               "value": "3"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Ismaïla Sarr",
               "team": "Senegal",
               "value": "3"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Johan Manzambi",
               "team": "Switzerland",
               "value": "3"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Jonathan David",
               "team": "Canada",
-              "value": "3"
-            },
-            {
-              "rank": 10,
-              "name": "Matheus Cunha",
-              "team": "Brazil",
               "value": "3"
             }
           ]
@@ -42274,7 +42274,7 @@
               "rank": 2,
               "name": "Mohammed Al-Owais",
               "team": "KSA",
-              "value": "14"
+              "value": "16"
             },
             {
               "rank": 3,
@@ -42478,7 +42478,7 @@
               "rank": 2,
               "name": "Saudi Arabia",
               "team": "team",
-              "value": "15"
+              "value": "16"
             },
             {
               "rank": 3,
@@ -42550,13 +42550,13 @@
             },
             {
               "rank": 3,
-              "name": "Germany",
+              "name": "Spain",
               "team": "team",
-              "value": "53"
+              "value": "55"
             },
             {
               "rank": 4,
-              "name": "Spain",
+              "name": "Germany",
               "team": "team",
               "value": "53"
             },
@@ -42568,21 +42568,21 @@
             },
             {
               "rank": 6,
+              "name": "Uruguay",
+              "team": "team",
+              "value": "49"
+            },
+            {
+              "rank": 7,
               "name": "France",
               "team": "team",
               "value": "48"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Morocco",
               "team": "team",
               "value": "48"
-            },
-            {
-              "rank": 8,
-              "name": "Uruguay",
-              "team": "team",
-              "value": "47"
             },
             {
               "rank": 9,
@@ -42674,13 +42674,13 @@
           "leaders": [
             {
               "rank": 1,
-              "name": "Spain",
+              "name": "Portugal",
               "team": "team",
               "value": "0.91"
             },
             {
               "rank": 2,
-              "name": "Portugal",
+              "name": "Spain",
               "team": "team",
               "value": "0.91"
             },
