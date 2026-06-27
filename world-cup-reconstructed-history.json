@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T18:29:30-04:00",
+  "generatedAt": "2026-06-27T18:57:16-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 68,
@@ -44116,7 +44116,7 @@
       "generatedAt": "2026-06-27T21:00Z",
       "played": 67,
       "lastMatchId": "760480",
-      "lastMatch": "Croatia 1–0 Ghana",
+      "lastMatch": "Croatia 2–1 Ghana",
       "stats": [
         {
           "title": "Goals",
@@ -45178,31 +45178,31 @@
             },
             {
               "rank": 5,
-              "name": "Netherlands",
+              "name": "England",
               "team": "team",
               "value": "20"
             },
             {
               "rank": 6,
-              "name": "Sweden",
+              "name": "Netherlands",
               "team": "team",
               "value": "20"
             },
             {
               "rank": 7,
+              "name": "Sweden",
+              "team": "team",
+              "value": "20"
+            },
+            {
+              "rank": 8,
               "name": "Brazil",
               "team": "team",
               "value": "19"
             },
             {
-              "rank": 8,
-              "name": "Ecuador",
-              "team": "team",
-              "value": "19"
-            },
-            {
               "rank": 9,
-              "name": "England",
+              "name": "Ecuador",
               "team": "team",
               "value": "19"
             },
@@ -45310,7 +45310,7 @@
               "rank": 4,
               "name": "England",
               "team": "team",
-              "value": "55"
+              "value": "58"
             },
             {
               "rank": 5,
