@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T19:29:42-04:00",
+  "generatedAt": "2026-06-27T19:57:17-04:00",
   "refreshPolicy": "During group-stage dates, scheduled refresh rebuilds every 30 minutes; manual force also supported. Page auto-refetches the published JSON every 2 minutes.",
   "scheduleSource": "https://cxm-api.fifa.com/fifaplusweb/api/sections/article/S9YG2JmeGYaMUCBbm0CcD?locale=en",
   "timeVenueSource": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?limit=200&dates=20260611-20260627",
@@ -2274,9 +2274,11 @@
         "FOX One"
       ],
       "sourceName": "Portugal at Colombia",
-      "statusState": "pre",
-      "status": "Scheduled",
-      "statusShort": "Scheduled",
+      "hs": 0,
+      "as": 0,
+      "statusState": "in",
+      "status": "In Progress",
+      "statusShort": "26'",
       "completed": false,
       "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
@@ -2305,9 +2307,11 @@
         "FOX One"
       ],
       "sourceName": "Uzbekistan at Congo DR",
-      "statusState": "pre",
-      "status": "Scheduled",
-      "statusShort": "Scheduled",
+      "hs": 0,
+      "as": 1,
+      "statusState": "in",
+      "status": "In Progress",
+      "statusShort": "26'",
       "completed": false,
       "mergeNote": "scores/results from FIFA when available; ESPN supplies live/HT/FT state, fallback scores, kickoff/city/venue metadata"
     },
@@ -2918,55 +2922,55 @@
     "K": [
       {
         "team": "Colombia",
-        "p": 2,
+        "p": 3,
         "w": 2,
-        "d": 0,
+        "d": 1,
         "l": 0,
         "gf": 4,
         "ga": 1,
         "gd": 3,
-        "pts": 6,
+        "pts": 7,
         "rank": 1,
         "status": "qualified-watch"
       },
       {
         "team": "Portugal",
-        "p": 2,
+        "p": 3,
         "w": 1,
-        "d": 1,
+        "d": 2,
         "l": 0,
         "gf": 6,
         "ga": 1,
         "gd": 5,
-        "pts": 4,
+        "pts": 5,
         "rank": 2,
         "status": "alive"
       },
       {
-        "team": "Congo DR",
-        "p": 2,
-        "w": 0,
-        "d": 1,
-        "l": 1,
-        "gf": 1,
-        "ga": 2,
-        "gd": -1,
-        "pts": 1,
+        "team": "Uzbekistan",
+        "p": 3,
+        "w": 1,
+        "d": 0,
+        "l": 2,
+        "gf": 2,
+        "ga": 8,
+        "gd": -6,
+        "pts": 3,
         "rank": 3,
         "status": "alive"
       },
       {
-        "team": "Uzbekistan",
-        "p": 2,
+        "team": "Congo DR",
+        "p": 3,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 2,
         "gf": 1,
-        "ga": 8,
-        "gd": -7,
-        "pts": 0,
+        "ga": 3,
+        "gd": -2,
+        "pts": 1,
         "rank": 4,
-        "status": "alive"
+        "status": "danger"
       }
     ],
     "L": [
@@ -4985,14 +4989,14 @@
           },
           {
             "rank": 9,
-            "name": "Jonathan David",
-            "team": "CAN",
+            "name": "Harry Kane",
+            "team": "ENG",
             "value": "3"
           },
           {
             "rank": 10,
-            "name": "Ismael Saibari",
-            "team": "MAR",
+            "name": "Jonathan David",
+            "team": "CAN",
             "value": "3"
           }
         ]
@@ -5369,33 +5373,33 @@
           },
           {
             "rank": 4,
-            "name": "Dominik Livakovic",
-            "team": "CRO",
-            "value": "36"
-          },
-          {
-            "rank": 5,
             "name": "Lawrence Ati Zigi",
             "team": "GHA",
             "value": "33"
           },
           {
-            "rank": 6,
+            "rank": 5,
             "name": "Sergio Rochet",
             "team": "URU",
             "value": "33"
           },
           {
-            "rank": 7,
+            "rank": 6,
             "name": "Alisson",
             "team": "BRA",
             "value": "31"
           },
           {
-            "rank": 8,
+            "rank": 7,
             "name": "Eloy Room",
             "team": "CUW",
             "value": "30"
+          },
+          {
+            "rank": 8,
+            "name": "Dominik Livakovic",
+            "team": "CRO",
+            "value": "29"
           },
           {
             "rank": 9,
@@ -5628,61 +5632,61 @@
         "leaders": [
           {
             "rank": 1,
+            "name": "England",
+            "team": "",
+            "value": "24"
+          },
+          {
+            "rank": 2,
             "name": "France",
             "team": "",
             "value": "23"
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Sweden",
             "team": "",
             "value": "23"
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Switzerland",
             "team": "",
             "value": "22"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Germany",
             "team": "",
             "value": "21"
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Belgium",
             "team": "",
             "value": "20"
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Canada",
             "team": "",
             "value": "20"
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Netherlands",
             "team": "",
             "value": "20"
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Senegal",
             "team": "",
             "value": "20"
           },
           {
-            "rank": 9,
-            "name": "Ecuador",
-            "team": "",
-            "value": "19"
-          },
-          {
             "rank": 10,
-            "name": "Morocco",
+            "name": "Ecuador",
             "team": "",
             "value": "19"
           }
@@ -6457,8 +6461,8 @@
   },
   "summary": {
     "matches": 72,
-    "played": 68,
-    "scheduled": 4,
+    "played": 70,
+    "scheduled": 2,
     "groups": 12,
     "venues": 16
   }
