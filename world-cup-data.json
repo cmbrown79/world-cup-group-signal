@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T07:08:02-04:00",
+  "generatedAt": "2026-06-27T08:00:07-04:00",
   "refreshPolicy": "During group-stage dates, scheduled refresh rebuilds every 30 minutes; manual force also supported. Page auto-refetches the published JSON every 2 minutes.",
   "scheduleSource": "https://cxm-api.fifa.com/fifaplusweb/api/sections/article/S9YG2JmeGYaMUCBbm0CcD?locale=en",
   "timeVenueSource": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?limit=200&dates=20260611-20260627",
