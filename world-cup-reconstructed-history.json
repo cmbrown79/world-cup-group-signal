@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T23:48:54-04:00",
+  "generatedAt": "2026-06-27T01:27:02-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 66,
@@ -42968,7 +42968,7 @@
               "rank": 3,
               "name": "Alireza Beiranvand",
               "team": "IRN",
-              "value": "14"
+              "value": "15"
             },
             {
               "rank": 4,
@@ -43172,7 +43172,7 @@
               "rank": 3,
               "name": "Iran",
               "team": "team",
-              "value": "14"
+              "value": "15"
             },
             {
               "rank": 4,
@@ -43262,27 +43262,27 @@
             },
             {
               "rank": 7,
-              "name": "France",
+              "name": "Egypt",
               "team": "team",
               "value": "48"
             },
             {
               "rank": 8,
-              "name": "Morocco",
+              "name": "France",
               "team": "team",
               "value": "48"
             },
             {
               "rank": 9,
-              "name": "Ecuador",
+              "name": "Morocco",
               "team": "team",
-              "value": "46"
+              "value": "48"
             },
             {
               "rank": 10,
-              "name": "Switzerland",
+              "name": "Ecuador",
               "team": "team",
-              "value": "45"
+              "value": "46"
             }
           ]
         },
@@ -43428,7 +43428,7 @@
       "generatedAt": "2026-06-27T03:00Z",
       "played": 66,
       "lastMatchId": "760477",
-      "lastMatch": "New Zealand 0–1 Belgium",
+      "lastMatch": "New Zealand 1–5 Belgium",
       "stats": [
         {
           "title": "Goals",
@@ -43474,26 +43474,26 @@
             },
             {
               "rank": 7,
+              "name": "Elijah Just",
+              "team": "New Zealand",
+              "value": "3"
+            },
+            {
+              "rank": 8,
               "name": "Ismael Saibari",
               "team": "Morocco",
               "value": "3"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Ismaïla Sarr",
               "team": "Senegal",
               "value": "3"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Johan Manzambi",
               "team": "Switzerland",
-              "value": "3"
-            },
-            {
-              "rank": 10,
-              "name": "Jonathan David",
-              "team": "Canada",
               "value": "3"
             }
           ]
@@ -43656,7 +43656,7 @@
               "rank": 3,
               "name": "Alireza Beiranvand",
               "team": "IRN",
-              "value": "14"
+              "value": "15"
             },
             {
               "rank": 4,
@@ -43690,15 +43690,15 @@
             },
             {
               "rank": 9,
-              "name": "Patrick Beach",
-              "team": "AUS",
+              "name": "Max Crocombe",
+              "team": "NZL",
               "value": "11"
             },
             {
               "rank": 10,
-              "name": "Alisson Becker",
-              "team": "BRA",
-              "value": "10"
+              "name": "Patrick Beach",
+              "team": "AUS",
+              "value": "11"
             }
           ]
         },
@@ -43796,45 +43796,45 @@
             },
             {
               "rank": 4,
-              "name": "Netherlands",
+              "name": "Belgium",
               "team": "team",
               "value": "20"
             },
             {
               "rank": 5,
-              "name": "Sweden",
+              "name": "Netherlands",
               "team": "team",
               "value": "20"
             },
             {
               "rank": 6,
+              "name": "Sweden",
+              "team": "team",
+              "value": "20"
+            },
+            {
+              "rank": 7,
               "name": "Brazil",
               "team": "team",
               "value": "19"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Ecuador",
               "team": "team",
               "value": "19"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Senegal",
               "team": "team",
               "value": "18"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Switzerland",
               "team": "team",
               "value": "18"
-            },
-            {
-              "rank": 10,
-              "name": "Morocco",
-              "team": "team",
-              "value": "16"
             }
           ]
         },
@@ -43860,7 +43860,7 @@
               "rank": 3,
               "name": "Iran",
               "team": "team",
-              "value": "14"
+              "value": "15"
             },
             {
               "rank": 4,
@@ -43900,7 +43900,7 @@
             },
             {
               "rank": 10,
-              "name": "Switzerland",
+              "name": "New Zealand",
               "team": "team",
               "value": "11"
             }
@@ -43914,33 +43914,33 @@
           "leaders": [
             {
               "rank": 1,
+              "name": "Belgium",
+              "team": "team",
+              "value": "73"
+            },
+            {
+              "rank": 2,
               "name": "Türkiye",
               "team": "team",
               "value": "71"
             },
             {
-              "rank": 2,
+              "rank": 3,
               "name": "Canada",
               "team": "team",
               "value": "58"
             },
             {
-              "rank": 3,
+              "rank": 4,
               "name": "Spain",
               "team": "team",
               "value": "55"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "name": "Germany",
               "team": "team",
               "value": "53"
-            },
-            {
-              "rank": 5,
-              "name": "Belgium",
-              "team": "team",
-              "value": "51"
             },
             {
               "rank": 6,
@@ -43956,21 +43956,21 @@
             },
             {
               "rank": 8,
-              "name": "France",
+              "name": "Egypt",
               "team": "team",
               "value": "48"
             },
             {
               "rank": 9,
-              "name": "Morocco",
+              "name": "France",
               "team": "team",
               "value": "48"
             },
             {
               "rank": 10,
-              "name": "Ecuador",
+              "name": "Morocco",
               "team": "team",
-              "value": "46"
+              "value": "48"
             }
           ]
         },
