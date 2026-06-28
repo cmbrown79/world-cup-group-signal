@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T23:50:57-04:00",
+  "generatedAt": "2026-06-28T01:40:06-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 72,
@@ -47556,7 +47556,7 @@
       "generatedAt": "2026-06-28T02:00Z",
       "played": 72,
       "lastMatchId": "760484",
-      "lastMatch": "Algeria 2–2 Austria",
+      "lastMatch": "Algeria 3–3 Austria",
       "stats": [
         {
           "title": "Goals",
@@ -47682,14 +47682,14 @@
             },
             {
               "rank": 9,
-              "name": "Iliman Ndiaye",
-              "team": "Senegal",
+              "name": "Houssem Aouar",
+              "team": "Algeria",
               "value": "2"
             },
             {
               "rank": 10,
-              "name": "Joshua Kimmich",
-              "team": "Germany",
+              "name": "Iliman Ndiaye",
+              "team": "Senegal",
               "value": "2"
             }
           ]
@@ -48178,19 +48178,19 @@
           "leaders": [
             {
               "rank": 1,
-              "name": "Portugal",
+              "name": "Algeria",
               "team": "team",
               "value": "0.91"
             },
             {
               "rank": 2,
-              "name": "Spain",
+              "name": "Portugal",
               "team": "team",
               "value": "0.91"
             },
             {
               "rank": 3,
-              "name": "Algeria",
+              "name": "Spain",
               "team": "team",
               "value": "0.91"
             },
