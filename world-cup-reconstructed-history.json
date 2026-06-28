@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T19:57:17-04:00",
+  "generatedAt": "2026-06-27T21:18:47-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 70,
@@ -45890,15 +45890,15 @@
             },
             {
               "rank": 9,
-              "name": "Ecuador",
+              "name": "Colombia",
               "team": "team",
               "value": "19"
             },
             {
               "rank": 10,
-              "name": "Senegal",
+              "name": "Ecuador",
               "team": "team",
-              "value": "18"
+              "value": "19"
             }
           ]
         },
@@ -46002,37 +46002,37 @@
             },
             {
               "rank": 5,
+              "name": "Colombia",
+              "team": "team",
+              "value": "56"
+            },
+            {
+              "rank": 6,
               "name": "Spain",
               "team": "team",
               "value": "55"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Germany",
               "team": "team",
               "value": "53"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Senegal",
               "team": "team",
               "value": "50"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Uruguay",
               "team": "team",
               "value": "49"
             },
             {
-              "rank": 9,
-              "name": "Egypt",
-              "team": "team",
-              "value": "48"
-            },
-            {
               "rank": 10,
-              "name": "France",
+              "name": "Egypt",
               "team": "team",
               "value": "48"
             }
@@ -46116,7 +46116,7 @@
               "rank": 1,
               "name": "Portugal",
               "team": "team",
-              "value": "0.92"
+              "value": "0.91"
             },
             {
               "rank": 2,
@@ -46180,7 +46180,7 @@
       "generatedAt": "2026-06-27T23:30Z",
       "played": 70,
       "lastMatchId": "760482",
-      "lastMatch": "Congo DR 0–1 Uzbekistan",
+      "lastMatch": "Congo DR 2–1 Uzbekistan",
       "stats": [
         {
           "title": "Goals",
@@ -46578,15 +46578,15 @@
             },
             {
               "rank": 9,
-              "name": "Ecuador",
+              "name": "Colombia",
               "team": "team",
               "value": "19"
             },
             {
               "rank": 10,
-              "name": "Senegal",
+              "name": "Ecuador",
               "team": "team",
-              "value": "18"
+              "value": "19"
             }
           ]
         },
@@ -46690,37 +46690,37 @@
             },
             {
               "rank": 5,
+              "name": "Colombia",
+              "team": "team",
+              "value": "56"
+            },
+            {
+              "rank": 6,
               "name": "Spain",
               "team": "team",
               "value": "55"
             },
             {
-              "rank": 6,
+              "rank": 7,
               "name": "Germany",
               "team": "team",
               "value": "53"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Senegal",
               "team": "team",
               "value": "50"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Uruguay",
               "team": "team",
               "value": "49"
             },
             {
-              "rank": 9,
-              "name": "Egypt",
-              "team": "team",
-              "value": "48"
-            },
-            {
               "rank": 10,
-              "name": "France",
+              "name": "Egypt",
               "team": "team",
               "value": "48"
             }
@@ -46804,7 +46804,7 @@
               "rank": 1,
               "name": "Portugal",
               "team": "team",
-              "value": "0.92"
+              "value": "0.91"
             },
             {
               "rank": 2,
