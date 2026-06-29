@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T21:17:44-04:00",
+  "generatedAt": "2026-06-28T22:26:40-04:00",
   "source": "Reconstructed from ESPN per-match summaries/boxscores plus official scorelines; xG/chances/rating still require a match-level source.",
   "coverage": {
     "reconstructedMatches": 72,
@@ -44912,32 +44912,32 @@
             },
             {
               "rank": 6,
+              "name": "Bukayo Saka",
+              "team": "England",
+              "value": "2"
+            },
+            {
+              "rank": 7,
               "name": "Chris Wood",
               "team": "New Zealand",
               "value": "2"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Denzel Dumfries",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Florian Wirtz",
               "team": "Germany",
               "value": "2"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Iliman Ndiaye",
               "team": "Senegal",
-              "value": "2"
-            },
-            {
-              "rank": 10,
-              "name": "Joshua Kimmich",
-              "team": "Germany",
               "value": "2"
             }
           ]
@@ -45600,32 +45600,32 @@
             },
             {
               "rank": 6,
+              "name": "Bukayo Saka",
+              "team": "England",
+              "value": "2"
+            },
+            {
+              "rank": 7,
               "name": "Chris Wood",
               "team": "New Zealand",
               "value": "2"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Denzel Dumfries",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Florian Wirtz",
               "team": "Germany",
               "value": "2"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Iliman Ndiaye",
               "team": "Senegal",
-              "value": "2"
-            },
-            {
-              "rank": 10,
-              "name": "Joshua Kimmich",
-              "team": "Germany",
               "value": "2"
             }
           ]
@@ -46288,32 +46288,32 @@
             },
             {
               "rank": 6,
+              "name": "Bukayo Saka",
+              "team": "England",
+              "value": "2"
+            },
+            {
+              "rank": 7,
               "name": "Chris Wood",
               "team": "New Zealand",
               "value": "2"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Denzel Dumfries",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Florian Wirtz",
               "team": "Germany",
               "value": "2"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Iliman Ndiaye",
               "team": "Senegal",
-              "value": "2"
-            },
-            {
-              "rank": 10,
-              "name": "Joshua Kimmich",
-              "team": "Germany",
               "value": "2"
             }
           ]
@@ -46976,32 +46976,32 @@
             },
             {
               "rank": 6,
+              "name": "Bukayo Saka",
+              "team": "England",
+              "value": "2"
+            },
+            {
+              "rank": 7,
               "name": "Chris Wood",
               "team": "New Zealand",
               "value": "2"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Denzel Dumfries",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Florian Wirtz",
               "team": "Germany",
               "value": "2"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Iliman Ndiaye",
               "team": "Senegal",
-              "value": "2"
-            },
-            {
-              "rank": 10,
-              "name": "Joshua Kimmich",
-              "team": "Germany",
               "value": "2"
             }
           ]
@@ -47664,32 +47664,32 @@
             },
             {
               "rank": 6,
+              "name": "Bukayo Saka",
+              "team": "England",
+              "value": "2"
+            },
+            {
+              "rank": 7,
               "name": "Chris Wood",
               "team": "New Zealand",
               "value": "2"
             },
             {
-              "rank": 7,
+              "rank": 8,
               "name": "Denzel Dumfries",
               "team": "Netherlands",
               "value": "2"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "name": "Florian Wirtz",
               "team": "Germany",
               "value": "2"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "name": "Houssem Aouar",
               "team": "Algeria",
-              "value": "2"
-            },
-            {
-              "rank": 10,
-              "name": "Iliman Ndiaye",
-              "team": "Senegal",
               "value": "2"
             }
           ]
