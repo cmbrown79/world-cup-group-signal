@@ -25,11 +25,13 @@ HISTORY_OUT = ROOT / 'world-cup-history.json'
 RECON_OUT = ROOT / 'world-cup-reconstructed-history.json'
 FIFA_ARTICLE = 'https://cxm-api.fifa.com/fifaplusweb/api/sections/article/S9YG2JmeGYaMUCBbm0CcD?locale=en'
 ESPN_SCOREBOARD = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?limit=200&dates=20260611-20260627'
+ESPN_KNOCKOUT_SCOREBOARD = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?limit=200&dates=20260628-20260719'
 ESPN_SUMMARY = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event={event_id}'
 FOX_BASE = 'https://www.foxsports.com/soccer/fifa-world-cup'
 XGSCORE_TEAM_STATS = 'https://api.xgscore.io/team-stats/current?tournamentSlug=world-cup'
 UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/125 Safari/537.36'
 GROUP_DATES = {f'2026-06-{d:02d}' for d in range(11, 28)}
+EVENT_DATES = GROUP_DATES | {f'2026-06-{d:02d}' for d in range(28, 31)} | {f'2026-07-{d:02d}' for d in range(1, 20)}
 
 PLAYER_STAT_SPECS = [
     ('player_xg', 'Player xG', '/stats?category=standard&sort=xg&season=2026&sortOrder=desc&groupId=12', 'XG', 'Who is getting the best looks, not just who finished.'),
@@ -70,6 +72,188 @@ def node_text(node) -> str:
         return node.get('value', '')
     return ''.join(node_text(c) for c in node.get('content', []) or [])
 
+
+
+def parse_fifa_knockout_matches():
+    """Parse FIFA's knockout schedule/results from the authoritative schedule article."""
+    article = json.loads(get(FIFA_ARTICLE, 'application/json'))
+    content = article['richtext']['content']
+    matches = []
+    current_date = None
+    current_iso = None
+    current_round = None
+    month_nums = {'June': 6, 'July': 7}
+    round_map = [
+        ('Round of 32', 'Round of 32'),
+        ('Round of 16', 'Round of 16'),
+        ('quarter-final', 'Quarter-finals'),
+        ('semi-final', 'Semi-finals'),
+        ('bronze final', 'Bronze final'),
+        ('Final', 'Final'),
+    ]
+    for node in content:
+        txt = node_text(node).replace('\xa0', ' ').strip()
+        if not txt:
+            continue
+        for raw in [l.strip() for l in txt.splitlines() if l.strip()]:
+            if 'Group Stage results' in raw:
+                current_round = None
+            for marker, label in round_map:
+                if marker in raw:
+                    current_round = label
+                    if label == 'Final' and 'bronze' in raw.lower():
+                        current_round = 'Bronze final'
+                    break
+            dm = re.match(r'^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+(\d{1,2})\s+(June|July)\s+2026$', raw)
+            if dm:
+                day = int(dm.group(2)); month = month_nums[dm.group(3)]
+                current_iso = f'2026-{month:02d}-{day:02d}'
+                current_date = datetime(2026, month, day).strftime('%a %d %b')
+                continue
+            if not current_round or not current_iso or not raw.startswith('Match '):
+                continue
+            mm = re.match(r'^Match\s+(\d+)\s+[–-]\s+(.+)$', raw)
+            if not mm:
+                continue
+            match_no = int(mm.group(1)); rest = mm.group(2).strip()
+            parts = [x.strip() for x in re.split(r'\s+[–-]\s+|\s+-\s+', rest) if x.strip()]
+            if len(parts) < 2:
+                continue
+            venue = parts[-1]
+            time_et = None
+            fixture = ' - '.join(parts[:-1])
+            if len(parts) >= 3 and re.fullmatch(r'\d{1,2}:\d{2}', parts[-2]):
+                time_et = parts[-2]
+                fixture = ' - '.join(parts[:-2])
+            match = {'matchNo': match_no, 'round': current_round, 'date': current_date, 'iso': current_iso, 'venue': venue}
+            if time_et:
+                # FIFA lists all kickoffs in ET. Keep the literal source time for schedule display.
+                match['kickoffEt'] = datetime.strptime(time_et, '%H:%M').strftime('%-I:%M %p ET')
+                match['sourceKickoffEt'] = time_et
+            score = re.match(r'(.+?)\s+(\d+)\s*[-–]\s*(\d+)\s+(.+?)(?:\s+\((AET|PSO\s+(\d+)\s*[-–]\s*(\d+))\))?$', fixture)
+            if score:
+                home, hs, away_score, away, extra, pso_h, pso_a = score.groups()
+                match.update({'home': home.strip(), 'away': away.strip(), 'hs': int(hs), 'as': int(away_score), 'completed': True})
+                if extra == 'AET':
+                    match['statusShort'] = 'AET'
+                if pso_h is not None and pso_a is not None:
+                    match.update({'homePso': int(pso_h), 'awayPso': int(pso_a), 'statusShort': 'FT-Pens'})
+            else:
+                sides = re.split(r'\s+v\s+', fixture, maxsplit=1)
+                if len(sides) == 2:
+                    match.update({'home': sides[0].strip(), 'away': sides[1].strip(), 'completed': False})
+            if 'home' in match and 'away' in match:
+                match.setdefault('statusState', 'post' if match.get('completed') else 'pre')
+                match.setdefault('status', 'Full Time' if match.get('completed') else 'Scheduled')
+                match.setdefault('statusShort', 'FT' if match.get('completed') else match.get('kickoffEt', 'SET'))
+                matches.append(match)
+    if len(matches) != 32:
+        raise RuntimeError(f'FIFA knockout parse produced {len(matches)} matches; expected 32')
+    return matches
+
+
+def parse_espn_knockout_matches():
+    data = json.loads(get(ESPN_KNOCKOUT_SCOREBOARD, 'application/json'))
+    events = data.get('events', [])
+    matches = []
+    et = ZoneInfo('America/New_York')
+    for e in events:
+        comp = (e.get('competitions') or [{}])[0]
+        comps = comp.get('competitors', [])
+        home = next((c for c in comps if c.get('homeAway') == 'home'), comps[0] if comps else {})
+        away = next((c for c in comps if c.get('homeAway') == 'away'), comps[1] if len(comps) > 1 else {})
+        def team(c):
+            t = c.get('team', {})
+            return {'name': t.get('displayName') or t.get('name') or '', 'abbr': t.get('abbreviation') or '', 'logo': t.get('logo') or ''}
+        home_team, away_team = team(home), team(away)
+        kickoff_iso = comp.get('date') or e.get('date')
+        kickoff_dt = datetime.fromisoformat(kickoff_iso.replace('Z', '+00:00')) if kickoff_iso else None
+        local_dt = kickoff_dt.astimezone(et) if kickoff_dt else None
+        status = comp.get('status', {}).get('type', {})
+        venue = comp.get('venue', {})
+        address = venue.get('address', {}) or {}
+        m = {
+            'id': e.get('id'), 'date': local_dt.strftime('%a %d %b') if local_dt else '', 'iso': local_dt.date().isoformat() if local_dt else '',
+            'kickoffUtc': kickoff_iso, 'kickoffLocal': local_dt.isoformat(timespec='minutes') if local_dt else '', 'kickoffEt': local_dt.strftime('%-I:%M %p ET') if local_dt else '',
+            'home': home_team['name'], 'away': away_team['name'], 'homeAbbr': home_team['abbr'], 'awayAbbr': away_team['abbr'], 'homeLogo': home_team['logo'], 'awayLogo': away_team['logo'],
+            'venue': venue.get('fullName') or '', 'city': address.get('city') or '', 'country': address.get('country') or '',
+            'statusState': status.get('state') or '', 'status': status.get('description') or '', 'statusShort': status.get('shortDetail') or status.get('detail') or '',
+            'completed': bool(status.get('completed')), 'timeValid': bool(comp.get('timeValid')), 'broadcasts': [name for b in comp.get('broadcasts', []) for name in b.get('names', [])],
+            'sourceName': e.get('name') or '', 'round': (comp.get('altGameNote') or '').replace('FIFA World Cup, ', ''),
+            'notes': [n.get('headline') or n.get('text') for n in (comp.get('notes') or []) if n.get('headline') or n.get('text')],
+        }
+        if m['completed'] or status.get('state') == 'in':
+            try:
+                m['hs'] = int(home.get('score')); m['as'] = int(away.get('score'))
+            except Exception:
+                pass
+        matches.append(m)
+    matches.sort(key=lambda x: x.get('kickoffUtc') or '')
+    return matches
+
+
+def merge_fifa_espn_knockout():
+    fifa = parse_fifa_knockout_matches()
+    espn = parse_espn_knockout_matches()
+    by_pair = {}
+    for em in espn:
+        pair = frozenset([match_team_key(em.get('home')), match_team_key(em.get('away'))])
+        by_pair.setdefault(pair, []).append(em)
+    by_round_order = {}
+    for em in espn:
+        by_round_order.setdefault(em.get('round') or '', []).append(em)
+    used_ids = set()
+    merged = []
+    for idx, fm in enumerate(fifa):
+        m = dict(fm)
+        em = None
+        # Known teams: pair merge is safest across source ordering.
+        if 'Winner match' not in fm.get('home', '') and 'Winner match' not in fm.get('away', '') and 'Runner-up match' not in fm.get('home', ''):
+            pair = frozenset([match_team_key(fm.get('home')), match_team_key(fm.get('away'))])
+            cands = [x for x in by_pair.get(pair, []) if x.get('id') not in used_ids]
+            if cands:
+                em = cands[0]
+        if em is None and ('Winner match' in fm.get('home', '') or 'Winner match' in fm.get('away', '') or 'Runner-up match' in fm.get('home', '')):
+            cands = by_round_order.get(fm.get('round'), [])
+            # Use same ordinal within round for future placeholder matches. Do not reindex after used IDs;
+            # otherwise an already-played pair miss can steal a later scheduled match. Tiny footgun, large clown shoes.
+            same_round_prior = len([x for x in fifa[:idx] if x.get('round') == fm.get('round')])
+            if same_round_prior < len(cands) and cands[same_round_prior].get('id') not in used_ids:
+                em = cands[same_round_prior]
+        if em:
+            used_ids.add(em.get('id'))
+            m.update({
+                'id': em.get('id'), 'kickoffUtc': em.get('kickoffUtc'), 'kickoffLocal': em.get('kickoffLocal'), 'kickoffEt': em.get('kickoffEt') or m.get('kickoffEt'),
+                'timeValid': em.get('timeValid'), 'venueOfficial': em.get('venue') or fm.get('venue'), 'venue': em.get('venue') or fm.get('venue'), 'city': em.get('city') or '', 'country': em.get('country') or '',
+                'homeAbbr': em.get('homeAbbr'), 'awayAbbr': em.get('awayAbbr'), 'homeLogo': em.get('homeLogo'), 'awayLogo': em.get('awayLogo'), 'broadcasts': em.get('broadcasts') or [],
+                'sourceName': em.get('sourceName') or '', 'notes': em.get('notes') or [],
+            })
+            if em.get('completed') or em.get('statusState') == 'in':
+                if 'hs' in em and 'as' in em:
+                    m['hs'] = em['hs']; m['as'] = em['as']
+            completed = bool(m.get('completed') or em.get('completed'))
+            scored = isinstance(m.get('hs'), int) and isinstance(m.get('as'), int)
+            is_live = bool(em.get('statusState') == 'in')
+            m.update({'statusState': 'post' if completed else ('in' if is_live else 'pre'), 'status': 'Full Time' if completed else (em.get('status') or 'Scheduled'), 'statusShort': em.get('statusShort') or m.get('statusShort') or ('FT' if completed else 'SET'), 'completed': completed and scored})
+        m['winner'] = knockout_winner(m)
+        merged.append(m)
+    return merged
+
+
+def knockout_winner(m):
+    if not (isinstance(m.get('hs'), int) and isinstance(m.get('as'), int)):
+        return ''
+    if m['hs'] > m['as']:
+        return m.get('home', '')
+    if m['as'] > m['hs']:
+        return m.get('away', '')
+    if isinstance(m.get('homePso'), int) and isinstance(m.get('awayPso'), int):
+        return m.get('home', '') if m['homePso'] > m['awayPso'] else m.get('away', '')
+    note = ' '.join(m.get('notes') or [])
+    for side in [m.get('home',''), m.get('away','')]:
+        if side and match_team_key(side) in match_team_key(note):
+            return side
+    return ''
 
 def parse_fifa_matches():
     article = json.loads(get(FIFA_ARTICLE, 'application/json'))
@@ -406,6 +590,7 @@ def match_team_key(name: str) -> str:
         'korea republic': 'south korea',
         'south korea': 'south korea',
         'cote d ivoire': 'ivory coast',
+        'cote divoire': 'ivory coast',
         'ivory coast': 'ivory coast',
         'turkiye': 'turkiye',
         'turkey': 'turkiye',
@@ -413,6 +598,8 @@ def match_team_key(name: str) -> str:
         'cape verde': 'cape verde',
         'bosnia and herzegovina': 'bosnia herzegovina',
         'bosnia herzegovina': 'bosnia herzegovina',
+        'bosnia herzegovina': 'bosnia herzegovina',
+        'bosnia-herzegovina': 'bosnia herzegovina',
         'ir iran': 'iran',
         'iran': 'iran',
         'congo dr': 'dr congo',
@@ -713,10 +900,10 @@ def inside_window(now: datetime) -> bool:
     # to 90m pre-match through 3h post-kickoff, but midnight ET / west-coast fixtures
     # plus upstream result lag meant completed matches could remain stale until the next
     # live window. The payload is cheap enough to rebuild every 30m during group dates.
-    if now.date().isoformat() in GROUP_DATES:
+    if now.date().isoformat() in EVENT_DATES:
         return True
-    # One-day grace catches final late-night result/stat corrections after Jun 27.
-    if now.date().isoformat() == '2026-06-28':
+    # One-day grace catches final late-night result/stat corrections after the final.
+    if now.date().isoformat() == '2026-07-20':
         return True
     return False
 
@@ -731,8 +918,12 @@ def main():
         return 0
     old = OUT.read_text() if OUT.exists() else ''
     matches = merge_fifa_espn_matches()
+    knockout = merge_fifa_espn_knockout()
     played = sum(1 for m in matches if 'hs' in m and 'as' in m)
+    knockout_played = sum(1 for m in knockout if m.get('completed') or ('hs' in m and 'as' in m))
     warnings = validate_payload(matches)
+    if len(knockout) != 32:
+        warnings.append(f'expected 32 knockout matches, got {len(knockout)}')
     payload = {
         'generatedAt': now.isoformat(timespec='seconds'),
         'refreshPolicy': 'During group-stage dates, scheduled refresh rebuilds every 30 minutes; manual force also supported. Page auto-refetches the published JSON every 2 minutes.',
@@ -741,10 +932,11 @@ def main():
         'statsSource': 'FOX Sports player boards + xGscore team advanced stats',
         'advancedTeamStatsSource': XGSCORE_TEAM_STATS,
         'matches': matches,
+        'knockout': knockout,
         'standings': compute_standings(matches),
         'validation': {'ok': not warnings, 'warnings': warnings},
         'stats': build_stats(),
-        'summary': {'matches': len(matches), 'played': played, 'scheduled': len(matches) - played, 'groups': 12, 'venues': len(set(m.get('venue') for m in matches if m.get('venue')))},
+        'summary': {'matches': len(matches), 'played': played, 'scheduled': len(matches) - played, 'groups': 12, 'venues': len(set(m.get('venue') for m in matches if m.get('venue'))), 'knockoutMatches': len(knockout), 'knockoutPlayed': knockout_played, 'knockoutScheduled': len(knockout) - knockout_played},
     }
     history_payload = merge_history(payload)
     text = json.dumps(payload, ensure_ascii=False, indent=2) + '\n'
@@ -753,7 +945,7 @@ def main():
     HISTORY_OUT.write_text(history_text)
     RECON_OUT.write_text(json.dumps(reconstruct_history(payload), ensure_ascii=False, indent=2) + '\n')
     if args.notify and text != old:
-        print(f'world-cup-tracker refreshed: {played}/{len(matches)} played, {len(payload["stats"]["categories"])} stat boards')
+        print(f'world-cup-tracker refreshed: groups {played}/{len(matches)} played, knockouts {knockout_played}/{len(knockout)}, {len(payload["stats"]["categories"])} stat boards')
     return 0
 
 if __name__ == '__main__':
