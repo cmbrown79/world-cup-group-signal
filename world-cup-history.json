@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-03T18:36:57-04:00",
+  "generatedAt": "2026-07-03T20:13:13-04:00",
   "source": "world-cup-data.json refresh snapshots",
-  "snapshotCount": 17,
+  "snapshotCount": 18,
   "snapshots": [
     {
       "generatedAt": "2026-07-02T10:41:57-04:00",
@@ -49013,6 +49013,3069 @@
     },
     {
       "generatedAt": "2026-07-03T18:36:57-04:00",
+      "played": 72,
+      "matches": [
+        {
+          "id": "760415",
+          "group": "A",
+          "home": "Mexico",
+          "away": "South Africa",
+          "hs": 2,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-11T19:00Z",
+          "venue": "Estadio Banorte",
+          "city": "Mexico City"
+        },
+        {
+          "id": "760414",
+          "group": "A",
+          "home": "Korea Republic",
+          "away": "Czechia",
+          "hs": 2,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-12T02:00Z",
+          "venue": "Estadio Akron",
+          "city": "Guadalajara"
+        },
+        {
+          "id": "760416",
+          "group": "B",
+          "home": "Canada",
+          "away": "Bosnia and Herzegovina",
+          "hs": 1,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-12T19:00Z",
+          "venue": "BMO Field",
+          "city": "Toronto"
+        },
+        {
+          "id": "760417",
+          "group": "D",
+          "home": "USA",
+          "away": "Paraguay",
+          "hs": 4,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-13T01:00Z",
+          "venue": "SoFi Stadium",
+          "city": "Inglewood, California"
+        },
+        {
+          "id": "760420",
+          "group": "B",
+          "home": "Qatar",
+          "away": "Switzerland",
+          "hs": 1,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-13T19:00Z",
+          "venue": "Levi's Stadium",
+          "city": "Santa Clara, California"
+        },
+        {
+          "id": "760419",
+          "group": "C",
+          "home": "Brazil",
+          "away": "Morocco",
+          "hs": 1,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-13T22:00Z",
+          "venue": "MetLife Stadium",
+          "city": "East Rutherford, New Jersey"
+        },
+        {
+          "id": "760418",
+          "group": "C",
+          "home": "Haiti",
+          "away": "Scotland",
+          "hs": 0,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-14T01:00Z",
+          "venue": "Gillette Stadium",
+          "city": "Foxborough, Massachusetts"
+        },
+        {
+          "id": "760421",
+          "group": "D",
+          "home": "Australia",
+          "away": "Türkiye",
+          "hs": 2,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-14T04:00Z",
+          "venue": "BC Place",
+          "city": "Vancouver"
+        },
+        {
+          "id": "760422",
+          "group": "E",
+          "home": "Germany",
+          "away": "Curaçao",
+          "hs": 7,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-14T17:00Z",
+          "venue": "NRG Stadium",
+          "city": "Houston, Texas"
+        },
+        {
+          "id": "760425",
+          "group": "F",
+          "home": "Netherlands",
+          "away": "Japan",
+          "hs": 2,
+          "as": 2,
+          "completed": true,
+          "kickoffUtc": "2026-06-14T20:00Z",
+          "venue": "AT&T Stadium",
+          "city": "Arlington, Texas"
+        },
+        {
+          "id": "760423",
+          "group": "E",
+          "home": "Côte d'Ivoire",
+          "away": "Ecuador",
+          "hs": 1,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-14T23:00Z",
+          "venue": "Lincoln Financial Field",
+          "city": "Philadelphia, Pennsylvania"
+        },
+        {
+          "id": "760424",
+          "group": "F",
+          "home": "Sweden",
+          "away": "Tunisia",
+          "hs": 5,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-15T02:00Z",
+          "venue": "Estadio BBVA",
+          "city": "Guadalupe"
+        },
+        {
+          "id": "760428",
+          "group": "H",
+          "home": "Spain",
+          "away": "Cabo Verde",
+          "hs": 0,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-15T16:00Z",
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta, Georgia"
+        },
+        {
+          "id": "760426",
+          "group": "G",
+          "home": "Belgium",
+          "away": "Egypt",
+          "hs": 1,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-15T19:00Z",
+          "venue": "Lumen Field",
+          "city": "Seattle, Washington"
+        },
+        {
+          "id": "760429",
+          "group": "H",
+          "home": "Saudi Arabia",
+          "away": "Uruguay",
+          "hs": 1,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-15T22:00Z",
+          "venue": "Hard Rock Stadium",
+          "city": "Miami Gardens, Florida"
+        },
+        {
+          "id": "760427",
+          "group": "G",
+          "home": "IR Iran",
+          "away": "New Zealand",
+          "hs": 2,
+          "as": 2,
+          "completed": true,
+          "kickoffUtc": "2026-06-16T01:00Z",
+          "venue": "SoFi Stadium",
+          "city": "Inglewood, California"
+        },
+        {
+          "id": "760432",
+          "group": "I",
+          "home": "France",
+          "away": "Senegal",
+          "hs": 3,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-16T19:00Z",
+          "venue": "MetLife Stadium",
+          "city": "East Rutherford, New Jersey"
+        },
+        {
+          "id": "760430",
+          "group": "I",
+          "home": "Iraq",
+          "away": "Norway",
+          "hs": 1,
+          "as": 4,
+          "completed": true,
+          "kickoffUtc": "2026-06-16T22:00Z",
+          "venue": "Gillette Stadium",
+          "city": "Foxborough, Massachusetts"
+        },
+        {
+          "id": "760433",
+          "group": "J",
+          "home": "Argentina",
+          "away": "Algeria",
+          "hs": 3,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-17T01:00Z",
+          "venue": "GEHA Field at Arrowhead Stadium",
+          "city": "Kansas City, Missouri"
+        },
+        {
+          "id": "760431",
+          "group": "J",
+          "home": "Austria",
+          "away": "Jordan",
+          "hs": 3,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-17T04:00Z",
+          "venue": "Levi's Stadium",
+          "city": "Santa Clara, California"
+        },
+        {
+          "id": "760435",
+          "group": "K",
+          "home": "Portugal",
+          "away": "Congo DR",
+          "hs": 1,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-17T17:00Z",
+          "venue": "NRG Stadium",
+          "city": "Houston, Texas"
+        },
+        {
+          "id": "760437",
+          "group": "L",
+          "home": "England",
+          "away": "Croatia",
+          "hs": 4,
+          "as": 2,
+          "completed": true,
+          "kickoffUtc": "2026-06-17T20:00Z",
+          "venue": "AT&T Stadium",
+          "city": "Arlington, Texas"
+        },
+        {
+          "id": "760434",
+          "group": "L",
+          "home": "Ghana",
+          "away": "Panama",
+          "hs": 1,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-17T23:00Z",
+          "venue": "BMO Field",
+          "city": "Toronto"
+        },
+        {
+          "id": "760436",
+          "group": "K",
+          "home": "Uzbekistan",
+          "away": "Colombia",
+          "hs": 1,
+          "as": 3,
+          "completed": true,
+          "kickoffUtc": "2026-06-18T02:00Z",
+          "venue": "Estadio Banorte",
+          "city": "Mexico City"
+        },
+        {
+          "id": "760438",
+          "group": "A",
+          "home": "Czechia",
+          "away": "South Africa",
+          "hs": 1,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-18T16:00Z",
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta, Georgia"
+        },
+        {
+          "id": "760439",
+          "group": "B",
+          "home": "Switzerland",
+          "away": "Bosnia and Herzegovina",
+          "hs": 4,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-18T19:00Z",
+          "venue": "SoFi Stadium",
+          "city": "Inglewood, California"
+        },
+        {
+          "id": "760440",
+          "group": "B",
+          "home": "Canada",
+          "away": "Qatar",
+          "hs": 6,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-18T22:00Z",
+          "venue": "BC Place",
+          "city": "Vancouver"
+        },
+        {
+          "id": "760441",
+          "group": "A",
+          "home": "Mexico",
+          "away": "Korea Republic",
+          "hs": 1,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-19T01:00Z",
+          "venue": "Estadio Akron",
+          "city": "Guadalajara"
+        },
+        {
+          "id": "760442",
+          "group": "D",
+          "home": "USA",
+          "away": "Australia",
+          "hs": 2,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-19T19:00Z",
+          "venue": "Lumen Field",
+          "city": "Seattle, Washington"
+        },
+        {
+          "id": "760445",
+          "group": "C",
+          "home": "Scotland",
+          "away": "Morocco",
+          "hs": 0,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-19T22:00Z",
+          "venue": "Gillette Stadium",
+          "city": "Foxborough, Massachusetts"
+        },
+        {
+          "id": "760444",
+          "group": "C",
+          "home": "Brazil",
+          "away": "Haiti",
+          "hs": 3,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-20T00:30Z",
+          "venue": "Lincoln Financial Field",
+          "city": "Philadelphia, Pennsylvania"
+        },
+        {
+          "id": "760443",
+          "group": "D",
+          "home": "Türkiye",
+          "away": "Paraguay",
+          "hs": 0,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-20T03:00Z",
+          "venue": "Levi's Stadium",
+          "city": "Santa Clara, California"
+        },
+        {
+          "id": "760447",
+          "group": "F",
+          "home": "Netherlands",
+          "away": "Sweden",
+          "hs": 5,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-20T17:00Z",
+          "venue": "NRG Stadium",
+          "city": "Houston, Texas"
+        },
+        {
+          "id": "760448",
+          "group": "E",
+          "home": "Germany",
+          "away": "Côte d'Ivoire",
+          "hs": 2,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-20T20:00Z",
+          "venue": "BMO Field",
+          "city": "Toronto"
+        },
+        {
+          "id": "760446",
+          "group": "E",
+          "home": "Ecuador",
+          "away": "Curaçao",
+          "hs": 0,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-21T00:00Z",
+          "venue": "GEHA Field at Arrowhead Stadium",
+          "city": "Kansas City, Missouri"
+        },
+        {
+          "id": "760449",
+          "group": "F",
+          "home": "Tunisia",
+          "away": "Japan",
+          "hs": 0,
+          "as": 4,
+          "completed": true,
+          "kickoffUtc": "2026-06-21T04:00Z",
+          "venue": "Estadio BBVA",
+          "city": "Guadalupe"
+        },
+        {
+          "id": "760453",
+          "group": "H",
+          "home": "Spain",
+          "away": "Saudi Arabia",
+          "hs": 4,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-21T16:00Z",
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta, Georgia"
+        },
+        {
+          "id": "760451",
+          "group": "G",
+          "home": "Belgium",
+          "away": "IR Iran",
+          "hs": 0,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-21T19:00Z",
+          "venue": "SoFi Stadium",
+          "city": "Inglewood, California"
+        },
+        {
+          "id": "760450",
+          "group": "H",
+          "home": "Uruguay",
+          "away": "Cabo Verde",
+          "hs": 2,
+          "as": 2,
+          "completed": true,
+          "kickoffUtc": "2026-06-21T22:00Z",
+          "venue": "Hard Rock Stadium",
+          "city": "Miami Gardens, Florida"
+        },
+        {
+          "id": "760452",
+          "group": "G",
+          "home": "New Zealand",
+          "away": "Egypt",
+          "hs": 1,
+          "as": 3,
+          "completed": true,
+          "kickoffUtc": "2026-06-22T01:00Z",
+          "venue": "BC Place",
+          "city": "Vancouver"
+        },
+        {
+          "id": "760456",
+          "group": "J",
+          "home": "Argentina",
+          "away": "Austria",
+          "hs": 2,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-22T17:00Z",
+          "venue": "AT&T Stadium",
+          "city": "Arlington, Texas"
+        },
+        {
+          "id": "760457",
+          "group": "I",
+          "home": "France",
+          "away": "Iraq",
+          "hs": 3,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-22T21:00Z",
+          "venue": "Lincoln Financial Field",
+          "city": "Philadelphia, Pennsylvania"
+        },
+        {
+          "id": "760454",
+          "group": "I",
+          "home": "Norway",
+          "away": "Senegal",
+          "hs": 3,
+          "as": 2,
+          "completed": true,
+          "kickoffUtc": "2026-06-23T00:00Z",
+          "venue": "MetLife Stadium",
+          "city": "East Rutherford, New Jersey"
+        },
+        {
+          "id": "760455",
+          "group": "J",
+          "home": "Jordan",
+          "away": "Algeria",
+          "hs": 1,
+          "as": 2,
+          "completed": true,
+          "kickoffUtc": "2026-06-23T03:00Z",
+          "venue": "Levi's Stadium",
+          "city": "Santa Clara, California"
+        },
+        {
+          "id": "760461",
+          "group": "K",
+          "home": "Portugal",
+          "away": "Uzbekistan",
+          "hs": 5,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-23T17:00Z",
+          "venue": "NRG Stadium",
+          "city": "Houston, Texas"
+        },
+        {
+          "id": "760458",
+          "group": "L",
+          "home": "England",
+          "away": "Ghana",
+          "hs": 0,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-23T20:00Z",
+          "venue": "Gillette Stadium",
+          "city": "Foxborough, Massachusetts"
+        },
+        {
+          "id": "760460",
+          "group": "L",
+          "home": "Panama",
+          "away": "Croatia",
+          "hs": 0,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-23T23:00Z",
+          "venue": "BMO Field",
+          "city": "Toronto"
+        },
+        {
+          "id": "760459",
+          "group": "K",
+          "home": "Colombia",
+          "away": "Congo DR",
+          "hs": 1,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-24T02:00Z",
+          "venue": "Estadio Akron",
+          "city": "Guadalajara"
+        },
+        {
+          "id": "760463",
+          "group": "B",
+          "home": "Switzerland",
+          "away": "Canada",
+          "hs": 2,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-24T19:00Z",
+          "venue": "BC Place",
+          "city": "Vancouver"
+        },
+        {
+          "id": "760462",
+          "group": "B",
+          "home": "Bosnia and Herzegovina",
+          "away": "Qatar",
+          "hs": 3,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-24T19:00Z",
+          "venue": "Lumen Field",
+          "city": "Seattle, Washington"
+        },
+        {
+          "id": "760465",
+          "group": "C",
+          "home": "Scotland",
+          "away": "Brazil",
+          "hs": 0,
+          "as": 3,
+          "completed": true,
+          "kickoffUtc": "2026-06-24T22:00Z",
+          "venue": "Hard Rock Stadium",
+          "city": "Miami Gardens, Florida"
+        },
+        {
+          "id": "760464",
+          "group": "C",
+          "home": "Morocco",
+          "away": "Haiti",
+          "hs": 4,
+          "as": 2,
+          "completed": true,
+          "kickoffUtc": "2026-06-24T22:00Z",
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta, Georgia"
+        },
+        {
+          "id": "760467",
+          "group": "A",
+          "home": "Czechia",
+          "away": "Mexico",
+          "hs": 0,
+          "as": 3,
+          "completed": true,
+          "kickoffUtc": "2026-06-25T01:00Z",
+          "venue": "Estadio Banorte",
+          "city": "Mexico City"
+        },
+        {
+          "id": "760466",
+          "group": "A",
+          "home": "South Africa",
+          "away": "Korea Republic",
+          "hs": 1,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-25T01:00Z",
+          "venue": "Estadio BBVA",
+          "city": "Guadalupe"
+        },
+        {
+          "id": "760473",
+          "group": "E",
+          "home": "Curaçao",
+          "away": "Côte d'Ivoire",
+          "hs": 0,
+          "as": 2,
+          "completed": true,
+          "kickoffUtc": "2026-06-25T20:00Z",
+          "venue": "Lincoln Financial Field",
+          "city": "Philadelphia, Pennsylvania"
+        },
+        {
+          "id": "760468",
+          "group": "E",
+          "home": "Ecuador",
+          "away": "Germany",
+          "hs": 2,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-25T20:00Z",
+          "venue": "MetLife Stadium",
+          "city": "East Rutherford, New Jersey"
+        },
+        {
+          "id": "760471",
+          "group": "F",
+          "home": "Japan",
+          "away": "Sweden",
+          "hs": 1,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-25T23:00Z",
+          "venue": "AT&T Stadium",
+          "city": "Arlington, Texas"
+        },
+        {
+          "id": "760472",
+          "group": "F",
+          "home": "Tunisia",
+          "away": "Netherlands",
+          "hs": 1,
+          "as": 3,
+          "completed": true,
+          "kickoffUtc": "2026-06-25T23:00Z",
+          "venue": "GEHA Field at Arrowhead Stadium",
+          "city": "Kansas City, Missouri"
+        },
+        {
+          "id": "760470",
+          "group": "D",
+          "home": "Türkiye",
+          "away": "USA",
+          "hs": 3,
+          "as": 2,
+          "completed": true,
+          "kickoffUtc": "2026-06-26T02:00Z",
+          "venue": "SoFi Stadium",
+          "city": "Inglewood, California"
+        },
+        {
+          "id": "760469",
+          "group": "D",
+          "home": "Paraguay",
+          "away": "Australia",
+          "hs": 0,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-26T02:00Z",
+          "venue": "Levi's Stadium",
+          "city": "Santa Clara, California"
+        },
+        {
+          "id": "760475",
+          "group": "I",
+          "home": "Norway",
+          "away": "France",
+          "hs": 1,
+          "as": 4,
+          "completed": true,
+          "kickoffUtc": "2026-06-26T19:00Z",
+          "venue": "Gillette Stadium",
+          "city": "Foxborough, Massachusetts"
+        },
+        {
+          "id": "760474",
+          "group": "I",
+          "home": "Senegal",
+          "away": "Iraq",
+          "hs": 5,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-26T19:00Z",
+          "venue": "BMO Field",
+          "city": "Toronto"
+        },
+        {
+          "id": "760478",
+          "group": "H",
+          "home": "Cabo Verde",
+          "away": "Saudi Arabia",
+          "hs": 0,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-27T00:00Z",
+          "venue": "NRG Stadium",
+          "city": "Houston, Texas"
+        },
+        {
+          "id": "760479",
+          "group": "H",
+          "home": "Uruguay",
+          "away": "Spain",
+          "hs": 0,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-27T00:00Z",
+          "venue": "Estadio Akron",
+          "city": "Guadalajara"
+        },
+        {
+          "id": "760476",
+          "group": "G",
+          "home": "Egypt",
+          "away": "IR Iran",
+          "hs": 1,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-27T03:00Z",
+          "venue": "Lumen Field",
+          "city": "Seattle, Washington"
+        },
+        {
+          "id": "760477",
+          "group": "G",
+          "home": "New Zealand",
+          "away": "Belgium",
+          "hs": 1,
+          "as": 5,
+          "completed": true,
+          "kickoffUtc": "2026-06-27T03:00Z",
+          "venue": "BC Place",
+          "city": "Vancouver"
+        },
+        {
+          "id": "760485",
+          "group": "L",
+          "home": "Panama",
+          "away": "England",
+          "hs": 0,
+          "as": 2,
+          "completed": true,
+          "kickoffUtc": "2026-06-27T21:00Z",
+          "venue": "MetLife Stadium",
+          "city": "East Rutherford, New Jersey"
+        },
+        {
+          "id": "760480",
+          "group": "L",
+          "home": "Croatia",
+          "away": "Ghana",
+          "hs": 2,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-27T21:00Z",
+          "venue": "Lincoln Financial Field",
+          "city": "Philadelphia, Pennsylvania"
+        },
+        {
+          "id": "760481",
+          "group": "K",
+          "home": "Colombia",
+          "away": "Portugal",
+          "hs": 0,
+          "as": 0,
+          "completed": true,
+          "kickoffUtc": "2026-06-27T23:30Z",
+          "venue": "Hard Rock Stadium",
+          "city": "Miami Gardens, Florida"
+        },
+        {
+          "id": "760482",
+          "group": "K",
+          "home": "Congo DR",
+          "away": "Uzbekistan",
+          "hs": 3,
+          "as": 1,
+          "completed": true,
+          "kickoffUtc": "2026-06-27T23:30Z",
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta, Georgia"
+        },
+        {
+          "id": "760484",
+          "group": "J",
+          "home": "Algeria",
+          "away": "Austria",
+          "hs": 3,
+          "as": 3,
+          "completed": true,
+          "kickoffUtc": "2026-06-28T02:00Z",
+          "venue": "GEHA Field at Arrowhead Stadium",
+          "city": "Kansas City, Missouri"
+        },
+        {
+          "id": "760483",
+          "group": "J",
+          "home": "Jordan",
+          "away": "Argentina",
+          "hs": 1,
+          "as": 3,
+          "completed": true,
+          "kickoffUtc": "2026-06-28T02:00Z",
+          "venue": "AT&T Stadium",
+          "city": "Arlington, Texas"
+        }
+      ],
+      "standings": {
+        "A": [
+          {
+            "team": "Mexico",
+            "p": 3,
+            "w": 3,
+            "d": 0,
+            "l": 0,
+            "gf": 6,
+            "ga": 0,
+            "gd": 6,
+            "pts": 9,
+            "rank": 1,
+            "status": "qualified-watch"
+          },
+          {
+            "team": "South Africa",
+            "p": 3,
+            "w": 1,
+            "d": 1,
+            "l": 1,
+            "gf": 2,
+            "ga": 3,
+            "gd": -1,
+            "pts": 4,
+            "rank": 2,
+            "status": "alive"
+          },
+          {
+            "team": "Korea Republic",
+            "p": 3,
+            "w": 1,
+            "d": 0,
+            "l": 2,
+            "gf": 2,
+            "ga": 3,
+            "gd": -1,
+            "pts": 3,
+            "rank": 3,
+            "status": "alive"
+          },
+          {
+            "team": "Czechia",
+            "p": 3,
+            "w": 0,
+            "d": 1,
+            "l": 2,
+            "gf": 2,
+            "ga": 6,
+            "gd": -4,
+            "pts": 1,
+            "rank": 4,
+            "status": "danger"
+          }
+        ],
+        "B": [
+          {
+            "team": "Switzerland",
+            "p": 3,
+            "w": 2,
+            "d": 1,
+            "l": 0,
+            "gf": 7,
+            "ga": 3,
+            "gd": 4,
+            "pts": 7,
+            "rank": 1,
+            "status": "qualified-watch"
+          },
+          {
+            "team": "Canada",
+            "p": 3,
+            "w": 1,
+            "d": 1,
+            "l": 1,
+            "gf": 8,
+            "ga": 3,
+            "gd": 5,
+            "pts": 4,
+            "rank": 2,
+            "status": "alive"
+          },
+          {
+            "team": "Bosnia and Herzegovina",
+            "p": 3,
+            "w": 1,
+            "d": 1,
+            "l": 1,
+            "gf": 5,
+            "ga": 6,
+            "gd": -1,
+            "pts": 4,
+            "rank": 3,
+            "status": "alive"
+          },
+          {
+            "team": "Qatar",
+            "p": 3,
+            "w": 0,
+            "d": 1,
+            "l": 2,
+            "gf": 2,
+            "ga": 10,
+            "gd": -8,
+            "pts": 1,
+            "rank": 4,
+            "status": "danger"
+          }
+        ],
+        "C": [
+          {
+            "team": "Brazil",
+            "p": 3,
+            "w": 2,
+            "d": 1,
+            "l": 0,
+            "gf": 7,
+            "ga": 1,
+            "gd": 6,
+            "pts": 7,
+            "rank": 1,
+            "status": "qualified-watch"
+          },
+          {
+            "team": "Morocco",
+            "p": 3,
+            "w": 2,
+            "d": 1,
+            "l": 0,
+            "gf": 6,
+            "ga": 3,
+            "gd": 3,
+            "pts": 7,
+            "rank": 2,
+            "status": "qualified-watch"
+          },
+          {
+            "team": "Scotland",
+            "p": 3,
+            "w": 1,
+            "d": 0,
+            "l": 2,
+            "gf": 1,
+            "ga": 4,
+            "gd": -3,
+            "pts": 3,
+            "rank": 3,
+            "status": "alive"
+          },
+          {
+            "team": "Haiti",
+            "p": 3,
+            "w": 0,
+            "d": 0,
+            "l": 3,
+            "gf": 2,
+            "ga": 8,
+            "gd": -6,
+            "pts": 0,
+            "rank": 4,
+            "status": "danger"
+          }
+        ],
+        "D": [
+          {
+            "team": "USA",
+            "p": 3,
+            "w": 2,
+            "d": 0,
+            "l": 1,
+            "gf": 8,
+            "ga": 4,
+            "gd": 4,
+            "pts": 6,
+            "rank": 1,
+            "status": "qualified-watch"
+          },
+          {
+            "team": "Australia",
+            "p": 3,
+            "w": 1,
+            "d": 1,
+            "l": 1,
+            "gf": 2,
+            "ga": 2,
+            "gd": 0,
+            "pts": 4,
+            "rank": 2,
+            "status": "alive"
+          },
+          {
+            "team": "Paraguay",
+            "p": 3,
+            "w": 1,
+            "d": 1,
+            "l": 1,
+            "gf": 2,
+            "ga": 4,
+            "gd": -2,
+            "pts": 4,
+            "rank": 3,
+            "status": "alive"
+          },
+          {
+            "team": "Türkiye",
+            "p": 3,
+            "w": 1,
+            "d": 0,
+            "l": 2,
+            "gf": 3,
+            "ga": 5,
+            "gd": -2,
+            "pts": 3,
+            "rank": 4,
+            "status": "alive"
+          }
+        ],
+        "E": [
+          {
+            "team": "Germany",
+            "p": 3,
+            "w": 2,
+            "d": 0,
+            "l": 1,
+            "gf": 10,
+            "ga": 4,
+            "gd": 6,
+            "pts": 6,
+            "rank": 1,
+            "status": "qualified-watch"
+          },
+          {
+            "team": "Côte d'Ivoire",
+            "p": 3,
+            "w": 2,
+            "d": 0,
+            "l": 1,
+            "gf": 4,
+            "ga": 2,
+            "gd": 2,
+            "pts": 6,
+            "rank": 2,
+            "status": "qualified-watch"
+          },
+          {
+            "team": "Ecuador",
+            "p": 3,
+            "w": 1,
+            "d": 1,
+            "l": 1,
+            "gf": 2,
+            "ga": 2,
+            "gd": 0,
+            "pts": 4,
+            "rank": 3,
+            "status": "alive"
+          },
+          {
+            "team": "Curaçao",
+            "p": 3,
+            "w": 0,
+            "d": 1,
+            "l": 2,
+            "gf": 1,
+            "ga": 9,
+            "gd": -8,
+            "pts": 1,
+            "rank": 4,
+            "status": "danger"
+          }
+        ],
+        "F": [
+          {
+            "team": "Netherlands",
+            "p": 3,
+            "w": 2,
+            "d": 1,
+            "l": 0,
+            "gf": 10,
+            "ga": 4,
+            "gd": 6,
+            "pts": 7,
+            "rank": 1,
+            "status": "qualified-watch"
+          },
+          {
+            "team": "Japan",
+            "p": 3,
+            "w": 1,
+            "d": 2,
+            "l": 0,
+            "gf": 7,
+            "ga": 3,
+            "gd": 4,
+            "pts": 5,
+            "rank": 2,
+            "status": "alive"
+          },
+          {
+            "team": "Sweden",
+            "p": 3,
+            "w": 1,
+            "d": 1,
+            "l": 1,
+            "gf": 7,
+            "ga": 7,
+            "gd": 0,
+            "pts": 4,
+            "rank": 3,
+            "status": "alive"
+          },
+          {
+            "team": "Tunisia",
+            "p": 3,
+            "w": 0,
+            "d": 0,
+            "l": 3,
+            "gf": 2,
+            "ga": 12,
+            "gd": -10,
+            "pts": 0,
+            "rank": 4,
+            "status": "danger"
+          }
+        ],
+        "G": [
+          {
+            "team": "Belgium",
+            "p": 3,
+            "w": 1,
+            "d": 2,
+            "l": 0,
+            "gf": 6,
+            "ga": 2,
+            "gd": 4,
+            "pts": 5,
+            "rank": 1,
+            "status": "alive"
+          },
+          {
+            "team": "Egypt",
+            "p": 3,
+            "w": 1,
+            "d": 2,
+            "l": 0,
+            "gf": 5,
+            "ga": 3,
+            "gd": 2,
+            "pts": 5,
+            "rank": 2,
+            "status": "alive"
+          },
+          {
+            "team": "IR Iran",
+            "p": 3,
+            "w": 0,
+            "d": 3,
+            "l": 0,
+            "gf": 3,
+            "ga": 3,
+            "gd": 0,
+            "pts": 3,
+            "rank": 3,
+            "status": "alive"
+          },
+          {
+            "team": "New Zealand",
+            "p": 3,
+            "w": 0,
+            "d": 1,
+            "l": 2,
+            "gf": 4,
+            "ga": 10,
+            "gd": -6,
+            "pts": 1,
+            "rank": 4,
+            "status": "danger"
+          }
+        ],
+        "H": [
+          {
+            "team": "Spain",
+            "p": 3,
+            "w": 2,
+            "d": 1,
+            "l": 0,
+            "gf": 5,
+            "ga": 0,
+            "gd": 5,
+            "pts": 7,
+            "rank": 1,
+            "status": "qualified-watch"
+          },
+          {
+            "team": "Cabo Verde",
+            "p": 3,
+            "w": 0,
+            "d": 3,
+            "l": 0,
+            "gf": 2,
+            "ga": 2,
+            "gd": 0,
+            "pts": 3,
+            "rank": 2,
+            "status": "alive"
+          },
+          {
+            "team": "Uruguay",
+            "p": 3,
+            "w": 0,
+            "d": 2,
+            "l": 1,
+            "gf": 3,
+            "ga": 4,
+            "gd": -1,
+            "pts": 2,
+            "rank": 3,
+            "status": "danger"
+          },
+          {
+            "team": "Saudi Arabia",
+            "p": 3,
+            "w": 0,
+            "d": 2,
+            "l": 1,
+            "gf": 1,
+            "ga": 5,
+            "gd": -4,
+            "pts": 2,
+            "rank": 4,
+            "status": "danger"
+          }
+        ],
+        "I": [
+          {
+            "team": "France",
+            "p": 3,
+            "w": 3,
+            "d": 0,
+            "l": 0,
+            "gf": 10,
+            "ga": 2,
+            "gd": 8,
+            "pts": 9,
+            "rank": 1,
+            "status": "qualified-watch"
+          },
+          {
+            "team": "Norway",
+            "p": 3,
+            "w": 2,
+            "d": 0,
+            "l": 1,
+            "gf": 8,
+            "ga": 7,
+            "gd": 1,
+            "pts": 6,
+            "rank": 2,
+            "status": "qualified-watch"
+          },
+          {
+            "team": "Senegal",
+            "p": 3,
+            "w": 1,
+            "d": 0,
+            "l": 2,
+            "gf": 8,
+            "ga": 6,
+            "gd": 2,
+            "pts": 3,
+            "rank": 3,
+            "status": "alive"
+          },
+          {
+            "team": "Iraq",
+            "p": 3,
+            "w": 0,
+            "d": 0,
+            "l": 3,
+            "gf": 1,
+            "ga": 12,
+            "gd": -11,
+            "pts": 0,
+            "rank": 4,
+            "status": "danger"
+          }
+        ],
+        "J": [
+          {
+            "team": "Argentina",
+            "p": 3,
+            "w": 3,
+            "d": 0,
+            "l": 0,
+            "gf": 8,
+            "ga": 1,
+            "gd": 7,
+            "pts": 9,
+            "rank": 1,
+            "status": "qualified-watch"
+          },
+          {
+            "team": "Austria",
+            "p": 3,
+            "w": 1,
+            "d": 1,
+            "l": 1,
+            "gf": 6,
+            "ga": 6,
+            "gd": 0,
+            "pts": 4,
+            "rank": 2,
+            "status": "alive"
+          },
+          {
+            "team": "Algeria",
+            "p": 3,
+            "w": 1,
+            "d": 1,
+            "l": 1,
+            "gf": 5,
+            "ga": 7,
+            "gd": -2,
+            "pts": 4,
+            "rank": 3,
+            "status": "alive"
+          },
+          {
+            "team": "Jordan",
+            "p": 3,
+            "w": 0,
+            "d": 0,
+            "l": 3,
+            "gf": 3,
+            "ga": 8,
+            "gd": -5,
+            "pts": 0,
+            "rank": 4,
+            "status": "danger"
+          }
+        ],
+        "K": [
+          {
+            "team": "Colombia",
+            "p": 3,
+            "w": 2,
+            "d": 1,
+            "l": 0,
+            "gf": 4,
+            "ga": 1,
+            "gd": 3,
+            "pts": 7,
+            "rank": 1,
+            "status": "qualified-watch"
+          },
+          {
+            "team": "Portugal",
+            "p": 3,
+            "w": 1,
+            "d": 2,
+            "l": 0,
+            "gf": 6,
+            "ga": 1,
+            "gd": 5,
+            "pts": 5,
+            "rank": 2,
+            "status": "alive"
+          },
+          {
+            "team": "Congo DR",
+            "p": 3,
+            "w": 1,
+            "d": 1,
+            "l": 1,
+            "gf": 4,
+            "ga": 3,
+            "gd": 1,
+            "pts": 4,
+            "rank": 3,
+            "status": "alive"
+          },
+          {
+            "team": "Uzbekistan",
+            "p": 3,
+            "w": 0,
+            "d": 0,
+            "l": 3,
+            "gf": 2,
+            "ga": 11,
+            "gd": -9,
+            "pts": 0,
+            "rank": 4,
+            "status": "danger"
+          }
+        ],
+        "L": [
+          {
+            "team": "England",
+            "p": 3,
+            "w": 2,
+            "d": 1,
+            "l": 0,
+            "gf": 6,
+            "ga": 2,
+            "gd": 4,
+            "pts": 7,
+            "rank": 1,
+            "status": "qualified-watch"
+          },
+          {
+            "team": "Croatia",
+            "p": 3,
+            "w": 2,
+            "d": 0,
+            "l": 1,
+            "gf": 5,
+            "ga": 5,
+            "gd": 0,
+            "pts": 6,
+            "rank": 2,
+            "status": "qualified-watch"
+          },
+          {
+            "team": "Ghana",
+            "p": 3,
+            "w": 1,
+            "d": 1,
+            "l": 1,
+            "gf": 2,
+            "ga": 2,
+            "gd": 0,
+            "pts": 4,
+            "rank": 3,
+            "status": "alive"
+          },
+          {
+            "team": "Panama",
+            "p": 3,
+            "w": 0,
+            "d": 0,
+            "l": 3,
+            "gf": 0,
+            "ga": 4,
+            "gd": -4,
+            "pts": 0,
+            "rank": 4,
+            "status": "danger"
+          }
+        ]
+      },
+      "stats": [
+        {
+          "title": "Player xG",
+          "abbr": "XG",
+          "type": "player",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Erling Haaland",
+              "team": "NOR",
+              "value": "3.38"
+            },
+            {
+              "rank": 2,
+              "name": "Ismaila Sarr",
+              "team": "SEN",
+              "value": "2.98"
+            },
+            {
+              "rank": 3,
+              "name": "Kylian Mbappe",
+              "team": "FRA",
+              "value": "2.89"
+            },
+            {
+              "rank": 4,
+              "name": "Vinicius Junior",
+              "team": "BRA",
+              "value": "2.50"
+            },
+            {
+              "rank": 5,
+              "name": "Harry Kane",
+              "team": "ENG",
+              "value": "2.47"
+            },
+            {
+              "rank": 6,
+              "name": "Lionel Messi",
+              "team": "ARG",
+              "value": "2.41"
+            },
+            {
+              "rank": 7,
+              "name": "Mikel Oyarzabal",
+              "team": "ESP",
+              "value": "2.37"
+            },
+            {
+              "rank": 8,
+              "name": "Breel Embolo",
+              "team": "SUI",
+              "value": "2.36"
+            },
+            {
+              "rank": 9,
+              "name": "Cristiano Ronaldo",
+              "team": "POR",
+              "value": "2.33"
+            },
+            {
+              "rank": 10,
+              "name": "Kai Havertz",
+              "team": "GER",
+              "value": "2.18"
+            }
+          ]
+        },
+        {
+          "title": "Goals",
+          "abbr": "G",
+          "type": "player",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Kylian Mbappe",
+              "team": "FRA",
+              "value": "6"
+            },
+            {
+              "rank": 2,
+              "name": "Lionel Messi",
+              "team": "ARG",
+              "value": "6"
+            },
+            {
+              "rank": 3,
+              "name": "Erling Haaland",
+              "team": "NOR",
+              "value": "5"
+            },
+            {
+              "rank": 4,
+              "name": "Harry Kane",
+              "team": "ENG",
+              "value": "5"
+            },
+            {
+              "rank": 5,
+              "name": "Ismaila Sarr",
+              "team": "SEN",
+              "value": "4"
+            },
+            {
+              "rank": 6,
+              "name": "Mikel Oyarzabal",
+              "team": "ESP",
+              "value": "4"
+            },
+            {
+              "rank": 7,
+              "name": "Vinicius Junior",
+              "team": "BRA",
+              "value": "4"
+            },
+            {
+              "rank": 8,
+              "name": "Ousmane Dembele",
+              "team": "FRA",
+              "value": "4"
+            },
+            {
+              "rank": 9,
+              "name": "Matheus Cunha",
+              "team": "BRA",
+              "value": "3"
+            },
+            {
+              "rank": 10,
+              "name": "Kai Havertz",
+              "team": "GER",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "title": "Assists",
+          "abbr": "A",
+          "type": "player",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Michael Olise",
+              "team": "FRA",
+              "value": "5"
+            },
+            {
+              "rank": 2,
+              "name": "Bruno Guimaraes",
+              "team": "BRA",
+              "value": "4"
+            },
+            {
+              "rank": 3,
+              "name": "Alexander Isak",
+              "team": "SWE",
+              "value": "3"
+            },
+            {
+              "rank": 4,
+              "name": "Martin Odegaard",
+              "team": "NOR",
+              "value": "3"
+            },
+            {
+              "rank": 5,
+              "name": "Florian Wirtz",
+              "team": "GER",
+              "value": "3"
+            },
+            {
+              "rank": 6,
+              "name": "Roberto Alvarado",
+              "team": "MEX",
+              "value": "3"
+            },
+            {
+              "rank": 7,
+              "name": "Hannibal Mejbri",
+              "team": "TUN",
+              "value": "2"
+            },
+            {
+              "rank": 8,
+              "name": "Chris Wood",
+              "team": "NZL",
+              "value": "2"
+            },
+            {
+              "rank": 9,
+              "name": "Julio Enciso",
+              "team": "PAR",
+              "value": "2"
+            },
+            {
+              "rank": 10,
+              "name": "Crysencio Summerville",
+              "team": "NED",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Shots",
+          "abbr": "S",
+          "type": "player",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Kylian Mbappe",
+              "team": "FRA",
+              "value": "21"
+            },
+            {
+              "rank": 2,
+              "name": "Ismaila Sarr",
+              "team": "SEN",
+              "value": "18"
+            },
+            {
+              "rank": 3,
+              "name": "Kevin De Bruyne",
+              "team": "BEL",
+              "value": "17"
+            },
+            {
+              "rank": 4,
+              "name": "Harry Kane",
+              "team": "ENG",
+              "value": "16"
+            },
+            {
+              "rank": 5,
+              "name": "Vinicius Junior",
+              "team": "BRA",
+              "value": "16"
+            },
+            {
+              "rank": 6,
+              "name": "Mikel Oyarzabal",
+              "team": "ESP",
+              "value": "15"
+            },
+            {
+              "rank": 7,
+              "name": "Kenan Yildiz",
+              "team": "TUR",
+              "value": "15"
+            },
+            {
+              "rank": 8,
+              "name": "Erling Haaland",
+              "team": "NOR",
+              "value": "14"
+            },
+            {
+              "rank": 9,
+              "name": "Michael Olise",
+              "team": "FRA",
+              "value": "14"
+            },
+            {
+              "rank": 10,
+              "name": "Cristiano Ronaldo",
+              "team": "POR",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "title": "Shots on goal",
+          "abbr": "SOG",
+          "type": "player",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Kylian Mbappe",
+              "team": "FRA",
+              "value": "13"
+            },
+            {
+              "rank": 2,
+              "name": "Harry Kane",
+              "team": "ENG",
+              "value": "10"
+            },
+            {
+              "rank": 3,
+              "name": "Vinicius Junior",
+              "team": "BRA",
+              "value": "10"
+            },
+            {
+              "rank": 4,
+              "name": "Erling Haaland",
+              "team": "NOR",
+              "value": "9"
+            },
+            {
+              "rank": 5,
+              "name": "Mikel Oyarzabal",
+              "team": "ESP",
+              "value": "8"
+            },
+            {
+              "rank": 6,
+              "name": "Cristiano Ronaldo",
+              "team": "POR",
+              "value": "8"
+            },
+            {
+              "rank": 7,
+              "name": "Viktor Gyokeres",
+              "team": "SWE",
+              "value": "8"
+            },
+            {
+              "rank": 8,
+              "name": "Ismaila Sarr",
+              "team": "SEN",
+              "value": "7"
+            },
+            {
+              "rank": 9,
+              "name": "Kai Havertz",
+              "team": "GER",
+              "value": "7"
+            },
+            {
+              "rank": 10,
+              "name": "Jude Bellingham",
+              "team": "ENG",
+              "value": "7"
+            }
+          ]
+        },
+        {
+          "title": "Chances created",
+          "abbr": "CC",
+          "type": "player",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Mohamed Salah",
+              "team": "EGY",
+              "value": "15"
+            },
+            {
+              "rank": 2,
+              "name": "Leandro Trossard",
+              "team": "BEL",
+              "value": "14"
+            },
+            {
+              "rank": 3,
+              "name": "Declan Rice",
+              "team": "ENG",
+              "value": "11"
+            },
+            {
+              "rank": 4,
+              "name": "Sadio Mane",
+              "team": "SEN",
+              "value": "11"
+            },
+            {
+              "rank": 5,
+              "name": "Achraf Hakimi",
+              "team": "MAR",
+              "value": "11"
+            },
+            {
+              "rank": 6,
+              "name": "Kylian Mbappe",
+              "team": "FRA",
+              "value": "10"
+            },
+            {
+              "rank": 7,
+              "name": "Michael Olise",
+              "team": "FRA",
+              "value": "10"
+            },
+            {
+              "rank": 8,
+              "name": "Joshua Kimmich",
+              "team": "GER",
+              "value": "10"
+            },
+            {
+              "rank": 9,
+              "name": "Florian Wirtz",
+              "team": "GER",
+              "value": "10"
+            },
+            {
+              "rank": 10,
+              "name": "Yan Diomande",
+              "team": "CIV",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "title": "Player rating",
+          "abbr": "RTG",
+          "type": "player",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Lionel Messi",
+              "team": "ARG",
+              "value": "8.6"
+            },
+            {
+              "rank": 2,
+              "name": "Pedro Porro",
+              "team": "ESP",
+              "value": "8.1"
+            },
+            {
+              "rank": 3,
+              "name": "Kylian Mbappe",
+              "team": "FRA",
+              "value": "8.0"
+            },
+            {
+              "rank": 4,
+              "name": "Erling Haaland",
+              "team": "NOR",
+              "value": "7.9"
+            },
+            {
+              "rank": 5,
+              "name": "Sontje Hansen",
+              "team": "CUW",
+              "value": "7.7"
+            },
+            {
+              "rank": 6,
+              "name": "Tim Ream",
+              "team": "USA",
+              "value": "7.6"
+            },
+            {
+              "rank": 7,
+              "name": "Abdoulaye Seck",
+              "team": "SEN",
+              "value": "7.6"
+            },
+            {
+              "rank": 8,
+              "name": "Assane Diao",
+              "team": "SEN",
+              "value": "7.6"
+            },
+            {
+              "rank": 9,
+              "name": "Oguz Aydin",
+              "team": "TUR",
+              "value": "7.6"
+            },
+            {
+              "rank": 10,
+              "name": "Mateo Chavez",
+              "team": "MEX",
+              "value": "7.4"
+            }
+          ]
+        },
+        {
+          "title": "Keeper save %",
+          "abbr": "SV%",
+          "type": "player",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Edouard Mendy",
+              "team": "SEN",
+              "value": "38"
+            },
+            {
+              "rank": 2,
+              "name": "Jacob Widell Zetterstrom",
+              "team": "SWE",
+              "value": "33"
+            },
+            {
+              "rank": 3,
+              "name": "Gregor Kobel",
+              "team": "SUI",
+              "value": "33"
+            },
+            {
+              "rank": 4,
+              "name": "Lawrence Ati Zigi",
+              "team": "GHA",
+              "value": "33"
+            },
+            {
+              "rank": 5,
+              "name": "Sergio Rochet",
+              "team": "URU",
+              "value": "33"
+            },
+            {
+              "rank": 6,
+              "name": "Zion Suzuki",
+              "team": "JPN",
+              "value": "32"
+            },
+            {
+              "rank": 7,
+              "name": "Bart Verbruggen",
+              "team": "NED",
+              "value": "31"
+            },
+            {
+              "rank": 8,
+              "name": "Eloy Room",
+              "team": "CUW",
+              "value": "30"
+            },
+            {
+              "rank": 9,
+              "name": "Alisson",
+              "team": "BRA",
+              "value": "30"
+            },
+            {
+              "rank": 10,
+              "name": "Johny Placide",
+              "team": "HAI",
+              "value": "28"
+            }
+          ]
+        },
+        {
+          "title": "Keeper saves",
+          "abbr": "SV",
+          "type": "player",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Orlando Gill",
+              "team": "PAR",
+              "value": "19"
+            },
+            {
+              "rank": 2,
+              "name": "Eloy Room",
+              "team": "CUW",
+              "value": "18"
+            },
+            {
+              "rank": 3,
+              "name": "Bart Verbruggen",
+              "team": "NED",
+              "value": "16"
+            },
+            {
+              "rank": 4,
+              "name": "Diogo Costa",
+              "team": "POR",
+              "value": "14"
+            },
+            {
+              "rank": 5,
+              "name": "Patrick Beach",
+              "team": "AUS",
+              "value": "14"
+            },
+            {
+              "rank": 6,
+              "name": "Zion Suzuki",
+              "team": "JPN",
+              "value": "14"
+            },
+            {
+              "rank": 7,
+              "name": "Alexander Schlager",
+              "team": "AUT",
+              "value": "12"
+            },
+            {
+              "rank": 8,
+              "name": "Alireza Beiranvand",
+              "team": "IRN",
+              "value": "12"
+            },
+            {
+              "rank": 9,
+              "name": "Mohammed Alowais",
+              "team": "KSA",
+              "value": "12"
+            },
+            {
+              "rank": 10,
+              "name": "Jacob Widell Zetterstrom",
+              "team": "SWE",
+              "value": "11"
+            }
+          ]
+        },
+        {
+          "title": "Team xG",
+          "abbr": "XG",
+          "type": "team",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Canada",
+              "team": "team",
+              "value": "7.5"
+            },
+            {
+              "rank": 2,
+              "name": "Brazil",
+              "team": "team",
+              "value": "6.92"
+            },
+            {
+              "rank": 3,
+              "name": "Germany",
+              "team": "team",
+              "value": "6.84"
+            },
+            {
+              "rank": 4,
+              "name": "Belgium",
+              "team": "team",
+              "value": "6.83"
+            },
+            {
+              "rank": 5,
+              "name": "Türkiye",
+              "team": "team",
+              "value": "6.61"
+            },
+            {
+              "rank": 6,
+              "name": "England",
+              "team": "team",
+              "value": "6.13"
+            },
+            {
+              "rank": 7,
+              "name": "France",
+              "team": "team",
+              "value": "6.1"
+            },
+            {
+              "rank": 8,
+              "name": "Switzerland",
+              "team": "team",
+              "value": "6.1"
+            },
+            {
+              "rank": 9,
+              "name": "Norway",
+              "team": "team",
+              "value": "5.93"
+            },
+            {
+              "rank": 10,
+              "name": "Morocco",
+              "team": "team",
+              "value": "5.85"
+            }
+          ]
+        },
+        {
+          "title": "Team goals",
+          "abbr": "GF",
+          "type": "team",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "France",
+              "team": "",
+              "value": "13"
+            },
+            {
+              "rank": 2,
+              "name": "Germany",
+              "team": "",
+              "value": "11"
+            },
+            {
+              "rank": 3,
+              "name": "Netherlands",
+              "team": "",
+              "value": "11"
+            },
+            {
+              "rank": 4,
+              "name": "Norway",
+              "team": "",
+              "value": "10"
+            },
+            {
+              "rank": 5,
+              "name": "Senegal",
+              "team": "",
+              "value": "10"
+            },
+            {
+              "rank": 6,
+              "name": "United States",
+              "team": "",
+              "value": "10"
+            },
+            {
+              "rank": 7,
+              "name": "Belgium",
+              "team": "",
+              "value": "9"
+            },
+            {
+              "rank": 8,
+              "name": "Brazil",
+              "team": "",
+              "value": "9"
+            },
+            {
+              "rank": 9,
+              "name": "Canada",
+              "team": "",
+              "value": "9"
+            },
+            {
+              "rank": 10,
+              "name": "Switzerland",
+              "team": "",
+              "value": "9"
+            }
+          ]
+        },
+        {
+          "title": "Team shots on goal",
+          "abbr": "SOG",
+          "type": "team",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "France",
+              "team": "",
+              "value": "36"
+            },
+            {
+              "rank": 2,
+              "name": "England",
+              "team": "",
+              "value": "32"
+            },
+            {
+              "rank": 3,
+              "name": "Germany",
+              "team": "",
+              "value": "28"
+            },
+            {
+              "rank": 4,
+              "name": "Spain",
+              "team": "",
+              "value": "28"
+            },
+            {
+              "rank": 5,
+              "name": "Canada",
+              "team": "",
+              "value": "27"
+            },
+            {
+              "rank": 6,
+              "name": "Switzerland",
+              "team": "",
+              "value": "27"
+            },
+            {
+              "rank": 7,
+              "name": "Sweden",
+              "team": "",
+              "value": "26"
+            },
+            {
+              "rank": 8,
+              "name": "Belgium",
+              "team": "",
+              "value": "25"
+            },
+            {
+              "rank": 9,
+              "name": "Brazil",
+              "team": "",
+              "value": "25"
+            },
+            {
+              "rank": 10,
+              "name": "Morocco",
+              "team": "",
+              "value": "25"
+            }
+          ]
+        },
+        {
+          "title": "Team chances created",
+          "abbr": "CC",
+          "type": "team",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Belgium",
+              "team": "",
+              "value": "54"
+            },
+            {
+              "rank": 2,
+              "name": "England",
+              "team": "",
+              "value": "53"
+            },
+            {
+              "rank": 3,
+              "name": "Germany",
+              "team": "",
+              "value": "53"
+            },
+            {
+              "rank": 4,
+              "name": "Türkiye",
+              "team": "",
+              "value": "53"
+            },
+            {
+              "rank": 5,
+              "name": "France",
+              "team": "",
+              "value": "52"
+            },
+            {
+              "rank": 6,
+              "name": "Spain",
+              "team": "",
+              "value": "49"
+            },
+            {
+              "rank": 7,
+              "name": "Senegal",
+              "team": "",
+              "value": "48"
+            },
+            {
+              "rank": 8,
+              "name": "Canada",
+              "team": "",
+              "value": "47"
+            },
+            {
+              "rank": 9,
+              "name": "Egypt",
+              "team": "",
+              "value": "42"
+            },
+            {
+              "rank": 10,
+              "name": "Brazil",
+              "team": "",
+              "value": "41"
+            }
+          ]
+        },
+        {
+          "title": "Passing accuracy",
+          "abbr": "PA",
+          "type": "team",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Portugal",
+              "team": "",
+              "value": "0.93"
+            },
+            {
+              "rank": 2,
+              "name": "Spain",
+              "team": "",
+              "value": "0.92"
+            },
+            {
+              "rank": 3,
+              "name": "Algeria",
+              "team": "",
+              "value": "0.92"
+            },
+            {
+              "rank": 4,
+              "name": "Argentina",
+              "team": "",
+              "value": "0.92"
+            },
+            {
+              "rank": 5,
+              "name": "England",
+              "team": "",
+              "value": "0.92"
+            },
+            {
+              "rank": 6,
+              "name": "Brazil",
+              "team": "",
+              "value": "0.91"
+            },
+            {
+              "rank": 7,
+              "name": "Morocco",
+              "team": "",
+              "value": "0.91"
+            },
+            {
+              "rank": 8,
+              "name": "Germany",
+              "team": "",
+              "value": "0.91"
+            },
+            {
+              "rank": 9,
+              "name": "France",
+              "team": "",
+              "value": "0.91"
+            },
+            {
+              "rank": 10,
+              "name": "Switzerland",
+              "team": "",
+              "value": "0.89"
+            }
+          ]
+        },
+        {
+          "title": "Team tackles",
+          "abbr": "TKL",
+          "type": "team",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Paraguay",
+              "team": "",
+              "value": "71"
+            },
+            {
+              "rank": 2,
+              "name": "Ecuador",
+              "team": "",
+              "value": "52"
+            },
+            {
+              "rank": 3,
+              "name": "France",
+              "team": "",
+              "value": "52"
+            },
+            {
+              "rank": 4,
+              "name": "Ivory Coast",
+              "team": "",
+              "value": "48"
+            },
+            {
+              "rank": 5,
+              "name": "Morocco",
+              "team": "",
+              "value": "48"
+            },
+            {
+              "rank": 6,
+              "name": "Brazil",
+              "team": "",
+              "value": "45"
+            },
+            {
+              "rank": 7,
+              "name": "Germany",
+              "team": "",
+              "value": "44"
+            },
+            {
+              "rank": 8,
+              "name": "South Africa",
+              "team": "",
+              "value": "44"
+            },
+            {
+              "rank": 9,
+              "name": "Algeria",
+              "team": "",
+              "value": "41"
+            },
+            {
+              "rank": 10,
+              "name": "Egypt",
+              "team": "",
+              "value": "41"
+            }
+          ]
+        },
+        {
+          "title": "Team saves",
+          "abbr": "SV",
+          "type": "team",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Paraguay",
+              "team": "",
+              "value": "19"
+            },
+            {
+              "rank": 2,
+              "name": "Curacao",
+              "team": "",
+              "value": "18"
+            },
+            {
+              "rank": 3,
+              "name": "Netherlands",
+              "team": "",
+              "value": "16"
+            },
+            {
+              "rank": 4,
+              "name": "Portugal",
+              "team": "",
+              "value": "15"
+            },
+            {
+              "rank": 5,
+              "name": "Australia",
+              "team": "",
+              "value": "14"
+            },
+            {
+              "rank": 6,
+              "name": "Japan",
+              "team": "",
+              "value": "14"
+            },
+            {
+              "rank": 7,
+              "name": "Sweden",
+              "team": "",
+              "value": "14"
+            },
+            {
+              "rank": 8,
+              "name": "DR Congo",
+              "team": "",
+              "value": "13"
+            },
+            {
+              "rank": 9,
+              "name": "Austria",
+              "team": "",
+              "value": "12"
+            },
+            {
+              "rank": 10,
+              "name": "Iran",
+              "team": "",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "title": "Clean sheets",
+          "abbr": "CS",
+          "type": "team",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Mexico",
+              "team": "",
+              "value": "4"
+            },
+            {
+              "rank": 2,
+              "name": "Spain",
+              "team": "",
+              "value": "4"
+            },
+            {
+              "rank": 3,
+              "name": "Argentina",
+              "team": "",
+              "value": "2"
+            },
+            {
+              "rank": 4,
+              "name": "Australia",
+              "team": "",
+              "value": "2"
+            },
+            {
+              "rank": 5,
+              "name": "Brazil",
+              "team": "",
+              "value": "2"
+            },
+            {
+              "rank": 6,
+              "name": "Canada",
+              "team": "",
+              "value": "2"
+            },
+            {
+              "rank": 7,
+              "name": "Cape Verde",
+              "team": "",
+              "value": "2"
+            },
+            {
+              "rank": 8,
+              "name": "Colombia",
+              "team": "",
+              "value": "2"
+            },
+            {
+              "rank": 9,
+              "name": "England",
+              "team": "",
+              "value": "2"
+            },
+            {
+              "rank": 10,
+              "name": "France",
+              "team": "",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Team xG conceded",
+          "abbr": "xGA",
+          "type": "team",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Portugal",
+              "team": "team",
+              "value": "0"
+            },
+            {
+              "rank": 2,
+              "name": "Spain",
+              "team": "team",
+              "value": "0"
+            },
+            {
+              "rank": 3,
+              "name": "Spain",
+              "team": "team",
+              "value": "0.74"
+            },
+            {
+              "rank": 4,
+              "name": "Argentina",
+              "team": "team",
+              "value": "1.66"
+            },
+            {
+              "rank": 5,
+              "name": "England",
+              "team": "team",
+              "value": "1.68"
+            },
+            {
+              "rank": 6,
+              "name": "Mexico",
+              "team": "team",
+              "value": "1.71"
+            },
+            {
+              "rank": 7,
+              "name": "Japan",
+              "team": "team",
+              "value": "2.04"
+            },
+            {
+              "rank": 8,
+              "name": "Belgium",
+              "team": "team",
+              "value": "2.12"
+            },
+            {
+              "rank": 9,
+              "name": "Canada",
+              "team": "team",
+              "value": "2.2"
+            },
+            {
+              "rank": 10,
+              "name": "Congo DR",
+              "team": "team",
+              "value": "2.26"
+            }
+          ]
+        },
+        {
+          "title": "Team xG on target",
+          "abbr": "xGOT",
+          "type": "team",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Netherlands",
+              "team": "team",
+              "value": "9.37"
+            },
+            {
+              "rank": 2,
+              "name": "Germany",
+              "team": "team",
+              "value": "8.67"
+            },
+            {
+              "rank": 3,
+              "name": "Canada",
+              "team": "team",
+              "value": "8.41"
+            },
+            {
+              "rank": 4,
+              "name": "Brazil",
+              "team": "team",
+              "value": "8.03"
+            },
+            {
+              "rank": 5,
+              "name": "France",
+              "team": "team",
+              "value": "7.78"
+            },
+            {
+              "rank": 6,
+              "name": "Senegal",
+              "team": "team",
+              "value": "6.77"
+            },
+            {
+              "rank": 7,
+              "name": "USA",
+              "team": "team",
+              "value": "6.68"
+            },
+            {
+              "rank": 8,
+              "name": "Sweden",
+              "team": "team",
+              "value": "6.06"
+            },
+            {
+              "rank": 9,
+              "name": "England",
+              "team": "team",
+              "value": "5.71"
+            },
+            {
+              "rank": 10,
+              "name": "Norway",
+              "team": "team",
+              "value": "5.55"
+            }
+          ]
+        },
+        {
+          "title": "Team xPoints",
+          "abbr": "xPTS",
+          "type": "team",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Spain",
+              "team": "team",
+              "value": "7.42"
+            },
+            {
+              "rank": 2,
+              "name": "England",
+              "team": "team",
+              "value": "7.3"
+            },
+            {
+              "rank": 3,
+              "name": "Argentina",
+              "team": "team",
+              "value": "6.99"
+            },
+            {
+              "rank": 4,
+              "name": "Belgium",
+              "team": "team",
+              "value": "6.85"
+            },
+            {
+              "rank": 5,
+              "name": "France",
+              "team": "team",
+              "value": "6.56"
+            },
+            {
+              "rank": 6,
+              "name": "Canada",
+              "team": "team",
+              "value": "6.55"
+            },
+            {
+              "rank": 7,
+              "name": "Brazil",
+              "team": "team",
+              "value": "6.54"
+            },
+            {
+              "rank": 8,
+              "name": "Switzerland",
+              "team": "team",
+              "value": "6.27"
+            },
+            {
+              "rank": 9,
+              "name": "Türkiye",
+              "team": "team",
+              "value": "6.22"
+            },
+            {
+              "rank": 10,
+              "name": "Netherlands",
+              "team": "team",
+              "value": "6.15"
+            }
+          ]
+        },
+        {
+          "title": "Open-play xG",
+          "abbr": "OPXG",
+          "type": "team",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Brazil",
+              "team": "team",
+              "value": "6.57"
+            },
+            {
+              "rank": 2,
+              "name": "Canada",
+              "team": "team",
+              "value": "5.8"
+            },
+            {
+              "rank": 3,
+              "name": "France",
+              "team": "team",
+              "value": "5.8"
+            },
+            {
+              "rank": 4,
+              "name": "Germany",
+              "team": "team",
+              "value": "5.39"
+            },
+            {
+              "rank": 5,
+              "name": "Morocco",
+              "team": "team",
+              "value": "5.32"
+            },
+            {
+              "rank": 6,
+              "name": "Türkiye",
+              "team": "team",
+              "value": "5.18"
+            },
+            {
+              "rank": 7,
+              "name": "Belgium",
+              "team": "team",
+              "value": "4.8"
+            },
+            {
+              "rank": 8,
+              "name": "Spain",
+              "team": "team",
+              "value": "4.46"
+            },
+            {
+              "rank": 9,
+              "name": "Norway",
+              "team": "team",
+              "value": "4.16"
+            },
+            {
+              "rank": 10,
+              "name": "Netherlands",
+              "team": "team",
+              "value": "4.09"
+            }
+          ]
+        },
+        {
+          "title": "Set-play xG",
+          "abbr": "SPXG",
+          "type": "team",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Argentina",
+              "team": "team",
+              "value": "2.69"
+            },
+            {
+              "rank": 2,
+              "name": "Switzerland",
+              "team": "team",
+              "value": "2.49"
+            },
+            {
+              "rank": 3,
+              "name": "England",
+              "team": "team",
+              "value": "2.35"
+            },
+            {
+              "rank": 4,
+              "name": "Ecuador",
+              "team": "team",
+              "value": "2.23"
+            },
+            {
+              "rank": 5,
+              "name": "Belgium",
+              "team": "team",
+              "value": "2.03"
+            },
+            {
+              "rank": 6,
+              "name": "Iran",
+              "team": "team",
+              "value": "1.98"
+            },
+            {
+              "rank": 7,
+              "name": "Senegal",
+              "team": "team",
+              "value": "1.92"
+            },
+            {
+              "rank": 8,
+              "name": "Norway",
+              "team": "team",
+              "value": "1.78"
+            },
+            {
+              "rank": 9,
+              "name": "Canada",
+              "team": "team",
+              "value": "1.7"
+            },
+            {
+              "rank": 10,
+              "name": "Congo DR",
+              "team": "team",
+              "value": "1.69"
+            }
+          ]
+        },
+        {
+          "title": "Finishing delta",
+          "abbr": "G-XG",
+          "type": "team",
+          "leaders": [
+            {
+              "rank": 1,
+              "name": "Netherlands",
+              "team": "team",
+              "value": "4.44"
+            },
+            {
+              "rank": 2,
+              "name": "France",
+              "team": "team",
+              "value": "3.9"
+            },
+            {
+              "rank": 3,
+              "name": "Sweden",
+              "team": "team",
+              "value": "3.4"
+            },
+            {
+              "rank": 4,
+              "name": "Germany",
+              "team": "team",
+              "value": "3.16"
+            },
+            {
+              "rank": 5,
+              "name": "USA",
+              "team": "team",
+              "value": "3.1"
+            },
+            {
+              "rank": 6,
+              "name": "Japan",
+              "team": "team",
+              "value": "3.05"
+            },
+            {
+              "rank": 7,
+              "name": "Bosnia and Herzegovina",
+              "team": "team",
+              "value": "2.83"
+            },
+            {
+              "rank": 8,
+              "name": "Argentina",
+              "team": "team",
+              "value": "2.64"
+            },
+            {
+              "rank": 9,
+              "name": "Senegal",
+              "team": "team",
+              "value": "2.55"
+            },
+            {
+              "rank": 10,
+              "name": "Austria",
+              "team": "team",
+              "value": "2.43"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "generatedAt": "2026-07-03T20:13:13-04:00",
       "played": 72,
       "matches": [
         {
