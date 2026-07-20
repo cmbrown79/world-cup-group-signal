@@ -1,8 +1,8 @@
 name: Refresh World Cup data
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'
+  # Archived event baseline. Unarchive and validate a new event before
+  # restoring any schedule; manual dispatch remains the restart canary.
   workflow_dispatch:
 
 permissions:
